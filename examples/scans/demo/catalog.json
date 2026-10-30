@@ -1,0 +1,81 @@
+{
+  "schema": "specimen-demo-catalog-v1",
+  "grouping": "Separate scan datasets; the acquisition system reused pilot:001 across physical specimens.",
+  "scans": [
+    {
+      "finished": "2026-09-11T16:11:12.339117+00:00",
+      "original_count": 40,
+      "crop_count": 36,
+      "run_count": 8,
+      "payload_bytes": 116053586,
+      "id": "demo_6eb6e616b68e45c4",
+      "display_time": "11 September 2026 17:11:12 BST",
+      "acquisition_seconds": 97.342,
+      "analysis_seconds": 158.334,
+      "valid_batches": 8,
+      "failed_batches": 0,
+      "graph_nodes": 297,
+      "graph_edges": 627
+    },
+    {
+      "finished": "2026-09-11T16:06:14.155578+00:00",
+      "original_count": 40,
+      "crop_count": 40,
+      "run_count": 8,
+      "payload_bytes": 145703448,
+      "id": "demo_1072bbbd6c7340a3",
+      "display_time": "11 September 2026 17:06:14 BST",
+      "acquisition_seconds": 102.061,
+      "analysis_seconds": 124.245,
+      "valid_batches": 5,
+      "failed_batches": 3,
+      "graph_nodes": 250,
+      "graph_edges": 424
+    },
+    {
+      "finished": "2026-09-11T16:02:14.267079+00:00",
+      "original_count": 40,
+      "crop_count": 40,
+      "run_count": 8,
+      "payload_bytes": 143695814,
+      "id": "demo_a690959bed1047b3",
+      "display_time": "11 September 2026 17:02:14 BST",
+      "acquisition_seconds": 100.919,
+      "analysis_seconds": 190.77,
+      "valid_batches": 6,
+      "failed_batches": 2,
+      "graph_nodes": 267,
+      "graph_edges": 544
+    },
+    {
+      "finished": "2026-09-11T15:30:53.914868+00:00",
+      "original_count": 40,
+      "crop_count": 40,
+      "run_count": 8,
+      "payload_bytes": 120783575,
+      "id": "demo_664a61c589b84436",
+      "display_time": "11 September 2026 16:30:53 BST",
+      "acquisition_seconds": 93.439,
+      "analysis_seconds": 181.824,
+      "valid_batches": 8,
+      "failed_batches": 0,
+      "graph_nodes": 301,
+      "graph_edges": 654
+    },
+    {
+      "finished": "2026-09-11T14:45:09.353314+00:00",
+      "original_count": 40,
+      "crop_count": 40,
+      "run_count": 8,
+      "payload_bytes": 97237686,
+      "id": "demo_87513f98533740e4",
+      "display_time": "11 September 2026 15:45:09 BST",
+      "acquisition_seconds": null,
+      "analysis_seconds": null,
+      "valid_batches": 8,
+      "failed_batches": 0,
+      "graph_nodes": 301,
+      "graph_edges": 657
+    }
+  ]
+}

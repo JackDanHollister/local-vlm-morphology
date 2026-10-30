@@ -1,0 +1,73 @@
+{
+  "images": [
+    {
+      "file": "openscan-mini.jpg",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        8,
+        9
+      ],
+      "embedded_image": "image8.jpeg",
+      "description": "Modified OpenScan Mini",
+      "photographer": "Jack Dan Hollister",
+      "sha256": "00357b7b70e0b8df7a77503acd867d73e8a00148d0c66b49a71a87cf72cf53a1",
+      "transformations": [
+        "Removed GPS and device metadata; visible pixels and orientation unchanged."
+      ],
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_id": "CC-BY-4.0",
+      "original_sha256": "8e277922daebb83b58b525f53a375f98a52a48e2952261b1d95d59ddd660666b"
+    },
+    {
+      "file": "scanner-controller.jpg",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        10
+      ],
+      "embedded_image": "image9.jpeg",
+      "description": "Raspberry Pi and stepper controller",
+      "photographer": "Jack Dan Hollister",
+      "sha256": "da9da1505c8770d9fb84c7c86c312e88c604883c44eaa784e6155e65a715fd57",
+      "transformations": [
+        "Removed GPS and device metadata; visible pixels and orientation unchanged."
+      ],
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_id": "CC-BY-4.0",
+      "original_sha256": "b59b1650aee9bd25ef99155f92613c62486addc0d35d57392a157533ac61ad85"
+    },
+    {
+      "file": "scanner-camera.jpg",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        10
+      ],
+      "embedded_image": "image10.jpeg",
+      "description": "Scanner camera and light",
+      "photographer": "Jack Dan Hollister",
+      "sha256": "381dbb93e7b918e6e8653b82264bdcff1ac416930f7799ddc991d7cf326c8b93",
+      "transformations": [
+        "Removed GPS and device metadata; visible pixels and orientation unchanged."
+      ],
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_id": "CC-BY-4.0",
+      "original_sha256": "cff0daa524193f9f9541fdb68e27bd8e1697e4724441bc28c86761a38213194c"
+    },
+    {
+      "file": "dell-gb10.jpg",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        10
+      ],
+      "embedded_image": "image11.jpeg",
+      "description": "Dell Pro Max with GB10 systems",
+      "photographer": "Jack Dan Hollister",
+      "sha256": "dc88db8b625f2242253e0db9f070c545b3164f5d6f89fd4cb4dd69d6667a47eb",
+      "transformations": [
+        "Removed GPS and device metadata; visible pixels and orientation unchanged."
+      ],
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_id": "CC-BY-4.0",
+      "original_sha256": "bcfacf2bc2247484648dc441d7d2e896f6bed69be767a87a19226e54c0ca73c8"
+    }
+  ]
+}

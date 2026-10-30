@@ -1,0 +1,308 @@
+[
+  {
+    "image": "examples/other-models/figures/codex-beetle-condition.png",
+    "model_identifier": "gpt-6-astra",
+    "engine": "codex-cli",
+    "run_id": "run_d3f0e5ed9e1a4b71",
+    "photo": "examples/other-models/sources/codex-damage/image.png",
+    "photo_sha256": "0e5b0f4400ce670370aa59d18d92856962171feeface618e341bafa598fa418d",
+    "source_json": "examples/other-models/sources/codex-damage/run.json",
+    "source_json_sha256": "8b8950a805555d57845fd0b8dccd6f2c4ede005d5ecf5cb4635d5c48135fa6df",
+    "display_crop_xywh": [
+      220,
+      540,
+      740,
+      590
+    ],
+    "credit": "Photo: Jack Dan Hollister",
+    "observation": {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [
+            0.251,
+            0.409,
+            0.13,
+            0.192
+          ],
+          "description": "Short appendage ends near the head are visible, but fracture surfaces are unresolved.",
+          "image_id": "image_dbf8f20b8d754998",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "condition.appendage_damage",
+      "note": "No definite break or detachment can be established; the unseen second antenna is not evidence of damage.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    "human_reviewed": false,
+    "licence": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "image": "examples/other-models/figures/codex-shell-pattern.png",
+    "model_identifier": "gpt-6-astra",
+    "engine": "codex-cli",
+    "run_id": "run_f260458468d647af",
+    "photo": "examples/other-models/sources/codex-shell/image.png",
+    "photo_sha256": "632be6fcf3e59aa28f7aa440bc79e4073cbf007f75a9526c828014c0d24b74a4",
+    "source_json": "examples/other-models/sources/codex-shell/run.json",
+    "source_json_sha256": "5f04c25d8f11c3e5382daf31962c72c9cc995d4f220511e95de1265f12130d07",
+    "display_crop_xywh": [
+      150,
+      360,
+      1250,
+      1008
+    ],
+    "credit": "Photo: Jack Dan Hollister",
+    "observation": {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [
+            0.255,
+            0.461,
+            0.475,
+            0.442
+          ],
+          "description": "Irregular brown and cream coloration occurs across the ridged shell surface.",
+          "image_id": "image_85f4f0c9177b4023",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Visible shell coloration is mottled; raised ribs are surface relief.",
+      "status": "observed",
+      "value": "mottled",
+      "visibility": "clear"
+    },
+    "human_reviewed": false,
+    "licence": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "image": "examples/other-models/figures/claude-butterfly-wings.png",
+    "model_identifier": "anthropic/claude-opus-5.5",
+    "engine": "API; see source run metadata",
+    "run_id": "run_ad7f36ccfe0d4e88",
+    "photo": "examples/other-models/sources/butterfly/image.jpg",
+    "photo_sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+    "source_json": "examples/other-models/sources/butterfly/claude.json",
+    "source_json_sha256": "f8788b863251c5ebd39803793ad498f5c5cfe5cc31568b0d0f4bc522f57decd9",
+    "display_crop_xywh": [
+      0,
+      0,
+      1600,
+      1066
+    ],
+    "credit": "Photo: Lauri Mällo / PlutoF · CC BY 4.0",
+    "observation": {
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "bbox": [
+            0.07,
+            0.11,
+            0.38,
+            0.4
+          ],
+          "description": "left forewing",
+          "image_id": "image_ced4afb05cee4224",
+          "instance_id": "wing_LF"
+        },
+        {
+          "bbox": [
+            0.52,
+            0.1,
+            0.38,
+            0.4
+          ],
+          "description": "right forewing",
+          "image_id": "image_ced4afb05cee4224",
+          "instance_id": "wing_RF"
+        },
+        {
+          "bbox": [
+            0.2,
+            0.46,
+            0.27,
+            0.43
+          ],
+          "description": "left hindwing",
+          "image_id": "image_ced4afb05cee4224",
+          "instance_id": "wing_LH"
+        },
+        {
+          "bbox": [
+            0.52,
+            0.46,
+            0.26,
+            0.43
+          ],
+          "description": "right hindwing",
+          "image_id": "image_ced4afb05cee4224",
+          "instance_id": "wing_RH"
+        }
+      ],
+      "feature_id": "wings.visible_count",
+      "note": "Each of the four wings is counted once.",
+      "status": "observed",
+      "value": 4,
+      "visibility": "clear"
+    },
+    "human_reviewed": false,
+    "licence": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "image": "examples/other-models/figures/gemini-beetle-condition.png",
+    "model_identifier": "google/gemini-3.1-pro-preview",
+    "engine": "API; see source run metadata",
+    "run_id": "run_dec075371e7b4c1f",
+    "photo": "examples/other-models/sources/beetle/image.png",
+    "photo_sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+    "source_json": "examples/other-models/sources/beetle/gemini.json",
+    "source_json_sha256": "5119f376a46e8e04e9bf0184ab863988978d8d8c6633569c013da6e47571ca06",
+    "display_crop_xywh": [
+      250,
+      240,
+      650,
+      600
+    ],
+    "credit": "Photo: Jack Dan Hollister",
+    "observation": {
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "bbox": [
+            0.435,
+            0.158,
+            0.22,
+            0.208
+          ],
+          "description": "The left antenna appears broken near its base.",
+          "image_id": "image_f27d919b4c244328",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "condition.appendage_damage",
+      "note": "The left antenna appears damaged.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    "human_reviewed": false,
+    "licence": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "image": "examples/other-models/figures/kimi-beetle-legs.png",
+    "model_identifier": "moonshotai/kimi-k3",
+    "engine": "API; see source run metadata",
+    "run_id": "run_fa0bf438b4cd4671",
+    "photo": "examples/other-models/sources/beetle/image.png",
+    "photo_sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+    "source_json": "examples/other-models/sources/beetle/kimi.json",
+    "source_json_sha256": "bcab610b565ff1023cd0282d874fb4db78a5d74cfa8989763896beefde3c9a46",
+    "display_crop_xywh": [
+      250,
+      240,
+      650,
+      600
+    ],
+    "credit": "Photo: Jack Dan Hollister",
+    "observation": {
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "bbox": [
+            0.27,
+            0.25,
+            0.06,
+            0.08
+          ],
+          "description": "Rear left leg extending to the left of the body",
+          "image_id": "image_a633689decea4789",
+          "instance_id": "leg_1"
+        },
+        {
+          "bbox": [
+            0.34,
+            0.32,
+            0.13,
+            0.06
+          ],
+          "description": "Mid left leg projecting below the elytra",
+          "image_id": "image_a633689decea4789",
+          "instance_id": "leg_2"
+        },
+        {
+          "bbox": [
+            0.47,
+            0.21,
+            0.09,
+            0.06
+          ],
+          "description": "Leg raised near the pin on the dorsal side",
+          "image_id": "image_a633689decea4789",
+          "instance_id": "leg_3"
+        },
+        {
+          "bbox": [
+            0.58,
+            0.29,
+            0.12,
+            0.12
+          ],
+          "description": "Front leg(s) adjacent to the head on the right",
+          "image_id": "image_a633689decea4789",
+          "instance_id": "leg_4"
+        }
+      ],
+      "feature_id": "legs.visible_count",
+      "note": "Additional legs likely hidden beneath body/label; count reflects only clearly distinguishable instances.",
+      "status": "observed",
+      "value": 4,
+      "visibility": "partial"
+    },
+    "human_reviewed": false,
+    "licence": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "image": "examples/other-models/figures/astra-butterfly-hairs.png",
+    "model_identifier": "openai/gpt-6-astra",
+    "engine": "API; see source run metadata",
+    "run_id": "run_f8a7d38fc17342de",
+    "photo": "examples/other-models/sources/butterfly/image.jpg",
+    "photo_sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+    "source_json": "examples/other-models/sources/butterfly/astra.json",
+    "source_json_sha256": "a347acb9ea4844287b020e28e880d7de2619405fc0ff423b4fd1deb11a6ca543",
+    "display_crop_xywh": [
+      0,
+      0,
+      1600,
+      1066
+    ],
+    "credit": "Photo: Lauri Mällo / PlutoF · CC BY 4.0",
+    "observation": {
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "bbox": [
+            0.435,
+            0.274,
+            0.103,
+            0.442
+          ],
+          "description": "Individual hairlike structures project around the head, thorax, and abdominal sides.",
+          "image_id": "image_163cf740feac4dd9",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.hairs_visible",
+      "note": "Resolved hairs are visible, particularly along the body margins.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    "human_reviewed": false,
+    "licence": "https://creativecommons.org/licenses/by/4.0/"
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "The visible object is a rigid, coiled, spiny shell; insect wing anatomy is not applicable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "Wing counting is not applicable to the visible shell.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.present",
+      "note": "Shell projections do not provide evidence of antennae; no animal soft anatomy is exposed.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.visible_count",
+      "note": "Antenna counting is not applicable to the exposed shell.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.present",
+      "note": "The visible projections are continuous with the shell surface, not distinguishable legs.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.visible_count",
+      "note": "Leg counting is not applicable to the visible shell.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "No applicable leg anatomy is exposed.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "eyes.visible",
+      "note": "Only shell surfaces are exposed; eye anatomy cannot be assessed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.139, 0.324, 0.663, 0.648],
+          "description": "Shell surface appears cream-white and pale yellow with brown patches.",
+          "image_id": "image_85f4f0c9177b4023",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Colours describe the visible shell, not an exposed insect body.",
+      "status": "observed",
+      "value": ["white", "yellow", "brown"],
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.255, 0.461, 0.475, 0.442],
+          "description": "Irregular brown and cream coloration occurs across the ridged shell surface.",
+          "image_id": "image_85f4f0c9177b4023",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Visible shell coloration is mottled; raised ribs are surface relief.",
+      "status": "observed",
+      "value": "mottled",
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "Fine hairlike structures are not resolved sufficiently to establish presence or absence.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "No applicable insect appendages are exposed; shell spines are not treated as legs or antennae.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "Wing damage assessment is not applicable to the visible shell.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.3, 0.872, 0.456, 0.125],
+          "description": "The shell rests against white foam, which obscures its underside and attachment area.",
+          "image_id": "image_85f4f0c9177b4023",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "mount.pin_visible",
+      "note": "No pin is distinguishable, but the mounting interface is obscured.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.139, 0.324, 0.663, 0.648],
+          "description": "The framed object is a coiled shell with integrated spines; no insect specimen is visible.",
+          "image_id": "image_85f4f0c9177b4023",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "Under the supplied definition requiring an insect specimen, this is false in all five views.",
+      "status": "observed",
+      "value": false,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.255, 0.461, 0.475, 0.442],
+          "description": "Large ridges and spines are visible, but surface edges are soft and fine anatomy is unresolved.",
+          "image_id": "image_85f4f0c9177b4023",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "These views do not support distinguishing fine overlapping appendages.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "All five images show a pale, mottled, spiny shell on foam, with its underside partly obscured. No insect specimen is visible; insect appendage features are not applicable."
+}

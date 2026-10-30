@@ -1,0 +1,23 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {"confidence": null, "evidence": [], "feature_id": "wings.present", "note": "Only a shell-like object is visible; wing anatomy cannot be assessed.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "wings.visible_count", "note": "No wing instances can be identified; a zero anatomical count is unsupported.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "antennae.present", "note": "The projections appear continuous with the shell surface; none is identifiable as an antenna.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "antennae.visible_count", "note": "Antenna anatomy is not exposed sufficiently for counting.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "legs.present", "note": "No exposed structure is identifiable as a leg.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "legs.visible_count", "note": "No individual legs can be supported; visibility does not establish zero.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "legs.total_count", "note": "Relevant anatomy is not fully visible.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "eyes.visible", "note": "No eye can be identified on the exposed shell-like surface.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [{"bbox": [0.31, 0.29, 0.3, 0.33], "description": "The visible shell surface is pale yellow and off-white with brown markings.", "image_id": "image_2862cfbc578d4cff", "instance_id": null}], "feature_id": "body.colours", "note": "Colours describe the visible shell-like object only.", "status": "observed", "value": ["yellow", "white", "brown"], "visibility": "clear"},
+    {"confidence": null, "evidence": [{"bbox": [0.32, 0.31, 0.27, 0.3], "description": "Repeated pale and tan bands follow the surface ridges, with scattered darker marks.", "image_id": "image_93cc5d6c194e4262", "instance_id": null}], "feature_id": "body.pattern", "note": "Predominantly striped appearance on the exposed surface.", "status": "observed", "value": "striped", "visibility": "clear"},
+    {"confidence": null, "evidence": [], "feature_id": "body.hairs_visible", "note": "Fine peripheral strands cannot confidently be assigned to the specimen rather than the support.", "status": "unknown", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "condition.appendage_damage", "note": "No identifiable appendages are exposed for damage assessment; shell projections do not establish appendage damage.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "condition.wing_damage", "note": "No identifiable wing is exposed for assessment.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [], "feature_id": "mount.pin_visible", "note": "Foam and metal mounting hardware are visible, but no definite specimen pin can be distinguished.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [{"bbox": [0.22, 0.16, 0.56, 0.65], "description": "A ridged, spiralled shell-like object with continuous pointed projections occupies the specimen position.", "image_id": "image_2862cfbc578d4cff", "instance_id": null}], "feature_id": "image.specimen_in_frame", "note": "An object is fully in frame, but no insect specimen is visually identifiable in any supplied image.", "status": "observed", "value": false, "visibility": "clear"},
+    {"confidence": null, "evidence": [{"bbox": [0.3, 0.57, 0.31, 0.23], "description": "Overlapping shell ridges and projections are visible, but fine appendage anatomy cannot be distinguished.", "image_id": "image_777b072d36cd4b3f", "instance_id": null}], "feature_id": "image.fine_detail_sufficient", "note": "The views do not support distinguishing fine overlapping appendages.", "status": "observed", "value": false, "visibility": "insufficient_detail"}
+  ],
+  "summary": "All five images show a pale, ridged shell-like object on foam. No insect anatomy is identifiable; appendage presence, counts and damage remain unknown."
+}

@@ -1,0 +1,19 @@
+# Image credits and sample data
+
+The root MIT licence applies to Studio's software and documentation. Images have
+their own permissions below. Model weights, personal API keys and working runs
+are not distributed.
+
+| Files | Credit and permission |
+|---|---|
+| `web/demo/specimen.jpg`, `web/demo/hosted/butterfly/image.jpg` | Lauri Mällo / PlutoF, Aglais io LM00125, [GBIF 2234225450](https://www.gbif.org/occurrence/2234225450), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original JPEG bytes unchanged; UI overlays are separate. |
+| `docs/images/studio-review.png` | Screenshot of Studio's human review screen using the Lauri Mällo / PlutoF LM00125 photograph above, CC BY 4.0. The specimen is shown within the interface with a model evidence overlay. |
+| `web/demo/hosted/beetle/image.png` | Jack Dan Hollister. This is the exact image published as tt-v1-09 in the TraitTrail test set. Permission covers inclusion, download and testing in that set; no blanket CC licence is inferred. Original archived crop bytes unchanged. |
+| `web/demo/dissco/specimen.jpg` | Naturalis Biodiversity Center, catalogue ZMA.INS.1533437, [source image](https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), as recorded on the source digital-media object. Original JPEG bytes unchanged. |
+| `web/test-images/v1/` | Mixed per-image permissions. Scanner photographs tt-v1-01–10: Jack Dan Hollister, permission for inclusion, download and testing. tt-v1-11–12: Lauri Mällo / PlutoF, CC BY 4.0. tt-v1-13–16: The Trustees of the Natural History Museum, London, CC BY 4.0. See the bundled README, manifest and source records. |
+
+Preserve attribution, licence links and change notices when sharing the examples.
+Scanner image permission is narrower than a general Creative Commons licence.
+The model observations are unreviewed test examples, not anatomical ground truth.
+Source/run metadata is included with each example; region overlays do not alter
+photographic pixels. No contact sheet is included.

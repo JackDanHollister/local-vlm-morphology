@@ -1,0 +1,21 @@
+[
+  {
+    "specimen": "butterfly",
+    "image": "butterfly/image.jpg",
+    "sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+    "source": "GBIF 2234225450 / PlutoF LM00125",
+    "creator": "Lauri Mällo / PlutoF",
+    "licence_id": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "specimen": "beetle",
+    "image": "beetle/image.png",
+    "sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+    "source": "TraitTrail Capture, saved scan 5, image_39b6eb09f9f242af crop",
+    "creator": "Jack Dan Hollister",
+    "licence_id": "photographer-permission",
+    "rights_notice": "Authorised inclusion, download and testing in the TraitTrail specimen test set; no blanket Creative Commons grant.",
+    "test_image_id": "tt-v1-09"
+  }
+]

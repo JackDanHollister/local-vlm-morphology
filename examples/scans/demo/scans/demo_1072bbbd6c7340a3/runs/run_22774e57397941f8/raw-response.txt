@@ -1,0 +1,185 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "The visible object is a spiny shell; insect wing anatomy is not applicable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "No applicable wing anatomy is shown.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.present",
+      "note": "Visible projections are continuous with the shell surface; antenna anatomy is not applicable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.visible_count",
+      "note": "No applicable antenna anatomy is shown.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.present",
+      "note": "The images show a shell, with no applicable leg anatomy.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.visible_count",
+      "note": "Shell projections do not support counting legs.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "No applicable leg anatomy is shown.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "eyes.visible",
+      "note": "Only shell surfaces are shown; soft anatomy cannot be assessed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.085, 0.282, 0.744, 0.527],
+          "description": "Shell surface appears creamy white and pale yellow with brown shading.",
+          "image_id": "image_72ab2109283842d8",
+          "instance_id": null
+        },
+        {
+          "bbox": [0.192, 0.522, 0.17, 0.165],
+          "description": "Exposed opening has a yellow-orange interior.",
+          "image_id": "image_746aced323d44a86",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Colours describe the visible shell under the supplied lighting.",
+      "status": "observed",
+      "value": ["white", "yellow", "brown", "orange"],
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.365, 0.377, 0.347, 0.318],
+          "description": "Intersecting raised ribs and grooves cover the shell surface.",
+          "image_id": "image_72ab2109283842d8",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Predominant pattern is sculptured ribbing; pigment stripes are not established.",
+      "status": "observed",
+      "value": "other",
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "No hairlike structures are resolved; softness of detail prevents a confident absence assessment.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "Shell spines are not identifiable insect appendages.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "Wing anatomy is not applicable to the visible shell.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "mount.pin_visible",
+      "note": "Foam obscures the underside and mounting contact; no pin can be confidently assessed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.085, 0.282, 0.744, 0.527],
+          "description": "The framed object is a ribbed, spiny shell resting on white foam.",
+          "image_id": "image_72ab2109283842d8",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "A shell is visible, but no insect specimen is visible in any supplied image.",
+      "status": "observed",
+      "value": false,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.22, 0.307, 0.564, 0.389],
+          "description": "Surface edges are soft and the lower object is concealed by foam.",
+          "image_id": "image_5f7cb25257cb4c0f",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "These views do not support distinguishing fine overlapping appendages.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "The images show a cream-coloured, ribbed, spiny shell on foam, rather than an insect. Insect appendage features are not applicable; the underside is obscured and fine detail is limited."
+}

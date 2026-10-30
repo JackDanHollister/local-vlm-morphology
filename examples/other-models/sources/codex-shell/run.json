@@ -1,0 +1,511 @@
+{
+  "created": "2026-09-11T16:04:09.926400+00:00",
+  "engine": "codex-cli",
+  "errors": [],
+  "finished": "2026-09-11T16:05:04.135183+00:00",
+  "id": "run_f260458468d647af",
+  "image_ids": [
+    "image_574333f640b544aa",
+    "image_43b6b3ee4919431f",
+    "image_481a03609b16452b",
+    "image_d06ed32ade384af0",
+    "image_85f4f0c9177b4023"
+  ],
+  "images": [
+    {
+      "created": "2026-09-11T16:02:44.842718+00:00",
+      "crop_box": [
+        592,
+        1120,
+        1448,
+        1344
+      ],
+      "height": 1344,
+      "id": "image_574333f640b544aa",
+      "parent_id": "image_21a07e65782d47e4",
+      "path": "assets/79d6fc766b2269856990be88c826ac727741262e10573d542d8850574b0d796e.png",
+      "pose": {
+        "Y_phase_degrees": 90.0,
+        "action_id": "action_b23ee7a7fcab4de8",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "capture_backend": "persistent-picamera2-v1",
+        "firmware_position": {
+          "Y": 2.9125,
+          "Z": 2.4375
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.9125,
+          "Z": 2.4375
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": -25,
+        "route_photo": 6,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_id": "demo-1072bbbd6c7340a3",
+        "tilt_band": 5,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "79d6fc766b2269856990be88c826ac727741262e10573d542d8850574b0d796e",
+      "specimen_id": "pilot:001",
+      "width": 1448
+    },
+    {
+      "created": "2026-09-11T16:02:46.884039+00:00",
+      "crop_box": [
+        592,
+        1040,
+        1632,
+        1424
+      ],
+      "height": 1424,
+      "id": "image_43b6b3ee4919431f",
+      "parent_id": "image_966c8c5fd4c94e8a",
+      "path": "assets/267b1ca511728ed0bdcb6935f654b53b7e7aa7ad1daccc33a3046f9f581f9514.png",
+      "pose": {
+        "Y_phase_degrees": 45.0,
+        "action_id": "action_0f1f25ad5503401f",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "capture_backend": "persistent-picamera2-v1",
+        "firmware_position": {
+          "Y": 2.6,
+          "Z": 2.4375
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.6,
+          "Z": 2.4375
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": -25,
+        "route_photo": 7,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_id": "demo-1072bbbd6c7340a3",
+        "tilt_band": 5,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "267b1ca511728ed0bdcb6935f654b53b7e7aa7ad1daccc33a3046f9f581f9514",
+      "specimen_id": "pilot:001",
+      "width": 1632
+    },
+    {
+      "created": "2026-09-11T16:02:48.878773+00:00",
+      "crop_box": [
+        640,
+        952,
+        1672,
+        1512
+      ],
+      "height": 1512,
+      "id": "image_481a03609b16452b",
+      "parent_id": "image_441ca05cd1ed434f",
+      "path": "assets/1067ecccd11f6e8f4b7f3480936db278eb8e0d733802b00d587404d1387d3206.png",
+      "pose": {
+        "Y_phase_degrees": 0.0,
+        "action_id": "action_cffc70e00b4548d4",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "capture_backend": "persistent-picamera2-v1",
+        "firmware_position": {
+          "Y": 2.2875,
+          "Z": 2.4375
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.2875,
+          "Z": 2.4375
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": -25,
+        "route_photo": 8,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_id": "demo-1072bbbd6c7340a3",
+        "tilt_band": 5,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "1067ecccd11f6e8f4b7f3480936db278eb8e0d733802b00d587404d1387d3206",
+      "specimen_id": "pilot:001",
+      "width": 1672
+    },
+    {
+      "created": "2026-09-11T16:02:55.259842+00:00",
+      "crop_box": [
+        672,
+        1072,
+        1608,
+        1392
+      ],
+      "height": 1392,
+      "id": "image_d06ed32ade384af0",
+      "parent_id": "image_652c0084063c427d",
+      "path": "assets/71340d3f3283e49f0bc8f18d5415d910e0921095a280e010ac0f2c956be799d3.png",
+      "pose": {
+        "Y_phase_degrees": 0.0,
+        "action_id": "action_2bd66ad0df3b4358",
+        "axis": "Z",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "capture_backend": "persistent-picamera2-v1",
+        "firmware_position": {
+          "Y": 2.2875,
+          "Z": -0.5625
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.2875,
+          "Z": -0.5625
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": -50,
+        "route_photo": 9,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_id": "demo-1072bbbd6c7340a3",
+        "tilt_band": 4,
+        "transit_action_ids": [
+          "action_deba3837d1994622",
+          "action_29a5c974aff54e9c",
+          "action_6fada192fee14e6a",
+          "action_d5915c980697480d",
+          "action_f9bbbbe775254114",
+          "action_a86c19852d274f8b",
+          "action_e7da900476c648e5"
+        ]
+      },
+      "role": "crop",
+      "sha256": "71340d3f3283e49f0bc8f18d5415d910e0921095a280e010ac0f2c956be799d3",
+      "specimen_id": "pilot:001",
+      "width": 1608
+    },
+    {
+      "created": "2026-09-11T16:02:57.165725+00:00",
+      "crop_box": [
+        592,
+        1096,
+        1616,
+        1368
+      ],
+      "height": 1368,
+      "id": "image_85f4f0c9177b4023",
+      "parent_id": "image_42d38217d48546a0",
+      "path": "assets/632be6fcf3e59aa28f7aa440bc79e4073cbf007f75a9526c828014c0d24b74a4.png",
+      "pose": {
+        "Y_phase_degrees": 45.0,
+        "action_id": "action_6e0b379bc45b4a5e",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "capture_backend": "persistent-picamera2-v1",
+        "firmware_position": {
+          "Y": 2.6,
+          "Z": -0.5625
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.6,
+          "Z": -0.5625
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": 25,
+        "route_photo": 10,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_id": "demo-1072bbbd6c7340a3",
+        "tilt_band": 4,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "632be6fcf3e59aa28f7aa440bc79e4073cbf007f75a9526c828014c0d24b74a4",
+      "specimen_id": "pilot:001",
+      "width": 1616
+    }
+  ],
+  "model": "gpt-6-astra",
+  "next_views": [],
+  "prompt_sha256": "badc8e916a19e13378303a401413de3532fdf7d8a00d0b7cb99b4e42b5e04561",
+  "qualification": "engineering_pilot_not_blinded_benchmark",
+  "raw_sha256": "15ef07775947b111918c81d60eb4cfb46770708496fbe788643e2c8b68ce33c7",
+  "result": {
+    "next_view_id": null,
+    "next_view_reason": "No additional views are available.",
+    "observations": [
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "wings.present",
+        "note": "The visible object is a rigid, coiled, spiny shell; insect wing anatomy is not applicable.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "wings.visible_count",
+        "note": "Wing counting is not applicable to the visible shell.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "antennae.present",
+        "note": "Shell projections do not provide evidence of antennae; no animal soft anatomy is exposed.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "antennae.visible_count",
+        "note": "Antenna counting is not applicable to the exposed shell.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "legs.present",
+        "note": "The visible projections are continuous with the shell surface, not distinguishable legs.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "legs.visible_count",
+        "note": "Leg counting is not applicable to the visible shell.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "legs.total_count",
+        "note": "No applicable leg anatomy is exposed.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "eyes.visible",
+        "note": "Only shell surfaces are exposed; eye anatomy cannot be assessed.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "occluded"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.139,
+              0.324,
+              0.663,
+              0.648
+            ],
+            "description": "Shell surface appears cream-white and pale yellow with brown patches.",
+            "image_id": "image_85f4f0c9177b4023",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "body.colours",
+        "note": "Colours describe the visible shell, not an exposed insect body.",
+        "status": "observed",
+        "value": [
+          "white",
+          "yellow",
+          "brown"
+        ],
+        "visibility": "clear"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.255,
+              0.461,
+              0.475,
+              0.442
+            ],
+            "description": "Irregular brown and cream coloration occurs across the ridged shell surface.",
+            "image_id": "image_85f4f0c9177b4023",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "body.pattern",
+        "note": "Visible shell coloration is mottled; raised ribs are surface relief.",
+        "status": "observed",
+        "value": "mottled",
+        "visibility": "clear"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "body.hairs_visible",
+        "note": "Fine hairlike structures are not resolved sufficiently to establish presence or absence.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "insufficient_detail"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "condition.appendage_damage",
+        "note": "No applicable insect appendages are exposed; shell spines are not treated as legs or antennae.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "condition.wing_damage",
+        "note": "Wing damage assessment is not applicable to the visible shell.",
+        "status": "not_applicable",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.3,
+              0.872,
+              0.456,
+              0.125
+            ],
+            "description": "The shell rests against white foam, which obscures its underside and attachment area.",
+            "image_id": "image_85f4f0c9177b4023",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "mount.pin_visible",
+        "note": "No pin is distinguishable, but the mounting interface is obscured.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "occluded"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.139,
+              0.324,
+              0.663,
+              0.648
+            ],
+            "description": "The framed object is a coiled shell with integrated spines; no insect specimen is visible.",
+            "image_id": "image_85f4f0c9177b4023",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "image.specimen_in_frame",
+        "note": "Under the supplied definition requiring an insect specimen, this is false in all five views.",
+        "status": "observed",
+        "value": false,
+        "visibility": "clear"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.255,
+              0.461,
+              0.475,
+              0.442
+            ],
+            "description": "Large ridges and spines are visible, but surface edges are soft and fine anatomy is unresolved.",
+            "image_id": "image_85f4f0c9177b4023",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "image.fine_detail_sufficient",
+        "note": "These views do not support distinguishing fine overlapping appendages.",
+        "status": "observed",
+        "value": false,
+        "visibility": "insufficient_detail"
+      }
+    ],
+    "summary": "All five images show a pale, mottled, spiny shell on foam, with its underside partly obscured. No insect specimen is visible; insect appendage features are not applicable."
+  },
+  "review_status": "unreviewed",
+  "schema_sha256": "9169f4762390070cc3493a0e1d2e24b255bc1c177745510e5145fa91decab7f9",
+  "schema_version": "specimen-features-v1",
+  "semantic_accuracy": "unverified",
+  "specimen_id": "pilot:001",
+  "state": "usable",
+  "telemetry": {
+    "cli_version": "codex-cli 0.154.0",
+    "exit_code": 0,
+    "model_note": "CLI request recorded; backend checkpoint not independently reported",
+    "model_requested": "gpt-6-astra",
+    "model_resolved": null,
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 25221,
+      "output_tokens": 1592,
+      "reasoning_output_tokens": 39
+    },
+    "wall_seconds": 54.167
+  },
+  "vocabulary_sha256": "8953e838e9abbb2b2e76155a4c69e0c8a745ca783ee255b37898de1a7d41f7f4"
+}

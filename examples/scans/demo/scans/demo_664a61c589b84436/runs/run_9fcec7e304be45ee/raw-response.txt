@@ -1,0 +1,212 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "Possible folded wing margins cannot be distinguished confidently from the body outline.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "Individual wings cannot be delineated.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.present",
+      "note": "Structures around the head overlap; no antenna is confidently distinguishable.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.visible_count",
+      "note": "Head appendages cannot be reliably separated and counted.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.413, 0.409, 0.337, 0.236],
+          "description": "Several long, jointed legs fold over the visible body.",
+          "image_id": "image_743507cb76b2480e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "legs.present",
+      "note": "Jointed legs are visibly distinguishable.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.417, 0.411, 0.13, 0.137],
+          "description": "Rearward upper folded leg, with a raised joint and long diagonal segment.",
+          "image_id": "image_743507cb76b2480e",
+          "instance_id": "leg_1"
+        },
+        {
+          "bbox": [0.546, 0.44, 0.122, 0.195],
+          "description": "Middle upper folded leg, forming a separate angular loop.",
+          "image_id": "image_743507cb76b2480e",
+          "instance_id": "leg_2"
+        },
+        {
+          "bbox": [0.65, 0.466, 0.102, 0.178],
+          "description": "Front upper folded leg, with a long segment descending beside the head.",
+          "image_id": "image_743507cb76b2480e",
+          "instance_id": "leg_3"
+        }
+      ],
+      "feature_id": "legs.visible_count",
+      "note": "Three individually traceable legs are counted conservatively. Additional overlapping limb portions are unresolved.",
+      "status": "observed",
+      "value": 3,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "Overlapping limbs and obscured attachment points prevent a supported total.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "eyes.visible",
+      "note": "Dark head structures lack sufficient definition to identify an eye confidently.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.279, 0.424, 0.38, 0.246],
+          "description": "Body surfaces show orange and yellow areas with brown and near-black markings.",
+          "image_id": "image_9404d807a1e345da",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Coarse visible colours under the supplied lighting.",
+      "status": "observed",
+      "value": ["black", "brown", "yellow", "orange"],
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.27, 0.468, 0.362, 0.194],
+          "description": "Dark bands and irregular patches alternate with orange-yellow regions.",
+          "image_id": "image_743507cb76b2480e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Visible surfaces combine bands and irregular patches.",
+      "status": "observed",
+      "value": "mixed",
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "Fine hairlike structures are not resolved; absence cannot be established.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "Some appendages appear blunt-ended, but breaks cannot be distinguished from overlap or unresolved joints.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "Wing surfaces and margins are insufficiently exposed to assess damage.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.474, 0.284, 0.029, 0.156],
+          "description": "Gold-colored pin head and straight metallic shaft above the specimen.",
+          "image_id": "image_9404d807a1e345da",
+          "instance_id": "pin_1"
+        }
+      ],
+      "feature_id": "mount.pin_visible",
+      "note": "A mounting pin is clearly visible.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.176, 0.409, 0.575, 0.324],
+          "description": "The specimen and projecting appendages lie within the image.",
+          "image_id": "image_743507cb76b2480e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "A specimen is visible in all five images.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.599, 0.534, 0.151, 0.2],
+          "description": "Head and overlapping appendages have soft edges and unresolved fine structures.",
+          "image_id": "image_743507cb76b2480e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "The views support coarse morphology but do not reliably separate fine overlapping appendages.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "Pinned specimen with orange-yellow and dark mixed markings. Three legs are individually supported; total leg count, antennae, wings, eyes, hairs and damage remain unresolved."
+}

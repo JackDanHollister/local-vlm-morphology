@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "note": "Specimen identity is assigned from original scan/catalogue provenance, never from repeated pilot IDs. Historical model aliases are retained as recorded.",
+  "runs": [
+    {
+      "format": "api",
+      "result": "qwen/sources/beetle/results.json",
+      "images": [
+        {
+          "id": "image_e757547c8fe64d9d",
+          "path": "qwen/sources/beetle/image.jpg",
+          "sha256": "6019faed95e229dd4be4e0d6235e526a8a78c51c033b4452932e42073185b623",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "model": "qwen3.8:27b-mtp-q8_0",
+      "run_id": "run_517a20489a604ff5",
+      "specimen_id": "scanner:demo_6eb6e616b68e45c4",
+      "specimen_label": "Long-antenna beetle",
+      "result_sha256": "382b422318d22b234d6d664b70c536fd796574fad4fae97f68c40aa41e7e8853"
+    },
+    {
+      "format": "api",
+      "result": "qwen/sources/spread-butterfly/results.json",
+      "images": [
+        {
+          "id": "image_72c31b85e69b4dae",
+          "path": "qwen/sources/spread-butterfly/image.jpg",
+          "sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+          "credit": "Lauri Mällo / PlutoF",
+          "licence": "CC-BY-4.0"
+        }
+      ],
+      "model": "qwen3.8:27b-mtp-q8_0",
+      "run_id": "run_952340fb59304734",
+      "specimen_id": "plutof:LM00125",
+      "specimen_label": "Spread-wing butterfly",
+      "result_sha256": "800ffb3ba1cfee0653698968950e8b26777805b01ebc9d1ab5e6c525ced147bc"
+    },
+    {
+      "format": "annotations",
+      "result": "qwen/sources/folded-butterfly/annotations.json",
+      "images": [
+        {
+          "id": "image_b318855d565f4d0f",
+          "path": "qwen/sources/folded-butterfly/image.jpg",
+          "sha256": "445df8c679974151e3042ad02b46e8028eb0cda4d78defdbec85872272e437bb",
+          "credit": "Naturalis Biodiversity Center",
+          "licence": "CC0-1.0"
+        }
+      ],
+      "model": "qwen3.8:27b-mtp-q8_0",
+      "run_id": "run_5538dd38417b4dc0",
+      "specimen_id": "naturalis:ZMA.INS.1533437",
+      "specimen_label": "Closed-wing butterfly",
+      "result_sha256": "25e5f0031dfe5cc0b5f30616723270a945c87f096b588f353afea4f0f0163941"
+    },
+    {
+      "format": "scanner",
+      "result": "other-models/sources/codex-damage/run.json",
+      "images": [
+        {
+          "id": "image_220b1852312a4d56",
+          "path": "other-models/sources/codex-damage/images/image_220b1852312a4d56.png",
+          "sha256": "4e3ff131db8ac7245fb9f53fdefa5befd29cec7c756da879b36de067e8d7f5d9",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_86bce84d2bda47f3",
+          "path": "other-models/sources/codex-damage/images/image_86bce84d2bda47f3.png",
+          "sha256": "ed0da696ecf8a63b457c62918ab9512c4bc5aa31d3e13a2d1a07d48e65201408",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_dbf8f20b8d754998",
+          "path": "other-models/sources/codex-damage/image.png",
+          "sha256": "0e5b0f4400ce670370aa59d18d92856962171feeface618e341bafa598fa418d",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_b6892b357ed1472a",
+          "path": "other-models/sources/codex-damage/images/image_b6892b357ed1472a.png",
+          "sha256": "9a3745247287d56acef8515db7c59cd188bac84e4a035e06767b74bb677d023e",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_706563c083df4cff",
+          "path": "other-models/sources/codex-damage/images/image_706563c083df4cff.png",
+          "sha256": "f01d1cbf3e249e01ff019e7f01da6a1121ba00e5bb62e3dd18cc35174453040a",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "model": "gpt-6-astra",
+      "run_id": "run_d3f0e5ed9e1a4b71",
+      "specimen_id": "scanner:demo_87513f98533740e4",
+      "specimen_label": "Striped beetle",
+      "result_sha256": "8b8950a805555d57845fd0b8dccd6f2c4ede005d5ecf5cb4635d5c48135fa6df"
+    },
+    {
+      "format": "scanner",
+      "result": "other-models/sources/codex-shell/run.json",
+      "images": [
+        {
+          "id": "image_574333f640b544aa",
+          "path": "other-models/sources/codex-shell/images/image_574333f640b544aa.png",
+          "sha256": "79d6fc766b2269856990be88c826ac727741262e10573d542d8850574b0d796e",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_43b6b3ee4919431f",
+          "path": "other-models/sources/codex-shell/images/image_43b6b3ee4919431f.png",
+          "sha256": "267b1ca511728ed0bdcb6935f654b53b7e7aa7ad1daccc33a3046f9f581f9514",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_481a03609b16452b",
+          "path": "other-models/sources/codex-shell/images/image_481a03609b16452b.png",
+          "sha256": "1067ecccd11f6e8f4b7f3480936db278eb8e0d733802b00d587404d1387d3206",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_d06ed32ade384af0",
+          "path": "other-models/sources/codex-shell/images/image_d06ed32ade384af0.png",
+          "sha256": "71340d3f3283e49f0bc8f18d5415d910e0921095a280e010ac0f2c956be799d3",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "image_85f4f0c9177b4023",
+          "path": "other-models/sources/codex-shell/image.png",
+          "sha256": "632be6fcf3e59aa28f7aa440bc79e4073cbf007f75a9526c828014c0d24b74a4",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "model": "gpt-6-astra",
+      "run_id": "run_f260458468d647af",
+      "specimen_id": "scanner:demo_1072bbbd6c7340a3",
+      "specimen_label": "Spiny shell",
+      "result_sha256": "5f04c25d8f11c3e5382daf31962c72c9cc995d4f220511e95de1265f12130d07"
+    },
+    {
+      "format": "api",
+      "result": "other-models/sources/beetle/astra.json",
+      "images": [
+        {
+          "id": "image_06b8f40ba5fa4abf",
+          "path": "other-models/sources/beetle/image.png",
+          "sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "model": "openai/gpt-6-astra",
+      "run_id": "run_4a4c21246b4f4eb7",
+      "specimen_id": "scanner:demo_87513f98533740e4",
+      "specimen_label": "Striped beetle",
+      "result_sha256": "545e92ae8b7686d06b52ecc6e5c19ace6e22a45318ded084973c393f4790736f"
+    },
+    {
+      "format": "api",
+      "result": "other-models/sources/beetle/claude.json",
+      "images": [
+        {
+          "id": "image_62990900a1094901",
+          "path": "other-models/sources/beetle/image.png",
+          "sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "model": "anthropic/claude-opus-5.5",
+      "run_id": "run_00b7f96e999a4aed",
+      "specimen_id": "scanner:demo_87513f98533740e4",
+      "specimen_label": "Striped beetle",
+      "result_sha256": "1a239353562ef98a463d054254eb72bb913af1f6c31baaf27d88625553c5cbd8"
+    },
+    {
+      "format": "api",
+      "result": "other-models/sources/beetle/gemini.json",
+      "images": [
+        {
+          "id": "image_f27d919b4c244328",
+          "path": "other-models/sources/beetle/image.png",
+          "sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "model": "google/gemini-3.1-pro-preview",
+      "run_id": "run_dec075371e7b4c1f",
+      "specimen_id": "scanner:demo_87513f98533740e4",
+      "specimen_label": "Striped beetle",
+      "result_sha256": "5119f376a46e8e04e9bf0184ab863988978d8d8c6633569c013da6e47571ca06"
+    },
+    {
+      "format": "api",
+      "result": "other-models/sources/beetle/kimi.json",
+      "images": [
+        {
+          "id": "image_a633689decea4789",
+          "path": "other-models/sources/beetle/image.png",
+          "sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+          "credit": "Jack Dan Hollister",
+          "licence": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "model": "moonshotai/kimi-k3",
+      "run_id": "run_fa0bf438b4cd4671",
+      "specimen_id": "scanner:demo_87513f98533740e4",
+      "specimen_label": "Striped beetle",
+      "result_sha256": "bcab610b565ff1023cd0282d874fb4db78a5d74cfa8989763896beefde3c9a46"
+    },
+    {
+      "format": "api",
+      "result": "other-models/sources/butterfly/astra.json",
+      "images": [
+        {
+          "id": "image_163cf740feac4dd9",
+          "path": "other-models/sources/butterfly/image.jpg",
+          "sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+          "credit": "Lauri Mällo / PlutoF",
+          "licence": "CC-BY-4.0"
+        }
+      ],
+      "model": "openai/gpt-6-astra",
+      "run_id": "run_f8a7d38fc17342de",
+      "specimen_id": "plutof:LM00125",
+      "specimen_label": "Spread-wing butterfly",
+      "result_sha256": "a347acb9ea4844287b020e28e880d7de2619405fc0ff423b4fd1deb11a6ca543"
+    },
+    {
+      "format": "api",
+      "result": "other-models/sources/butterfly/claude.json",
+      "images": [
+        {
+          "id": "image_ced4afb05cee4224",
+          "path": "other-models/sources/butterfly/image.jpg",
+          "sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+          "credit": "Lauri Mällo / PlutoF",
+          "licence": "CC-BY-4.0"
+        }
+      ],
+      "model": "anthropic/claude-opus-5.5",
+      "run_id": "run_ad7f36ccfe0d4e88",
+      "specimen_id": "plutof:LM00125",
+      "specimen_label": "Spread-wing butterfly",
+      "result_sha256": "f8788b863251c5ebd39803793ad498f5c5cfe5cc31568b0d0f4bc522f57decd9"
+    },
+    {
+      "format": "api",
+      "result": "other-models/sources/butterfly/gemini.json",
+      "images": [
+        {
+          "id": "image_5ef2fcf762134a86",
+          "path": "other-models/sources/butterfly/image.jpg",
+          "sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+          "credit": "Lauri Mällo / PlutoF",
+          "licence": "CC-BY-4.0"
+        }
+      ],
+      "model": "google/gemini-3.1-pro-preview",
+      "run_id": "run_10574569fb404cef",
+      "specimen_id": "plutof:LM00125",
+      "specimen_label": "Spread-wing butterfly",
+      "result_sha256": "8212aea8574749ad5ec97078c4d3bf28a0e98a8e4dc6bd5906629e84afc5b4bf"
+    }
+  ]
+}

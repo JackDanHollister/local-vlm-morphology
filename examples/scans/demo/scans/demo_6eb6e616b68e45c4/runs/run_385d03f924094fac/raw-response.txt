@@ -1,0 +1,219 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "No wing can be confidently separated from the body and overlapping appendages.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "Individual wings are not distinguishable.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "bbox": [0.562, 0.563, 0.135, 0.024],
+          "description": "Long, slender upper antenna extending rightward.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": "antenna_1"
+        },
+        {
+          "bbox": [0.542, 0.617, 0.154, 0.023],
+          "description": "Separate slender lower antenna extending rightward.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": "antenna_2"
+        }
+      ],
+      "feature_id": "antennae.present",
+      "note": "Two long antennae are visible; their bases are partly obscured.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "bbox": [0.562, 0.563, 0.135, 0.024],
+          "description": "Upper antenna.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": "antenna_1"
+        },
+        {
+          "bbox": [0.542, 0.617, 0.154, 0.023],
+          "description": "Lower antenna.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": "antenna_2"
+        }
+      ],
+      "feature_id": "antennae.visible_count",
+      "note": "Two individually distinguishable antennae.",
+      "status": "observed",
+      "value": 2,
+      "visibility": "partial"
+    },
+    {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "bbox": [0.408, 0.579, 0.079, 0.089],
+          "description": "Bent leg with a thick proximal segment and thinner distal section.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": "leg_1"
+        }
+      ],
+      "feature_id": "legs.present",
+      "note": "Jointed legs are visible around the body.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.visible_count",
+      "note": "Overlapping segments and hidden attachment points prevent a reliable distinct-leg count.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "The underside and several appendage attachments are hidden by the body and mounting card.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "eyes.visible",
+      "note": "Dark areas cannot be confidently identified as eyes at this resolution.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "bbox": [0.456, 0.577, 0.111, 0.07],
+          "description": "Brown body surface with pale yellow markings.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Visible colours are lighting dependent.",
+      "status": "observed",
+      "value": ["brown", "yellow"],
+      "visibility": "partial"
+    },
+    {
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "bbox": [0.487, 0.579, 0.069, 0.047],
+          "description": "Several separated pale spots on the exposed brown surface.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Spots are visible on the exposed body region.",
+      "status": "observed",
+      "value": "spotted",
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "Individual hairs or setae are not resolved.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "Occlusion and blur prevent assessment of appendage integrity.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "No wing surface is sufficiently identifiable for damage assessment.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "bbox": [0.41, 0.381, 0.113, 0.619],
+          "description": "Dark mounting pin with a gold-coloured head, passing through white cards.",
+          "image_id": "image_97baefa1f92941d8",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "mount.pin_visible",
+      "note": "The mounting pin is clearly distinguishable from anatomy.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "bbox": [0.409, 0.552, 0.287, 0.116],
+          "description": "Visible specimen body and projecting appendages above the mounting card.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "The specimen is visible, although parts are hidden by mounting materials.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "bbox": [0.409, 0.552, 0.175, 0.116],
+          "description": "Fine overlapping appendages and their attachments are poorly resolved.",
+          "image_id": "image_3327a20e25f540ec",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "The close views lack fine detail; the remaining views show a smaller, more heavily occluded specimen.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "A brown specimen with pale yellow spots, two visible antennae, and jointed legs is mounted beside a pin and white cards. Occlusion and limited detail prevent reliable leg counts and assessment of wings, eyes, hairs, or damage."
+}

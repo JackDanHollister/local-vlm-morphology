@@ -1,0 +1,1522 @@
+{
+  "errors": [],
+  "graph": {
+    "@context": {
+      "@version": 1.1,
+      "lab": "urn:specimen-lab:",
+      "prov": "http://www.w3.org/ns/prov#",
+      "record": {
+        "@id": "lab:record",
+        "@type": "@json"
+      }
+    },
+    "@graph": [
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "@type": "lab:specimen",
+        "lab:label": "Uploaded specimen",
+        "record": {
+          "created": "2026-10-14T16:31:26.440313+00:00",
+          "id": "upload:38347a0204a24d38a9f04b6c6435d4b2",
+          "label": "Uploaded specimen"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671",
+        "@type": "lab:model_run",
+        "lab:label": "moonshotai/kimi-k3",
+        "record": {
+          "created": "2026-10-14T16:31:26.445043+00:00",
+          "engine": "studio-openrouter",
+          "errors": [],
+          "finished": "2026-10-14T16:32:29.849455+00:00",
+          "id": "run_fa0bf438b4cd4671",
+          "image_ids": [
+            "image_a633689decea4789"
+          ],
+          "images": [
+            {
+              "created": "2026-10-14T16:31:26.442787+00:00",
+              "crop_box": null,
+              "height": 1744,
+              "id": "image_a633689decea4789",
+              "parent_id": null,
+              "path": "assets/acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd.png",
+              "pose": {
+                "kind": "unregistered",
+                "note": "No calibrated pose supplied"
+              },
+              "role": "original",
+              "sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+              "specimen_id": "upload:38347a0204a24d38a9f04b6c6435d4b2",
+              "width": 1200
+            }
+          ],
+          "model": "moonshotai/kimi-k3",
+          "next_views": [],
+          "prompt_sha256": "120060875a9dd41c828ab6dd448cf5f077c81139b6fa176876e36f23c69112ed",
+          "qualification": "engineering_pilot_not_blinded_benchmark",
+          "raw_sha256": "d9bcce7eb6818a774c439e8eebae19f35602a8cc181479a153635fa19c24acf9",
+          "review_status": "unreviewed",
+          "schema_sha256": "5fb63f6fba0232a9a69da66265dc5bf78aced88fdd33df9a74b79d0e0a5ab66c",
+          "schema_version": "specimen-features-v1",
+          "semantic_accuracy": "unverified",
+          "specimen_id": "upload:38347a0204a24d38a9f04b6c6435d4b2",
+          "state": "usable",
+          "telemetry": {
+            "bbox_adapter": null,
+            "finish_reason": "stop",
+            "model_reported": "moonshotai/kimi-k3",
+            "usage": {
+              "completion_tokens": 2431,
+              "completion_tokens_details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "reasoning_tokens": 627
+              },
+              "cost": 0.05109,
+              "cost_details": {
+                "upstream_inference_completions_cost": 0.036465,
+                "upstream_inference_cost": 0.05109,
+                "upstream_inference_prompt_cost": 0.014625
+              },
+              "is_byok": false,
+              "prompt_tokens": 4875,
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "video_tokens": 0
+              },
+              "total_tokens": 7306
+            },
+            "wall_seconds": 63.4
+          },
+          "vocabulary_sha256": "8953e838e9abbb2b2e76155a4c69e0c8a745ca783ee255b37898de1a7d41f7f4"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:image.specimen_in_frame",
+        "@type": "lab:feature",
+        "lab:label": "Specimen in frame",
+        "record": {
+          "category": "quality",
+          "choices": null,
+          "definition": "An insect specimen is visible in at least one supplied image.",
+          "kind": "boolean",
+          "label": "Specimen in frame"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.specimen_in_frame",
+        "@type": "lab:observation",
+        "lab:label": "true",
+        "record": {
+          "confidence": 1.0,
+          "evidence": [
+            {
+              "bbox": [
+                0.25,
+                0.16,
+                0.47,
+                0.3
+              ],
+              "description": "Entire beetle specimen centered on white circular mount",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "image.specimen_in_frame",
+          "note": "Specimen fully within frame.",
+          "status": "observed",
+          "value": true,
+          "visibility": "clear"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:image_a633689decea4789",
+        "@type": "lab:image",
+        "lab:label": "ea4789",
+        "record": {
+          "created": "2026-10-14T16:31:26.442787+00:00",
+          "crop_box": null,
+          "height": 1744,
+          "id": "image_a633689decea4789",
+          "parent_id": null,
+          "path": "assets/acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd.png",
+          "pose": {
+            "kind": "unregistered",
+            "note": "No calibrated pose supplied"
+          },
+          "role": "original",
+          "sha256": "acba0900dd017a7c79352a9354df156bf6938cff0a4de7a8bde259bbefb037dd",
+          "specimen_id": "upload:38347a0204a24d38a9f04b6c6435d4b2",
+          "width": 1200
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:wings.present",
+        "@type": "lab:feature",
+        "lab:label": "Wings visible",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "At least one visually supported wing; do not infer from taxon.",
+          "kind": "boolean",
+          "label": "Wings visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.present",
+        "@type": "lab:observation",
+        "lab:label": "true",
+        "record": {
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "bbox": [
+                0.28,
+                0.21,
+                0.39,
+                0.19
+              ],
+              "description": "Hardened forewings (elytra) covering the dorsal abdomen with striped pattern",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "wings.present",
+          "note": "Elytra are the visible wing structures; membranous hindwings not visible.",
+          "status": "observed",
+          "value": true,
+          "visibility": "clear"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:wings.visible_count",
+        "@type": "lab:feature",
+        "lab:label": "Distinct visible wings",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "Count distinguishable wing instances across supplied views, with one instance ID per wing.",
+          "kind": "count",
+          "label": "Distinct visible wings"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.visible_count",
+        "@type": "lab:observation",
+        "lab:label": "2",
+        "record": {
+          "confidence": 0.6,
+          "evidence": [
+            {
+              "bbox": [
+                0.28,
+                0.21,
+                0.19,
+                0.18
+              ],
+              "description": "Left elytron with orange/black transverse striping",
+              "image_id": "image_a633689decea4789",
+              "instance_id": "wing_left"
+            },
+            {
+              "bbox": [
+                0.4,
+                0.21,
+                0.27,
+                0.18
+              ],
+              "description": "Right elytron meeting the left along the dorsal midline",
+              "image_id": "image_a633689decea4789",
+              "instance_id": "wing_right"
+            }
+          ],
+          "feature_id": "wings.visible_count",
+          "note": "Two elytra inferred from the midline suture; separation is subtle, so confidence is moderate.",
+          "status": "observed",
+          "value": 2,
+          "visibility": "partial"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:antennae.present",
+        "@type": "lab:feature",
+        "lab:label": "Antennae visible",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "At least one antenna distinguishable from a leg, pin or background object.",
+          "kind": "boolean",
+          "label": "Antennae visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.present",
+        "@type": "lab:observation",
+        "lab:label": "true",
+        "record": {
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "bbox": [
+                0.45,
+                0.16,
+                0.26,
+                0.18
+              ],
+              "description": "One very long, thin, dark antenna curving from the head up and to the right",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "antennae.present",
+          "note": "At least one antenna clearly distinguishable from legs and pin.",
+          "status": "observed",
+          "value": true,
+          "visibility": "clear"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:antennae.visible_count",
+        "@type": "lab:feature",
+        "lab:label": "Distinct visible antennae",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "Count only individually supported antennae; deduplicate across views.",
+          "kind": "count",
+          "label": "Distinct visible antennae"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.visible_count",
+        "@type": "lab:observation",
+        "lab:label": "1",
+        "record": {
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "bbox": [
+                0.45,
+                0.16,
+                0.26,
+                0.18
+              ],
+              "description": "Long filamentous antenna arcing above the body to the upper right",
+              "image_id": "image_a633689decea4789",
+              "instance_id": "antenna_1"
+            }
+          ],
+          "feature_id": "antennae.visible_count",
+          "note": "A second antenna may be present near the head but cannot be confidently separated from legs/pin; not counted.",
+          "status": "observed",
+          "value": 1,
+          "visibility": "partial"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:legs.present",
+        "@type": "lab:feature",
+        "lab:label": "Legs visible",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "At least one leg visibly distinguishable from other appendages.",
+          "kind": "boolean",
+          "label": "Legs visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.present",
+        "@type": "lab:observation",
+        "lab:label": "true",
+        "record": {
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "bbox": [
+                0.27,
+                0.25,
+                0.09,
+                0.09
+              ],
+              "description": "Dark jointed legs visible on left side and near head",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "legs.present",
+          "note": "Legs clearly present though partially occluded by body and pin.",
+          "status": "observed",
+          "value": true,
+          "visibility": "partial"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:legs.visible_count",
+        "@type": "lab:feature",
+        "lab:label": "Distinct visible legs",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "Count distinguishable legs with evidence for each instance. Hidden legs are not counted.",
+          "kind": "count",
+          "label": "Distinct visible legs"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.visible_count",
+        "@type": "lab:observation",
+        "lab:label": "4",
+        "record": {
+          "confidence": 0.55,
+          "evidence": [
+            {
+              "bbox": [
+                0.27,
+                0.25,
+                0.06,
+                0.08
+              ],
+              "description": "Rear left leg extending to the left of the body",
+              "image_id": "image_a633689decea4789",
+              "instance_id": "leg_1"
+            },
+            {
+              "bbox": [
+                0.34,
+                0.32,
+                0.13,
+                0.06
+              ],
+              "description": "Mid left leg projecting below the elytra",
+              "image_id": "image_a633689decea4789",
+              "instance_id": "leg_2"
+            },
+            {
+              "bbox": [
+                0.47,
+                0.21,
+                0.09,
+                0.06
+              ],
+              "description": "Leg raised near the pin on the dorsal side",
+              "image_id": "image_a633689decea4789",
+              "instance_id": "leg_3"
+            },
+            {
+              "bbox": [
+                0.58,
+                0.29,
+                0.12,
+                0.12
+              ],
+              "description": "Front leg(s) adjacent to the head on the right",
+              "image_id": "image_a633689decea4789",
+              "instance_id": "leg_4"
+            }
+          ],
+          "feature_id": "legs.visible_count",
+          "note": "Additional legs likely hidden beneath body/label; count reflects only clearly distinguishable instances.",
+          "status": "observed",
+          "value": 4,
+          "visibility": "partial"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:legs.total_count",
+        "@type": "lab:feature",
+        "lab:label": "Total legs supported by views",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "Total only if the relevant anatomy is fully visible. Otherwise unknown; never infer six.",
+          "kind": "count",
+          "label": "Total legs supported by views"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.total_count",
+        "@type": "lab:observation",
+        "lab:label": "unknown",
+        "record": {
+          "confidence": null,
+          "evidence": [],
+          "feature_id": "legs.total_count",
+          "note": "Ventral and far-side legs are occluded by the body, pin and label; total cannot be determined. Not inferred from anatomy.",
+          "status": "unknown",
+          "value": null,
+          "visibility": "partial"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:eyes.visible",
+        "@type": "lab:feature",
+        "lab:label": "Eyes visible",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "At least one eye identified visually, not merely expected at the head.",
+          "kind": "boolean",
+          "label": "Eyes visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:eyes.visible",
+        "@type": "lab:observation",
+        "lab:label": "unknown",
+        "record": {
+          "confidence": null,
+          "evidence": [
+            {
+              "bbox": [
+                0.55,
+                0.31,
+                0.15,
+                0.12
+              ],
+              "description": "Head region at lower right of body",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "eyes.visible",
+          "note": "Head is visible but individual eyes cannot be resolved with confidence at this angle/resolution.",
+          "status": "unknown",
+          "value": null,
+          "visibility": "insufficient_detail"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:body.colours",
+        "@type": "lab:feature",
+        "lab:label": "Visible body/wing colours",
+        "record": {
+          "category": "morphology",
+          "choices": [
+            "black",
+            "brown",
+            "grey",
+            "white",
+            "yellow",
+            "orange",
+            "red",
+            "green",
+            "blue",
+            "purple",
+            "metallic",
+            "other"
+          ],
+          "definition": "Coarse appearance including wings; lighting dependent, not a calibrated pigment measurement.",
+          "kind": "colours",
+          "label": "Visible body/wing colours"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.colours",
+        "@type": "lab:observation",
+        "lab:label": "[\"orange\",\"black\",\"yellow\"]",
+        "record": {
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "bbox": [
+                0.28,
+                0.21,
+                0.39,
+                0.2
+              ],
+              "description": "Elytra and body show orange-yellow background with black transverse markings",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "body.colours",
+          "note": "Coarse lighting-dependent colours: dominant orange/yellow with black striping.",
+          "status": "observed",
+          "value": [
+            "orange",
+            "black",
+            "yellow"
+          ],
+          "visibility": "clear"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:body.pattern",
+        "@type": "lab:feature",
+        "lab:label": "Visible surface pattern",
+        "record": {
+          "category": "morphology",
+          "choices": [
+            "spotted",
+            "striped",
+            "mottled",
+            "uniform",
+            "mixed",
+            "other"
+          ],
+          "definition": "Predominant visible body or wing pattern; no inference about hidden surfaces.",
+          "kind": "choice",
+          "label": "Visible surface pattern"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.pattern",
+        "@type": "lab:observation",
+        "lab:label": "\"striped\"",
+        "record": {
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "bbox": [
+                0.28,
+                0.21,
+                0.39,
+                0.19
+              ],
+              "description": "Repeated transverse black stripes/bands across orange elytra",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "body.pattern",
+          "note": "Predominant pattern is transverse striping on the elytra.",
+          "status": "observed",
+          "value": "striped",
+          "visibility": "clear"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:body.hairs_visible",
+        "@type": "lab:feature",
+        "lab:label": "Hairs or setae visible",
+        "record": {
+          "category": "morphology",
+          "choices": null,
+          "definition": "Visually resolved hairlike structures; blur is not evidence.",
+          "kind": "boolean",
+          "label": "Hairs or setae visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.hairs_visible",
+        "@type": "lab:observation",
+        "lab:label": "unknown",
+        "record": {
+          "confidence": null,
+          "evidence": [],
+          "feature_id": "body.hairs_visible",
+          "note": "No clearly resolved setae; surface texture at this resolution may reflect patterning rather than hairs.",
+          "status": "unknown",
+          "value": null,
+          "visibility": "insufficient_detail"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:condition.appendage_damage",
+        "@type": "lab:feature",
+        "lab:label": "Visible appendage damage",
+        "record": {
+          "category": "condition",
+          "choices": null,
+          "definition": "A visible break/detachment, not simply an unseen appendage.",
+          "kind": "boolean",
+          "label": "Visible appendage damage"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.appendage_damage",
+        "@type": "lab:observation",
+        "lab:label": "unknown",
+        "record": {
+          "confidence": null,
+          "evidence": [],
+          "feature_id": "condition.appendage_damage",
+          "note": "Appendages overlap the pin and each other; a break cannot be confirmed or excluded.",
+          "status": "unknown",
+          "value": null,
+          "visibility": "partial"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:condition.wing_damage",
+        "@type": "lab:feature",
+        "lab:label": "Visible wing damage",
+        "record": {
+          "category": "condition",
+          "choices": null,
+          "definition": "A supported tear/break in a visible wing, not a natural pattern or occlusion.",
+          "kind": "boolean",
+          "label": "Visible wing damage"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.wing_damage",
+        "@type": "lab:observation",
+        "lab:label": "false",
+        "record": {
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "bbox": [
+                0.28,
+                0.21,
+                0.39,
+                0.19
+              ],
+              "description": "Elytral surfaces appear continuous with no tears or breaks",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "condition.wing_damage",
+          "note": "Visible elytra intact; only visible surfaces assessed.",
+          "status": "observed",
+          "value": false,
+          "visibility": "clear"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:mount.pin_visible",
+        "@type": "lab:feature",
+        "lab:label": "Mounting pin visible",
+        "record": {
+          "category": "context",
+          "choices": null,
+          "definition": "A visible mounting pin, separate from specimen anatomy.",
+          "kind": "boolean",
+          "label": "Mounting pin visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:mount.pin_visible",
+        "@type": "lab:observation",
+        "lab:label": "true",
+        "record": {
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "bbox": [
+                0.43,
+                0.19,
+                0.03,
+                0.12
+              ],
+              "description": "Vertical mounting pin with rounded head passing through the thoracic region",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "mount.pin_visible",
+          "note": "Pin clearly separate from specimen anatomy.",
+          "status": "observed",
+          "value": true,
+          "visibility": "clear"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:feature:image.fine_detail_sufficient",
+        "@type": "lab:feature",
+        "lab:label": "Fine appendage detail resolved",
+        "record": {
+          "category": "quality",
+          "choices": null,
+          "definition": "Image detail supports distinguishing fine overlapping appendages; do not confuse large image dimensions with useful detail.",
+          "kind": "boolean",
+          "label": "Fine appendage detail resolved"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.fine_detail_sufficient",
+        "@type": "lab:observation",
+        "lab:label": "false",
+        "record": {
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "bbox": [
+                0.45,
+                0.2,
+                0.25,
+                0.25
+              ],
+              "description": "Region where legs, antenna base and pin overlap",
+              "image_id": "image_a633689decea4789",
+              "instance_id": null
+            }
+          ],
+          "feature_id": "image.fine_detail_sufficient",
+          "note": "Overlapping appendages near the pin and head cannot be reliably separated; fine detail is limited despite large image dimensions.",
+          "status": "observed",
+          "value": false,
+          "visibility": "insufficient_detail"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.specimen_in_frame"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.specimen_in_frame",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:image.specimen_in_frame"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.specimen_in_frame",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.specimen_in_frame",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.present"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.present",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:wings.present"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.present",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.present",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.visible_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.visible_count",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:wings.visible_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.visible_count",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:wings.visible_count",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.present"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.present",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:antennae.present"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.present",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.present",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.visible_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.visible_count",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:antennae.visible_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.visible_count",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:antennae.visible_count",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.present"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.present",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:legs.present"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.present",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.present",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.visible_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.visible_count",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:legs.visible_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.visible_count",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.visible_count",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.total_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.total_count",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:legs.total_count"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:legs.total_count",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:eyes.visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:eyes.visible",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:eyes.visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:eyes.visible",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:eyes.visible",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.colours"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.colours",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:body.colours"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.colours",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.colours",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.pattern"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.pattern",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:body.pattern"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.pattern",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.pattern",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.hairs_visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.hairs_visible",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:body.hairs_visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:body.hairs_visible",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.appendage_damage"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.appendage_damage",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:condition.appendage_damage"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.appendage_damage",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.wing_damage"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.wing_damage",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:condition.wing_damage"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.wing_damage",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:condition.wing_damage",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:mount.pin_visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:mount.pin_visible",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:mount.pin_visible"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:mount.pin_visible",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:mount.pin_visible",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:has_observation": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.fine_detail_sufficient"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.fine_detail_sufficient",
+        "lab:measures": {
+          "@id": "urn:specimen-lab:feature:image.fine_detail_sufficient"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.fine_detail_sufficient",
+        "lab:generated_by": {
+          "@id": "urn:specimen-lab:run_fa0bf438b4cd4671"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:run_fa0bf438b4cd4671:image.fine_detail_sufficient",
+        "lab:supported_by": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      },
+      {
+        "@id": "urn:specimen-lab:specimen:upload:38347a0204a24d38a9f04b6c6435d4b2",
+        "lab:depicted_in": {
+          "@id": "urn:specimen-lab:image_a633689decea4789"
+        }
+      }
+    ]
+  },
+  "image_id": "image_a633689decea4789",
+  "model": "moonshotai/kimi-k3",
+  "observation": {
+    "next_view_id": null,
+    "next_view_reason": "No additional views are available; a viewpoint from the opposite side or a ventral angle would be needed to resolve hidden legs, the second antenna and the eyes.",
+    "observations": [
+      {
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "bbox": [
+              0.25,
+              0.16,
+              0.47,
+              0.3
+            ],
+            "description": "Entire beetle specimen centered on white circular mount",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "image.specimen_in_frame",
+        "note": "Specimen fully within frame.",
+        "status": "observed",
+        "value": true,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "bbox": [
+              0.28,
+              0.21,
+              0.39,
+              0.19
+            ],
+            "description": "Hardened forewings (elytra) covering the dorsal abdomen with striped pattern",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "wings.present",
+        "note": "Elytra are the visible wing structures; membranous hindwings not visible.",
+        "status": "observed",
+        "value": true,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "bbox": [
+              0.28,
+              0.21,
+              0.19,
+              0.18
+            ],
+            "description": "Left elytron with orange/black transverse striping",
+            "image_id": "image_a633689decea4789",
+            "instance_id": "wing_left"
+          },
+          {
+            "bbox": [
+              0.4,
+              0.21,
+              0.27,
+              0.18
+            ],
+            "description": "Right elytron meeting the left along the dorsal midline",
+            "image_id": "image_a633689decea4789",
+            "instance_id": "wing_right"
+          }
+        ],
+        "feature_id": "wings.visible_count",
+        "note": "Two elytra inferred from the midline suture; separation is subtle, so confidence is moderate.",
+        "status": "observed",
+        "value": 2,
+        "visibility": "partial"
+      },
+      {
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "bbox": [
+              0.45,
+              0.16,
+              0.26,
+              0.18
+            ],
+            "description": "One very long, thin, dark antenna curving from the head up and to the right",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "antennae.present",
+        "note": "At least one antenna clearly distinguishable from legs and pin.",
+        "status": "observed",
+        "value": true,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.7,
+        "evidence": [
+          {
+            "bbox": [
+              0.45,
+              0.16,
+              0.26,
+              0.18
+            ],
+            "description": "Long filamentous antenna arcing above the body to the upper right",
+            "image_id": "image_a633689decea4789",
+            "instance_id": "antenna_1"
+          }
+        ],
+        "feature_id": "antennae.visible_count",
+        "note": "A second antenna may be present near the head but cannot be confidently separated from legs/pin; not counted.",
+        "status": "observed",
+        "value": 1,
+        "visibility": "partial"
+      },
+      {
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "bbox": [
+              0.27,
+              0.25,
+              0.09,
+              0.09
+            ],
+            "description": "Dark jointed legs visible on left side and near head",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "legs.present",
+        "note": "Legs clearly present though partially occluded by body and pin.",
+        "status": "observed",
+        "value": true,
+        "visibility": "partial"
+      },
+      {
+        "confidence": 0.55,
+        "evidence": [
+          {
+            "bbox": [
+              0.27,
+              0.25,
+              0.06,
+              0.08
+            ],
+            "description": "Rear left leg extending to the left of the body",
+            "image_id": "image_a633689decea4789",
+            "instance_id": "leg_1"
+          },
+          {
+            "bbox": [
+              0.34,
+              0.32,
+              0.13,
+              0.06
+            ],
+            "description": "Mid left leg projecting below the elytra",
+            "image_id": "image_a633689decea4789",
+            "instance_id": "leg_2"
+          },
+          {
+            "bbox": [
+              0.47,
+              0.21,
+              0.09,
+              0.06
+            ],
+            "description": "Leg raised near the pin on the dorsal side",
+            "image_id": "image_a633689decea4789",
+            "instance_id": "leg_3"
+          },
+          {
+            "bbox": [
+              0.58,
+              0.29,
+              0.12,
+              0.12
+            ],
+            "description": "Front leg(s) adjacent to the head on the right",
+            "image_id": "image_a633689decea4789",
+            "instance_id": "leg_4"
+          }
+        ],
+        "feature_id": "legs.visible_count",
+        "note": "Additional legs likely hidden beneath body/label; count reflects only clearly distinguishable instances.",
+        "status": "observed",
+        "value": 4,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "legs.total_count",
+        "note": "Ventral and far-side legs are occluded by the body, pin and label; total cannot be determined. Not inferred from anatomy.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.55,
+              0.31,
+              0.15,
+              0.12
+            ],
+            "description": "Head region at lower right of body",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "eyes.visible",
+        "note": "Head is visible but individual eyes cannot be resolved with confidence at this angle/resolution.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "insufficient_detail"
+      },
+      {
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "bbox": [
+              0.28,
+              0.21,
+              0.39,
+              0.2
+            ],
+            "description": "Elytra and body show orange-yellow background with black transverse markings",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "body.colours",
+        "note": "Coarse lighting-dependent colours: dominant orange/yellow with black striping.",
+        "status": "observed",
+        "value": [
+          "orange",
+          "black",
+          "yellow"
+        ],
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "bbox": [
+              0.28,
+              0.21,
+              0.39,
+              0.19
+            ],
+            "description": "Repeated transverse black stripes/bands across orange elytra",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "body.pattern",
+        "note": "Predominant pattern is transverse striping on the elytra.",
+        "status": "observed",
+        "value": "striped",
+        "visibility": "clear"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "body.hairs_visible",
+        "note": "No clearly resolved setae; surface texture at this resolution may reflect patterning rather than hairs.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "insufficient_detail"
+      },
+      {
+        "confidence": null,
+        "evidence": [],
+        "feature_id": "condition.appendage_damage",
+        "note": "Appendages overlap the pin and each other; a break cannot be confirmed or excluded.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": 0.75,
+        "evidence": [
+          {
+            "bbox": [
+              0.28,
+              0.21,
+              0.39,
+              0.19
+            ],
+            "description": "Elytral surfaces appear continuous with no tears or breaks",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "condition.wing_damage",
+        "note": "Visible elytra intact; only visible surfaces assessed.",
+        "status": "observed",
+        "value": false,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "bbox": [
+              0.43,
+              0.19,
+              0.03,
+              0.12
+            ],
+            "description": "Vertical mounting pin with rounded head passing through the thoracic region",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "mount.pin_visible",
+        "note": "Pin clearly separate from specimen anatomy.",
+        "status": "observed",
+        "value": true,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.7,
+        "evidence": [
+          {
+            "bbox": [
+              0.45,
+              0.2,
+              0.25,
+              0.25
+            ],
+            "description": "Region where legs, antenna base and pin overlap",
+            "image_id": "image_a633689decea4789",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "image.fine_detail_sufficient",
+        "note": "Overlapping appendages near the pin and head cannot be reliably separated; fine detail is limited despite large image dimensions.",
+        "status": "observed",
+        "value": false,
+        "visibility": "insufficient_detail"
+      }
+    ],
+    "summary": "A pinned beetle with orange-and-black striped elytra lies on a white circular stage with a data label. One very long antenna is clearly visible curving upward from the head region; a second antenna is not clearly separable. Several legs are visible but partly tangled with the mounting pin, so total leg count is unknown. Elytra appear intact. Fine appendage detail is limited by overlap and moderate resolution."
+  },
+  "request_id": "38347a0204a24d38a9f04b6c6435d4b2",
+  "run_id": "run_fa0bf438b4cd4671",
+  "state": "usable",
+  "telemetry": {
+    "bbox_adapter": null,
+    "finish_reason": "stop",
+    "model_reported": "moonshotai/kimi-k3",
+    "usage": {
+      "completion_tokens": 2431,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 627
+      },
+      "cost": 0.05109,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.036465,
+        "upstream_inference_cost": 0.05109,
+        "upstream_inference_prompt_cost": 0.014625
+      },
+      "is_byok": false,
+      "prompt_tokens": 4875,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 7306
+    },
+    "wall_seconds": 63.4
+  }
+}

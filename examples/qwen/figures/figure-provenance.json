@@ -1,0 +1,594 @@
+{
+  "model_identifier_as_recorded": "qwen3.8:27b-mtp-q8_0",
+  "human_reviewed": false,
+  "inference_requests": 0,
+  "paper_size_pixels": [
+    4252,
+    2930
+  ],
+  "paper_dpi": 600,
+  "bbox_format": "normalised x, y, width, height in original photograph",
+  "transformation": "Display crops and a 90-degree anticlockwise beetle rotation only. No box corrections.",
+  "specimens": [
+    {
+      "specimen": "beetle",
+      "run_id": "run_517a20489a604ff5",
+      "source": "TraitTrail scanner session demo_6eb6e616b68e45c4; image_127f501143104d29",
+      "source_url": "https://github.com/JackDanHollister/traittrail-capture",
+      "credit": "Photo: Jack Dan Hollister",
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "source_photo": "examples/qwen/sources/beetle/image.jpg",
+      "source_photo_sha256": "6019faed95e229dd4be4e0d6235e526a8a78c51c033b4452932e42073185b623",
+      "original_size": [
+        3280,
+        2464
+      ],
+      "crop_xywh": [
+        1040,
+        670,
+        610,
+        830
+      ],
+      "display_rotation_anticlockwise_degrees": 90,
+      "source_files": [
+        {
+          "path": "examples/qwen/sources/beetle/image.jpg",
+          "sha256": "6019faed95e229dd4be4e0d6235e526a8a78c51c033b4452932e42073185b623"
+        },
+        {
+          "path": "examples/qwen/sources/beetle/predicted-labels.csv",
+          "sha256": "6ae4846e70f31da901fa146230f61be1d4a621bb5cef6c836c0198cfab8ec1f5"
+        },
+        {
+          "path": "examples/qwen/sources/beetle/provenance.json",
+          "sha256": "06564ea590c04e12d3849b06e6ebe862d2eaed53bb3921323d9d1bf8e3fba55a"
+        },
+        {
+          "path": "examples/qwen/sources/beetle/results.json",
+          "sha256": "382b422318d22b234d6d664b70c536fd796574fad4fae97f68c40aa41e7e8853"
+        }
+      ],
+      "panels": [
+        {
+          "panel": "a",
+          "title": "Unlabelled",
+          "feature_id": null,
+          "observation": null,
+          "image": "examples/qwen/figures/a_beetle_unlabelled.png",
+          "image_sha256": "c20123144bd4651b3959f8a0daa7762a4d3f38c865b6c390c63c40d05890c4b0"
+        },
+        {
+          "panel": "b",
+          "title": "Legs: 6",
+          "feature_id": "legs.visible_count",
+          "observation": {
+            "confidence": 0.8,
+            "evidence": [
+              {
+                "bbox": [
+                  0.375,
+                  0.32,
+                  0.025,
+                  0.04
+                ],
+                "description": "Left front leg",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "leg_1"
+              },
+              {
+                "bbox": [
+                  0.38,
+                  0.36,
+                  0.025,
+                  0.04
+                ],
+                "description": "Left middle leg",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "leg_2"
+              },
+              {
+                "bbox": [
+                  0.39,
+                  0.4,
+                  0.025,
+                  0.04
+                ],
+                "description": "Left hind leg",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "leg_3"
+              },
+              {
+                "bbox": [
+                  0.415,
+                  0.32,
+                  0.025,
+                  0.04
+                ],
+                "description": "Right front leg",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "leg_4"
+              },
+              {
+                "bbox": [
+                  0.42,
+                  0.36,
+                  0.025,
+                  0.04
+                ],
+                "description": "Right middle leg",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "leg_5"
+              },
+              {
+                "bbox": [
+                  0.425,
+                  0.4,
+                  0.025,
+                  0.04
+                ],
+                "description": "Right hind leg",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "leg_6"
+              }
+            ],
+            "feature_id": "legs.visible_count",
+            "note": "Six legs are distinguishable, three on each side.",
+            "status": "observed",
+            "value": 6,
+            "visibility": "clear"
+          },
+          "image": "examples/qwen/figures/b_beetle_legs-visible_count.png",
+          "image_sha256": "48822a6e257c41057a230e0d89fd097f23c9f77b7cb0384b1eaabf7fe0a6eef6"
+        },
+        {
+          "panel": "c",
+          "title": "Antennae: 2",
+          "feature_id": "antennae.visible_count",
+          "observation": {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "bbox": [
+                  0.4,
+                  0.45,
+                  0.07,
+                  0.13
+                ],
+                "description": "Left antenna",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "ant_1"
+              },
+              {
+                "bbox": [
+                  0.42,
+                  0.45,
+                  0.06,
+                  0.13
+                ],
+                "description": "Right antenna",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": "ant_2"
+              }
+            ],
+            "feature_id": "antennae.visible_count",
+            "note": "Two distinct antennae are visible.",
+            "status": "observed",
+            "value": 2,
+            "visibility": "clear"
+          },
+          "image": "examples/qwen/figures/c_beetle_antennae-visible_count.png",
+          "image_sha256": "1c1284caa34e59422d758f5f3f9d8b7816cece4068f0b12d38ab081711295d64"
+        },
+        {
+          "panel": "d",
+          "title": "Body colour: brown",
+          "feature_id": "body.colours",
+          "observation": {
+            "confidence": 0.9,
+            "evidence": [
+              {
+                "bbox": [
+                  0.38,
+                  0.31,
+                  0.06,
+                  0.14
+                ],
+                "description": "Specimen body",
+                "image_id": "image_e757547c8fe64d9d",
+                "instance_id": null
+              }
+            ],
+            "feature_id": "body.colours",
+            "note": "The body is a uniform dark brown.",
+            "status": "observed",
+            "value": [
+              "brown"
+            ],
+            "visibility": "clear"
+          },
+          "image": "examples/qwen/figures/d_beetle_body-colours.png",
+          "image_sha256": "96dc1b4abf5326bb9fba0d8e8bcdc31c1e0eafa5bb66f486e0d731dfcec16253"
+        }
+      ],
+      "four_panel_strip": "examples/qwen/figures/beetle-four-panels.png"
+    },
+    {
+      "specimen": "spread-butterfly",
+      "run_id": "run_952340fb59304734",
+      "source": "GBIF occurrence 2234225450; Aglais io LM00125",
+      "source_url": "https://www.gbif.org/occurrence/2234225450",
+      "credit": "Photo: Lauri Mällo / PlutoF · CC BY 4.0",
+      "licence": "https://creativecommons.org/licenses/by/4.0/",
+      "source_photo": "examples/qwen/sources/spread-butterfly/image.jpg",
+      "source_photo_sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38",
+      "original_size": [
+        1600,
+        1066
+      ],
+      "crop_xywh": [
+        0,
+        0,
+        1600,
+        1066
+      ],
+      "display_rotation_anticlockwise_degrees": 0,
+      "source_files": [
+        {
+          "path": "examples/qwen/sources/spread-butterfly/image.jpg",
+          "sha256": "612f9d99881a905855e4a5c5a3bb84559d5beca2a6aedd19c841591c0ec90f38"
+        },
+        {
+          "path": "examples/qwen/sources/spread-butterfly/results.json",
+          "sha256": "800ffb3ba1cfee0653698968950e8b26777805b01ebc9d1ab5e6c525ced147bc"
+        }
+      ],
+      "panels": [
+        {
+          "panel": "e",
+          "title": "Unlabelled",
+          "feature_id": null,
+          "observation": null,
+          "image": "examples/qwen/figures/e_spread-butterfly_unlabelled.png",
+          "image_sha256": "e947ebf75cd4402c8c66defc32aafc176c1e2e79b3f6f9099d75fbd0061fbd6c"
+        },
+        {
+          "panel": "f",
+          "title": "Wings: 4",
+          "feature_id": "wings.visible_count",
+          "observation": {
+            "confidence": 1.0,
+            "evidence": [
+              {
+                "bbox": [
+                  0.07,
+                  0.1,
+                  0.39,
+                  0.42
+                ],
+                "description": "Left forewing",
+                "image_id": "image_72c31b85e69b4dae",
+                "instance_id": "wing_1"
+              },
+              {
+                "bbox": [
+                  0.52,
+                  0.1,
+                  0.38,
+                  0.42
+                ],
+                "description": "Right forewing",
+                "image_id": "image_72c31b85e69b4dae",
+                "instance_id": "wing_2"
+              },
+              {
+                "bbox": [
+                  0.19,
+                  0.48,
+                  0.29,
+                  0.42
+                ],
+                "description": "Left hindwing",
+                "image_id": "image_72c31b85e69b4dae",
+                "instance_id": "wing_3"
+              },
+              {
+                "bbox": [
+                  0.51,
+                  0.48,
+                  0.27,
+                  0.42
+                ],
+                "description": "Right hindwing",
+                "image_id": "image_72c31b85e69b4dae",
+                "instance_id": "wing_4"
+              }
+            ],
+            "feature_id": "wings.visible_count",
+            "note": "Two forewings and two hindwings are distinguishable.",
+            "status": "observed",
+            "value": 4,
+            "visibility": "clear"
+          },
+          "image": "examples/qwen/figures/f_spread-butterfly_wings-visible_count.png",
+          "image_sha256": "3127afb27f8ebb2bd12dd63c0ee2e56d3e729d9f6afdf1cdcaae6ac715cd21f9"
+        },
+        {
+          "panel": "g",
+          "title": "Antennae: 2",
+          "feature_id": "antennae.visible_count",
+          "observation": {
+            "confidence": 1.0,
+            "evidence": [
+              {
+                "bbox": [
+                  0.41,
+                  0.09,
+                  0.07,
+                  0.23
+                ],
+                "description": "Left antenna",
+                "image_id": "image_72c31b85e69b4dae",
+                "instance_id": "ant_1"
+              },
+              {
+                "bbox": [
+                  0.5,
+                  0.06,
+                  0.12,
+                  0.26
+                ],
+                "description": "Right antenna",
+                "image_id": "image_72c31b85e69b4dae",
+                "instance_id": "ant_2"
+              }
+            ],
+            "feature_id": "antennae.visible_count",
+            "note": "Both left and right antennae are visible.",
+            "status": "observed",
+            "value": 2,
+            "visibility": "clear"
+          },
+          "image": "examples/qwen/figures/g_spread-butterfly_antennae-visible_count.png",
+          "image_sha256": "68905aeaf1a45f993d0fd713bcb5a4b4eebb2762174c81336c24bc10e5bdc1f5"
+        },
+        {
+          "panel": "h",
+          "title": "Pattern: spotted",
+          "feature_id": "body.pattern",
+          "observation": {
+            "confidence": 0.9,
+            "evidence": [
+              {
+                "bbox": [
+                  0.2,
+                  0.5,
+                  0.55,
+                  0.35
+                ],
+                "description": "Eyespots on hindwings",
+                "image_id": "image_72c31b85e69b4dae",
+                "instance_id": null
+              }
+            ],
+            "feature_id": "body.pattern",
+            "note": "Prominent eyespots and distinct markings on wings.",
+            "status": "observed",
+            "value": "spotted",
+            "visibility": "clear"
+          },
+          "image": "examples/qwen/figures/h_spread-butterfly_body-pattern.png",
+          "image_sha256": "be9e83ec85365952185c302a5abf5282dcf11ad272cc562237cd45ad587434ea"
+        }
+      ],
+      "four_panel_strip": "examples/qwen/figures/spread-butterfly-four-panels.png"
+    },
+    {
+      "specimen": "folded-butterfly",
+      "run_id": "run_5538dd38417b4dc0",
+      "source": "Naturalis ZMA.INS.1533437_2",
+      "source_url": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large",
+      "credit": "Photo: Naturalis Biodiversity Center · CC0",
+      "licence": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "source_photo": "examples/qwen/sources/folded-butterfly/image.jpg",
+      "source_photo_sha256": "445df8c679974151e3042ad02b46e8028eb0cda4d78defdbec85872272e437bb",
+      "original_size": [
+        1920,
+        1680
+      ],
+      "crop_xywh": [
+        190,
+        990,
+        540,
+        470
+      ],
+      "display_rotation_anticlockwise_degrees": 0,
+      "source_files": [
+        {
+          "path": "examples/qwen/sources/folded-butterfly/annotations.json",
+          "sha256": "25e5f0031dfe5cc0b5f30616723270a945c87f096b588f353afea4f0f0163941"
+        },
+        {
+          "path": "examples/qwen/sources/folded-butterfly/image.jpg",
+          "sha256": "445df8c679974151e3042ad02b46e8028eb0cda4d78defdbec85872272e437bb"
+        },
+        {
+          "path": "examples/qwen/sources/folded-butterfly/provenance.json",
+          "sha256": "069b9abf5fcc4022804795609c3a271c133c083b0cea1c3dfc2a0b2066ac5f7b"
+        }
+      ],
+      "panels": [
+        {
+          "panel": "i",
+          "title": "Unlabelled",
+          "feature_id": null,
+          "observation": null,
+          "image": "examples/qwen/figures/i_folded-butterfly_unlabelled.png",
+          "image_sha256": "1436669cf87244e65a00f2d3b3c6ff700511be21999d795554ae93ac6515d901"
+        },
+        {
+          "panel": "j",
+          "title": "Wings: visible",
+          "feature_id": "wings.present",
+          "observation": {
+            "contract": "specimen-features-v1",
+            "feature_id": "wings.present",
+            "feature_label": "Wings visible",
+            "observation_id": "run_5538dd38417b4dc0:wings.present",
+            "status": "observed",
+            "value": true,
+            "visibility": "clear",
+            "note": "Large yellow wings are clearly visible covering the body.",
+            "model": "qwen3.8:27b-mtp-q8_0",
+            "run_id": "run_5538dd38417b4dc0",
+            "request_id": "fd68f553f16e4ff896c7285f60722bc9",
+            "human_reviewed": false,
+            "evidence": [
+              {
+                "bbox": [
+                  0.15,
+                  0.64,
+                  0.15,
+                  0.19
+                ],
+                "description": "Yellow wings of the butterfly",
+                "image_id": "image_b318855d565f4d0f",
+                "instance_id": "wing_group"
+              }
+            ],
+            "selected_evidence": {
+              "bbox": [
+                0.15,
+                0.64,
+                0.15,
+                0.19
+              ],
+              "description": "Yellow wings of the butterfly",
+              "image_id": "image_b318855d565f4d0f",
+              "instance_id": "wing_group"
+            },
+            "confidence": 1.0,
+            "confidence_note": "Model self-report; uncalibrated"
+          },
+          "image": "examples/qwen/figures/j_folded-butterfly_wings-present.png",
+          "image_sha256": "d8d19766ce288f7c41847ff7cfa5306e0bcfe01c48c4615af8de2611aed42013"
+        },
+        {
+          "panel": "k",
+          "title": "Antennae: 2",
+          "feature_id": "antennae.visible_count",
+          "observation": {
+            "contract": "specimen-features-v1",
+            "feature_id": "antennae.visible_count",
+            "feature_label": "Distinct visible antennae",
+            "observation_id": "run_5538dd38417b4dc0:antennae.visible_count",
+            "status": "observed",
+            "value": 2,
+            "visibility": "clear",
+            "note": "Two distinct antennae are visible extending from the head.",
+            "model": "qwen3.8:27b-mtp-q8_0",
+            "run_id": "run_5538dd38417b4dc0",
+            "request_id": "fd68f553f16e4ff896c7285f60722bc9",
+            "human_reviewed": false,
+            "evidence": [
+              {
+                "bbox": [
+                  0.28,
+                  0.64,
+                  0.02,
+                  0.07
+                ],
+                "description": "Left antenna",
+                "image_id": "image_b318855d565f4d0f",
+                "instance_id": "ant_1"
+              },
+              {
+                "bbox": [
+                  0.3,
+                  0.65,
+                  0.03,
+                  0.06
+                ],
+                "description": "Right antenna",
+                "image_id": "image_b318855d565f4d0f",
+                "instance_id": "ant_2"
+              }
+            ],
+            "selected_evidence": {
+              "bbox": [
+                0.3,
+                0.65,
+                0.03,
+                0.06
+              ],
+              "description": "Right antenna",
+              "image_id": "image_b318855d565f4d0f",
+              "instance_id": "ant_2"
+            },
+            "confidence": 0.95,
+            "confidence_note": "Model self-report; uncalibrated"
+          },
+          "image": "examples/qwen/figures/k_folded-butterfly_antennae-visible_count.png",
+          "image_sha256": "b755ea2cfc02c8b23129d7ec219e1bacfe44c9dc5cdf265fbecf221b9343ecac"
+        },
+        {
+          "panel": "l",
+          "title": "Legs: visible",
+          "feature_id": "legs.present",
+          "observation": {
+            "contract": "specimen-features-v1",
+            "feature_id": "legs.present",
+            "feature_label": "Legs visible",
+            "observation_id": "run_5538dd38417b4dc0:legs.present",
+            "status": "observed",
+            "value": true,
+            "visibility": "partial",
+            "note": "Legs are visible near the head and thorax area.",
+            "model": "qwen3.8:27b-mtp-q8_0",
+            "run_id": "run_5538dd38417b4dc0",
+            "request_id": "fd68f553f16e4ff896c7285f60722bc9",
+            "human_reviewed": false,
+            "evidence": [
+              {
+                "bbox": [
+                  0.28,
+                  0.74,
+                  0.05,
+                  0.06
+                ],
+                "description": "Visible legs near the head",
+                "image_id": "image_b318855d565f4d0f",
+                "instance_id": "legs_group"
+              }
+            ],
+            "selected_evidence": {
+              "bbox": [
+                0.28,
+                0.74,
+                0.05,
+                0.06
+              ],
+              "description": "Visible legs near the head",
+              "image_id": "image_b318855d565f4d0f",
+              "instance_id": "legs_group"
+            },
+            "confidence": 0.9,
+            "confidence_note": "Model self-report; uncalibrated"
+          },
+          "image": "examples/qwen/figures/l_folded-butterfly_legs-present.png",
+          "image_sha256": "627a2dc4a2924ec54d96c621f05eae0021f8dc24924c7ef6528ce0e04eec94e1"
+        }
+      ],
+      "four_panel_strip": "examples/qwen/figures/folded-butterfly-four-panels.png"
+    }
+  ],
+  "paper_files": [
+    {
+      "path": "paper/figures/qwen-three-specimens-4x3.png",
+      "sha256": "80918602be02d117310185e13447a4633fb4500e773ff1a1a8ee0cb03a4f6e06"
+    },
+    {
+      "path": "paper/figures/qwen-three-specimens-4x3.tif",
+      "sha256": "cda413a38263dfba423bf5a8821342a344d57976a268defd4aa533d7bc8fb146"
+    }
+  ]
+}

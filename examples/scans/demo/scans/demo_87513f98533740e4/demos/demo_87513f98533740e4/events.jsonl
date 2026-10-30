@@ -1,0 +1,170 @@
+{"at":"2026-09-11T14:26:51.986136+00:00","current_run_id":null,"message":"Starting demo","state":"queued","views_completed":0}
+{"at":"2026-09-11T14:26:51.986878+00:00","current_run_id":null,"message":"Cropping saved photo 1/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.056687+00:00","current_run_id":null,"message":"Cropping saved photo 1/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.057025+00:00","current_run_id":null,"message":"Cropping saved photo 2/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.114286+00:00","current_run_id":null,"message":"Cropping saved photo 2/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.114606+00:00","current_run_id":null,"message":"Cropping saved photo 3/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.172563+00:00","current_run_id":null,"message":"Cropping saved photo 3/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.172889+00:00","current_run_id":null,"message":"Cropping saved photo 4/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.239051+00:00","current_run_id":null,"message":"Cropping saved photo 4/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.239480+00:00","current_run_id":null,"message":"Cropping saved photo 5/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.300566+00:00","current_run_id":null,"message":"Cropping saved photo 5/5 · no movement","state":"capturing","views_completed":0}
+{"at":"2026-09-11T14:26:52.300918+00:00","current_run_id":null,"message":"Codex is observing photos 1–5/40","state":"observing","views_completed":0}
+{"at":"2026-09-11T14:26:52.307114+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Codex is observing photos 1–5/40","state":"observing","views_completed":0}
+{"at":"2026-09-11T14:28:28.135304+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"5 photos observed · graph updated","state":"updating_graph","views_completed":5}
+{"at":"2026-09-11T14:28:28.135576+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 6/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:34.769472+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 6/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:35.049606+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 6/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:35.050049+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 7/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:41.401600+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 7/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:41.667489+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 7/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:41.667828+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 8/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:48.044546+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 8/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:48.304852+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 8/40 · tilt position 1/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:48.305243+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:52.954878+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:28:57.637096+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:02.278115+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:06.987682+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:11.385503+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:15.765544+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:20.149995+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:26.542683+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:26.800538+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 9/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:26.800855+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 10/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:33.137570+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 10/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:33.399898+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Capturing photo 10/40 · tilt position 2/5","state":"capturing","views_completed":5}
+{"at":"2026-09-11T14:29:33.400219+00:00","current_run_id":"run_d3f0e5ed9e1a4b71","message":"Codex is observing photos 6–10/40","state":"observing","views_completed":5}
+{"at":"2026-09-11T14:29:33.406135+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Codex is observing photos 6–10/40","state":"observing","views_completed":5}
+{"at":"2026-09-11T14:31:04.848242+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"10 photos observed · graph updated","state":"updating_graph","views_completed":10}
+{"at":"2026-09-11T14:31:04.848620+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 11/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:11.403969+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 11/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:11.685806+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 11/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:11.686182+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 12/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:18.007758+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 12/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:18.278160+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 12/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:18.278522+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 13/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:24.591294+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 13/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:24.854656+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 13/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:24.855034+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 14/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:31.234306+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 14/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:31.483755+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 14/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:31.484079+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 15/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:37.853227+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 15/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:38.127648+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Capturing photo 15/40 · tilt position 2/5","state":"capturing","views_completed":10}
+{"at":"2026-09-11T14:31:38.127994+00:00","current_run_id":"run_6821ea1d9ed845b9","message":"Codex is observing photos 11–15/40","state":"observing","views_completed":10}
+{"at":"2026-09-11T14:31:38.133055+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Codex is observing photos 11–15/40","state":"observing","views_completed":10}
+{"at":"2026-09-11T14:32:57.701573+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"15 photos observed · graph updated","state":"updating_graph","views_completed":15}
+{"at":"2026-09-11T14:32:57.701962+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 16/40 · tilt position 2/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:04.283816+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 16/40 · tilt position 2/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:04.549189+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 16/40 · tilt position 2/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:04.549545+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:09.170216+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:13.791660+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:18.426448+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:23.060255+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:27.457991+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:31.813226+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:36.213314+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:42.644091+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:42.831108+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 17/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:42.831442+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 18/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:49.175635+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 18/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:49.391999+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 18/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:49.392729+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 19/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:55.784121+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 19/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:55.982505+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 19/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:33:55.982869+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 20/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:34:02.359760+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 20/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:34:02.563532+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Capturing photo 20/40 · tilt position 3/5","state":"capturing","views_completed":15}
+{"at":"2026-09-11T14:34:02.563925+00:00","current_run_id":"run_4864ecbcaf504ed1","message":"Codex is observing photos 16–20/40","state":"observing","views_completed":15}
+{"at":"2026-09-11T14:34:02.569672+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Codex is observing photos 16–20/40","state":"observing","views_completed":15}
+{"at":"2026-09-11T14:35:35.211310+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"20 photos observed · graph updated","state":"updating_graph","views_completed":20}
+{"at":"2026-09-11T14:35:35.211714+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 21/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:41.818583+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 21/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:42.013602+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 21/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:42.013935+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 22/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:48.400226+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 22/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:48.681678+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 22/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:48.682128+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 23/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:55.079001+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 23/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:55.378661+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 23/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:35:55.379027+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 24/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:01.724053+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 24/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:01.981629+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 24/40 · tilt position 3/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:01.981975+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:06.632341+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:11.262746+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:15.896676+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:20.526227+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:24.923119+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:29.312700+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:33.721826+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:40.153831+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:40.411566+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Capturing photo 25/40 · tilt position 4/5","state":"capturing","views_completed":20}
+{"at":"2026-09-11T14:36:40.411938+00:00","current_run_id":"run_dd8a7b06418c4be1","message":"Codex is observing photos 21–25/40","state":"observing","views_completed":20}
+{"at":"2026-09-11T14:36:40.416765+00:00","current_run_id":"run_c20dabc838744d4d","message":"Codex is observing photos 21–25/40","state":"observing","views_completed":20}
+{"at":"2026-09-11T14:38:11.303665+00:00","current_run_id":"run_c20dabc838744d4d","message":"25 photos observed · graph updated","state":"updating_graph","views_completed":25}
+{"at":"2026-09-11T14:38:11.304085+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 26/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:17.887530+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 26/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:18.109063+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 26/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:18.109437+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 27/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:24.478191+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 27/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:24.692188+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 27/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:24.692620+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 28/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:31.052823+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 28/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:31.246957+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 28/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:31.247326+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 29/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:37.617560+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 29/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:37.810999+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 29/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:37.811386+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 30/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:44.167773+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 30/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:44.372490+00:00","current_run_id":"run_c20dabc838744d4d","message":"Capturing photo 30/40 · tilt position 4/5","state":"capturing","views_completed":25}
+{"at":"2026-09-11T14:38:44.372870+00:00","current_run_id":"run_c20dabc838744d4d","message":"Codex is observing photos 26–30/40","state":"observing","views_completed":25}
+{"at":"2026-09-11T14:38:44.377393+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Codex is observing photos 26–30/40","state":"observing","views_completed":25}
+{"at":"2026-09-11T14:40:51.476732+00:00","current_run_id":"run_b0b55d90f99442c5","message":"30 photos observed · graph updated","state":"updating_graph","views_completed":30}
+{"at":"2026-09-11T14:40:51.477183+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 31/40 · tilt position 4/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:40:58.097166+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 31/40 · tilt position 4/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:40:58.287813+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 31/40 · tilt position 4/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:40:58.288203+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 32/40 · tilt position 4/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:04.640218+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 32/40 · tilt position 4/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:04.851843+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 32/40 · tilt position 4/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:04.852246+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:09.479733+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:14.111577+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:18.755279+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:23.339734+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:27.741057+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:32.124889+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:36.522241+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:42.941893+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:43.151499+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 33/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:43.151910+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 34/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:49.507789+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 34/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:49.715340+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 34/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:49.716172+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 35/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:56.102883+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 35/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:56.331599+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Capturing photo 35/40 · tilt position 5/5","state":"capturing","views_completed":30}
+{"at":"2026-09-11T14:41:56.331993+00:00","current_run_id":"run_b0b55d90f99442c5","message":"Codex is observing photos 31–35/40","state":"observing","views_completed":30}
+{"at":"2026-09-11T14:41:56.336310+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Codex is observing photos 31–35/40","state":"observing","views_completed":30}
+{"at":"2026-09-11T14:43:12.095047+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"35 photos observed · graph updated","state":"updating_graph","views_completed":35}
+{"at":"2026-09-11T14:43:12.095412+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 36/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:18.620503+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 36/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:18.827769+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 36/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:18.828201+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 37/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:25.174803+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 37/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:25.400643+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 37/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:25.401477+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 38/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:31.787283+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 38/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:32.000266+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 38/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:32.000659+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 39/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:38.358467+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 39/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:38.594418+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 39/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:38.595271+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 40/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:44.961910+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 40/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:45.171601+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Capturing photo 40/40 · tilt position 5/5","state":"capturing","views_completed":35}
+{"at":"2026-09-11T14:43:45.172013+00:00","current_run_id":"run_c7e5330bb14d42bd","message":"Codex is observing photos 36–40/40","state":"observing","views_completed":35}
+{"at":"2026-09-11T14:43:45.176204+00:00","current_run_id":"run_ad438a77f2114a51","message":"Codex is observing photos 36–40/40","state":"observing","views_completed":35}
+{"at":"2026-09-11T14:45:09.352504+00:00","current_run_id":"run_ad438a77f2114a51","message":"40 photos observed · graph updated","state":"updating_graph","views_completed":40}
+{"at":"2026-09-11T14:45:09.352973+00:00","current_run_id":"run_ad438a77f2114a51","message":"Demo complete · unknown features are retained","state":"updating_graph","views_completed":40}
+{"at":"2026-09-11T14:45:09.353320+00:00","current_run_id":"run_ad438a77f2114a51","message":"Demo complete · ROI observations and graph saved","state":"complete","views_completed":40}

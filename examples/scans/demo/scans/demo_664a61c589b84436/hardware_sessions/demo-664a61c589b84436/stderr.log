@@ -1,0 +1,7 @@
+[4:36:03.412282108] [4396] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:330 [0mlibcamera v0.5.2+99-bfd68f78
+[4:36:03.437543478] [4399] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[4:36:03.443188738] [4399] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:220 [0mAdding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[4:36:03.443229719] [4399] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:440 [0mRegistered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media2
+[4:36:03.443257978] [4399] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1107 [0mUsing configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[4:36:03.450011200] [4396] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 3280x2464-BGR888/sRGB
+[4:36:03.450423015] [4399] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:615 [0mSensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 3280x2464-SBGGR10_1X10/RAW - Selected unicam format: 3280x2464-pBAA/RAW

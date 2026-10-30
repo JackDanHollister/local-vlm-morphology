@@ -1,0 +1,55 @@
+{
+  "schema": "scanner-operator-calibration-v1",
+  "recorded_at": "2026-09-11T15:00:02.109878+01:00",
+  "source": "Operator mapped Z underside and overhead views, then explicitly reported exactly one full Y turn back to the straight-ahead orientation",
+  "purpose": "Working calibration for the attended 40-photo method demonstration",
+  "controller_host": "192.0.2.10",
+  "raw_status_at_completion": "STATUS X=0.000 Y=2.287 Z=-9.687 A=0.000",
+  "steps_per_firmware_unit": 80,
+  "counter_frame": {
+    "current_position": {
+      "Y": 2.2875,
+      "Z": -9.6875
+    },
+    "reset_or_zero_issued_by_assistant": false,
+    "validity": "Re-establish after zero, reset, power loss or motor slip/stall"
+  },
+  "Y": {
+    "motion": "continuous_rotation",
+    "start_step_index": -17,
+    "end_step_index": 183,
+    "start_firmware_position": -0.2125,
+    "end_firmware_position": 2.2875,
+    "operator_reported_turn_degrees": 360,
+    "commanded_steps_per_turn": 200,
+    "firmware_units_per_turn": 2.5,
+    "degrees_per_step": 1.8,
+    "front_facing_phase_step": -17,
+    "physical_end_stops": null,
+    "reference_file": "y_rotation_reference.json"
+  },
+  "Z": {
+    "overhead_step_index": -775,
+    "underside_step_index": 205,
+    "operator_viewing_range": [
+      -9.6875,
+      2.5625
+    ],
+    "range_steps": 980,
+    "positive_direction": "toward underside",
+    "negative_direction": "toward overhead",
+    "measured_angle_degrees": null,
+    "demo_endpoint_margin_steps": 10,
+    "proposed_photo_range": [
+      -9.5625,
+      2.4375
+    ],
+    "reference_files": [
+      "z_overhead_reference.json",
+      "z_viewpoint_reference.json"
+    ]
+  },
+  "qualification": "Operator-established demonstration mapping; Y based on one reported complete turn, Z on identified viewpoints; no metrology accuracy claim",
+  "motor_limits_applied": false,
+  "automatic_scan_restarted": false
+}

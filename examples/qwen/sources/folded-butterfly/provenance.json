@@ -1,0 +1,26 @@
+{
+  "job": "SANDBOX/F1G-YFN-P39",
+  "job_state": "COMPLETED",
+  "media": "SANDBOX/B23-2JM-Y9Y",
+  "annotation_ids": [
+    "https://hdl.handle.net/SANDBOX/3ZP-5TN-P43",
+    "https://hdl.handle.net/SANDBOX/4BF-PJW-81X",
+    "https://hdl.handle.net/SANDBOX/4GB-FEJ-D0E",
+    "https://hdl.handle.net/SANDBOX/9DX-VRC-Y26",
+    "https://hdl.handle.net/SANDBOX/AXR-JZ5-NX3",
+    "https://hdl.handle.net/SANDBOX/DP4-9WJ-WXS",
+    "https://hdl.handle.net/SANDBOX/GCM-QEK-X6X",
+    "https://hdl.handle.net/SANDBOX/KSH-TW9-SVR"
+  ],
+  "source_image": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large",
+  "sha256": "445df8c679974151e3042ad02b46e8028eb0cda4d78defdbec85872272e437bb",
+  "image_bytes": 2362600,
+  "image_dimensions": [
+    1920,
+    1680
+  ],
+  "photographic_source": "Naturalis Biodiversity Center",
+  "image_licence": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "observations": "unreviewed model predictions",
+  "annotation_attributes_unchanged": true
+}

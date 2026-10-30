@@ -1,0 +1,582 @@
+{
+  "data": [
+    {
+      "id": "https://hdl.handle.net/SANDBOX/GCM-QEK-X6X",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/GCM-QEK-X6X",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/GCM-QEK-X6X",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "oa:FragmentSelector",
+            "ac:hasROI": {
+              "ac:xFrac": 0.28,
+              "ac:yFrac": 0.74,
+              "ac:widthFrac": 0.05,
+              "ac:heightFrac": 0.06
+            },
+            "dcterms:conformsTo": "https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"legs.present\", \"feature_label\": \"Legs visible\", \"observation_id\": \"run_5538dd38417b4dc0:legs.present\", \"status\": \"observed\", \"value\": true, \"visibility\": \"partial\", \"note\": \"Legs are visible near the head and thorax area.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.28, 0.74, 0.05, 0.06], \"description\": \"Visible legs near the head\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"legs_group\"}], \"selected_evidence\": {\"bbox\": [0.28, 0.74, 0.05, 0.06], \"description\": \"Visible legs near the head\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"legs_group\"}, \"confidence\": 0.9, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.239Z",
+        "dcterms:issued": "2026-10-15T11:49:16.239Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://hdl.handle.net/SANDBOX/AXR-JZ5-NX3",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/AXR-JZ5-NX3",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/AXR-JZ5-NX3",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "oa:FragmentSelector",
+            "ac:hasROI": {
+              "ac:xFrac": 0.15,
+              "ac:yFrac": 0.64,
+              "ac:widthFrac": 0.15,
+              "ac:heightFrac": 0.19
+            },
+            "dcterms:conformsTo": "https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"wings.present\", \"feature_label\": \"Wings visible\", \"observation_id\": \"run_5538dd38417b4dc0:wings.present\", \"status\": \"observed\", \"value\": true, \"visibility\": \"clear\", \"note\": \"Large yellow wings are clearly visible covering the body.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.15, 0.64, 0.15, 0.19], \"description\": \"Yellow wings of the butterfly\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"wing_group\"}], \"selected_evidence\": {\"bbox\": [0.15, 0.64, 0.15, 0.19], \"description\": \"Yellow wings of the butterfly\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"wing_group\"}, \"confidence\": 1.0, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"body.colours\", \"feature_label\": \"Visible body/wing colours\", \"observation_id\": \"run_5538dd38417b4dc0:body.colours\", \"status\": \"observed\", \"value\": [\"yellow\", \"brown\"], \"visibility\": \"clear\", \"note\": \"Wings are predominantly yellow with brown margins and spots.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.15, 0.64, 0.15, 0.19], \"description\": \"Yellow and brown wing colours\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"body_colour\"}], \"selected_evidence\": {\"bbox\": [0.15, 0.64, 0.15, 0.19], \"description\": \"Yellow and brown wing colours\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"body_colour\"}, \"confidence\": 1.0, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"body.pattern\", \"feature_label\": \"Visible surface pattern\", \"observation_id\": \"run_5538dd38417b4dc0:body.pattern\", \"status\": \"observed\", \"value\": \"spotted\", \"visibility\": \"clear\", \"note\": \"Wings show a spotted pattern with brown markings on a yellow background.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.15, 0.64, 0.15, 0.19], \"description\": \"Spotted wing pattern\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"body_pattern\"}], \"selected_evidence\": {\"bbox\": [0.15, 0.64, 0.15, 0.19], \"description\": \"Spotted wing pattern\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"body_pattern\"}, \"confidence\": 0.9, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.241Z",
+        "dcterms:issued": "2026-10-15T11:49:16.241Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://hdl.handle.net/SANDBOX/KSH-TW9-SVR",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/KSH-TW9-SVR",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/KSH-TW9-SVR",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "ods:ClassSelector",
+            "ods:class": "$"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"wings.visible_count\", \"feature_label\": \"Distinct visible wings\", \"observation_id\": \"run_5538dd38417b4dc0:wings.visible_count\", \"status\": \"unknown\", \"value\": null, \"visibility\": \"occluded\", \"note\": \"Wings are folded together in dorsal view; individual forewings and hindwings cannot be distinguished.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [], \"selected_evidence\": null, \"confidence\": null, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"legs.visible_count\", \"feature_label\": \"Distinct visible legs\", \"observation_id\": \"run_5538dd38417b4dc0:legs.visible_count\", \"status\": \"unknown\", \"value\": null, \"visibility\": \"occluded\", \"note\": \"Legs are partially obscured by the wings and body; individual legs cannot be clearly counted.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [], \"selected_evidence\": null, \"confidence\": null, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"legs.total_count\", \"feature_label\": \"Total legs supported by views\", \"observation_id\": \"run_5538dd38417b4dc0:legs.total_count\", \"status\": \"unknown\", \"value\": null, \"visibility\": \"occluded\", \"note\": \"Total leg count cannot be determined due to occlusion by wings.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [], \"selected_evidence\": null, \"confidence\": null, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"body.hairs_visible\", \"feature_label\": \"Hairs or setae visible\", \"observation_id\": \"run_5538dd38417b4dc0:body.hairs_visible\", \"status\": \"unknown\", \"value\": null, \"visibility\": \"insufficient_detail\", \"note\": \"Fine hair-like structures are not resolved in the image.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [], \"selected_evidence\": null, \"confidence\": null, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"condition.appendage_damage\", \"feature_label\": \"Visible appendage damage\", \"observation_id\": \"run_5538dd38417b4dc0:condition.appendage_damage\", \"status\": \"unknown\", \"value\": null, \"visibility\": \"partial\", \"note\": \"Appendages are partially obscured; damage cannot be assessed.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [], \"selected_evidence\": null, \"confidence\": null, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"condition.wing_damage\", \"feature_label\": \"Visible wing damage\", \"observation_id\": \"run_5538dd38417b4dc0:condition.wing_damage\", \"status\": \"unknown\", \"value\": null, \"visibility\": \"partial\", \"note\": \"Wing edges are visible but some areas are obscured; damage cannot be definitively assessed.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [], \"selected_evidence\": null, \"confidence\": null, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"mount.pin_visible\", \"feature_label\": \"Mounting pin visible\", \"observation_id\": \"run_5538dd38417b4dc0:mount.pin_visible\", \"status\": \"unknown\", \"value\": null, \"visibility\": \"occluded\", \"note\": \"The mounting pin is not visible; it is likely hidden under the specimen.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [], \"selected_evidence\": null, \"confidence\": null, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.241Z",
+        "dcterms:issued": "2026-10-15T11:49:16.241Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://hdl.handle.net/SANDBOX/DP4-9WJ-WXS",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/DP4-9WJ-WXS",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/DP4-9WJ-WXS",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "oa:FragmentSelector",
+            "ac:hasROI": {
+              "ac:xFrac": 0.29,
+              "ac:yFrac": 0.7,
+              "ac:widthFrac": 0.02,
+              "ac:heightFrac": 0.02
+            },
+            "dcterms:conformsTo": "https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"eyes.visible\", \"feature_label\": \"Eyes visible\", \"observation_id\": \"run_5538dd38417b4dc0:eyes.visible\", \"status\": \"observed\", \"value\": true, \"visibility\": \"clear\", \"note\": \"Small dark eyes are visible on the head.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.29, 0.7, 0.02, 0.02], \"description\": \"Eyes on the head\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"eyes_group\"}], \"selected_evidence\": {\"bbox\": [0.29, 0.7, 0.02, 0.02], \"description\": \"Eyes on the head\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"eyes_group\"}, \"confidence\": 0.9, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.241Z",
+        "dcterms:issued": "2026-10-15T11:49:16.241Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://hdl.handle.net/SANDBOX/4GB-FEJ-D0E",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/4GB-FEJ-D0E",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/4GB-FEJ-D0E",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "oa:FragmentSelector",
+            "ac:hasROI": {
+              "ac:xFrac": 0.28,
+              "ac:yFrac": 0.64,
+              "ac:widthFrac": 0.02,
+              "ac:heightFrac": 0.07
+            },
+            "dcterms:conformsTo": "https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"antennae.visible_count\", \"feature_label\": \"Distinct visible antennae\", \"observation_id\": \"run_5538dd38417b4dc0:antennae.visible_count\", \"status\": \"observed\", \"value\": 2, \"visibility\": \"clear\", \"note\": \"Two distinct antennae are visible extending from the head.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.28, 0.64, 0.02, 0.07], \"description\": \"Left antenna\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"ant_1\"}, {\"bbox\": [0.3, 0.65, 0.03, 0.06], \"description\": \"Right antenna\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"ant_2\"}], \"selected_evidence\": {\"bbox\": [0.28, 0.64, 0.02, 0.07], \"description\": \"Left antenna\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"ant_1\"}, \"confidence\": 0.95, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.241Z",
+        "dcterms:issued": "2026-10-15T11:49:16.241Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://hdl.handle.net/SANDBOX/4BF-PJW-81X",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/4BF-PJW-81X",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/4BF-PJW-81X",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "oa:FragmentSelector",
+            "ac:hasROI": {
+              "ac:xFrac": 0.28,
+              "ac:yFrac": 0.64,
+              "ac:widthFrac": 0.05,
+              "ac:heightFrac": 0.08
+            },
+            "dcterms:conformsTo": "https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"antennae.present\", \"feature_label\": \"Antennae visible\", \"observation_id\": \"run_5538dd38417b4dc0:antennae.present\", \"status\": \"observed\", \"value\": true, \"visibility\": \"clear\", \"note\": \"Two thin, dark antennae extend from the head.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.28, 0.64, 0.05, 0.08], \"description\": \"Pair of antennae\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"antennae_group\"}], \"selected_evidence\": {\"bbox\": [0.28, 0.64, 0.05, 0.08], \"description\": \"Pair of antennae\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"antennae_group\"}, \"confidence\": 1.0, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.241Z",
+        "dcterms:issued": "2026-10-15T11:49:16.241Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://hdl.handle.net/SANDBOX/9DX-VRC-Y26",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/9DX-VRC-Y26",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/9DX-VRC-Y26",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "oa:FragmentSelector",
+            "ac:hasROI": {
+              "ac:xFrac": 0.3,
+              "ac:yFrac": 0.65,
+              "ac:widthFrac": 0.03,
+              "ac:heightFrac": 0.06
+            },
+            "dcterms:conformsTo": "https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"antennae.visible_count\", \"feature_label\": \"Distinct visible antennae\", \"observation_id\": \"run_5538dd38417b4dc0:antennae.visible_count\", \"status\": \"observed\", \"value\": 2, \"visibility\": \"clear\", \"note\": \"Two distinct antennae are visible extending from the head.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.28, 0.64, 0.02, 0.07], \"description\": \"Left antenna\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"ant_1\"}, {\"bbox\": [0.3, 0.65, 0.03, 0.06], \"description\": \"Right antenna\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"ant_2\"}], \"selected_evidence\": {\"bbox\": [0.3, 0.65, 0.03, 0.06], \"description\": \"Right antenna\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"ant_2\"}, \"confidence\": 0.95, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.241Z",
+        "dcterms:issued": "2026-10-15T11:49:16.241Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://hdl.handle.net/SANDBOX/3ZP-5TN-P43",
+      "type": "ods:Annotation",
+      "attributes": {
+        "@id": "https://hdl.handle.net/SANDBOX/3ZP-5TN-P43",
+        "@type": "ods:Annotation",
+        "dcterms:identifier": "https://hdl.handle.net/SANDBOX/3ZP-5TN-P43",
+        "ods:fdoType": "https://doi.org/21.T11148/cf458ca9ee1d44a5608f",
+        "ods:status": "Active",
+        "ods:jobID": "https://hdl.handle.net/SANDBOX/F1G-YFN-P39",
+        "ods:version": 1,
+        "oa:motivation": "oa:commenting",
+        "oa:motivatedBy": "Visible specimen features predicted from this media; human review required",
+        "oa:hasTarget": {
+          "@id": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "@type": "ods:DigitalMediaObject",
+          "dcterms:identifier": "https://doi.org/SANDBOX/B23-2JM-Y9Y",
+          "ods:fdoType": "https://doi.org/21.T11148/bbad8c4e101e8af01115",
+          "oa:hasSelector": {
+            "@type": "oa:FragmentSelector",
+            "ac:hasROI": {
+              "ac:xFrac": 0.15,
+              "ac:yFrac": 0.64,
+              "ac:widthFrac": 0.18,
+              "ac:heightFrac": 0.19
+            },
+            "dcterms:conformsTo": "https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary"
+          }
+        },
+        "oa:hasBody": {
+          "@type": "oa:TextualBody",
+          "oa:value": [
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"image.specimen_in_frame\", \"feature_label\": \"Specimen in frame\", \"observation_id\": \"run_5538dd38417b4dc0:image.specimen_in_frame\", \"status\": \"observed\", \"value\": true, \"visibility\": \"clear\", \"note\": \"The insect specimen is clearly visible in the frame.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.15, 0.64, 0.18, 0.19], \"description\": \"Butterfly specimen\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"specimen\"}], \"selected_evidence\": {\"bbox\": [0.15, 0.64, 0.18, 0.19], \"description\": \"Butterfly specimen\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"specimen\"}, \"confidence\": 1.0, \"confidence_note\": \"Model self-report; uncalibrated\"}",
+            "{\"contract\": \"specimen-features-v1\", \"feature_id\": \"image.fine_detail_sufficient\", \"feature_label\": \"Fine appendage detail resolved\", \"observation_id\": \"run_5538dd38417b4dc0:image.fine_detail_sufficient\", \"status\": \"observed\", \"value\": false, \"visibility\": \"insufficient_detail\", \"note\": \"Fine details like individual hairs or leg segments are not resolved.\", \"model\": \"qwen3.8:27b-mtp-q8_0\", \"run_id\": \"run_5538dd38417b4dc0\", \"request_id\": \"fd68f553f16e4ff896c7285f60722bc9\", \"human_reviewed\": false, \"evidence\": [{\"bbox\": [0.15, 0.64, 0.18, 0.19], \"description\": \"Specimen area with insufficient fine detail\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"detail_check\"}], \"selected_evidence\": {\"bbox\": [0.15, 0.64, 0.18, 0.19], \"description\": \"Specimen area with insufficient fine detail\", \"image_id\": \"image_b318855d565f4d0f\", \"instance_id\": \"detail_check\"}, \"confidence\": 0.9, \"confidence_note\": \"Model self-report; uncalibrated\"}"
+          ],
+          "dcterms:references": "https://medialib.naturalis.nl/file/id/ZMA.INS.1533437_2/format/large"
+        },
+        "dcterms:creator": {
+          "@id": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://hdl.handle.net/SANDBOX/SS6-GDM-NHR",
+          "schema:name": "TraitTrail specimen observations"
+        },
+        "dcterms:created": "2026-10-15T11:52:03.681Z",
+        "dcterms:modified": "2026-10-15T11:49:16.241Z",
+        "dcterms:issued": "2026-10-15T11:49:16.241Z",
+        "as:generator": {
+          "@id": "https://doi.org/10.5281/zenodo.7533428",
+          "@type": "schema:SoftwareApplication",
+          "schema:identifier": "https://doi.org/10.5281/zenodo.7533428",
+          "schema:name": "DiSSCo Annotation Processing Service",
+          "ods:hasRoles": [
+            {
+              "@type": "schema:Role",
+              "schema:roleName": "processing-service"
+            }
+          ],
+          "ods:hasIdentifiers": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.7533428",
+              "@type": "ods:Identifier",
+              "dcterms:title": "DOI",
+              "dcterms:type": "DOI",
+              "dcterms:identifier": "https://doi.org/10.5281/zenodo.7533428",
+              "ods:isPartOfLabel": false,
+              "ods:gupriLevel": "GloballyUniqueStablePersistentResolvableFDOCompliant",
+              "ods:identifierStatus": "Preferred"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "source": "DiSSCo sandbox annotation readback",
+    "job_id": "SANDBOX/F1G-YFN-P39",
+    "source_api": "https://sandbox.dissco.tech/api/digital-media/v1/SANDBOX/B23-2JM-Y9Y/annotations",
+    "exported_at": "2026-10-15T11:54:46.317692+00:00",
+    "annotation_count": 8
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": 0.99,
+      "evidence": [
+        {"bbox": [0.189, 0.347, 0.623, 0.353], "description": "Four pale spread wing surfaces are visible.", "image_id": "image_8457d88f741546d0", "instance_id": null}
+      ],
+      "feature_id": "wings.present",
+      "note": "Wings are visibly present.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": 0.98,
+      "evidence": [
+        {"bbox": [0.189, 0.493, 0.3, 0.207], "description": "Elongated lower-left wing with darker terminal markings.", "image_id": "image_8457d88f741546d0", "instance_id": "wing_1"},
+        {"bbox": [0.226, 0.369, 0.26, 0.156], "description": "Rounded upper-left wing.", "image_id": "image_8457d88f741546d0", "instance_id": "wing_2"},
+        {"bbox": [0.5, 0.347, 0.227, 0.148], "description": "Rounded upper-right wing.", "image_id": "image_8457d88f741546d0", "instance_id": "wing_3"},
+        {"bbox": [0.513, 0.469, 0.299, 0.155], "description": "Elongated lower-right wing with darker terminal markings.", "image_id": "image_8457d88f741546d0", "instance_id": "wing_4"}
+      ],
+      "feature_id": "wings.visible_count",
+      "note": "Four distinct wings; overlapping bases do not prevent distinguishing the surfaces.",
+      "status": "observed",
+      "value": 4,
+      "visibility": "partial"
+    },
+    {
+      "confidence": 0.98,
+      "evidence": [
+        {"bbox": [0.577, 0.282, 0.113, 0.112], "description": "Two slender, club-tipped antennae extend from the head.", "image_id": "image_bf10818c347a4daa", "instance_id": null}
+      ],
+      "feature_id": "antennae.present",
+      "note": "Antennae are distinguishable from the thicker mounting pin.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": 0.98,
+      "evidence": [
+        {"bbox": [0.577, 0.282, 0.079, 0.067], "description": "Antenna extending upward and right to a dark club.", "image_id": "image_bf10818c347a4daa", "instance_id": "antenna_1"},
+        {"bbox": [0.591, 0.348, 0.099, 0.046], "description": "Antenna extending downward and right to a dark club.", "image_id": "image_bf10818c347a4daa", "instance_id": "antenna_2"}
+      ],
+      "feature_id": "antennae.visible_count",
+      "note": "Two distinct antennae are supported.",
+      "status": "observed",
+      "value": 2,
+      "visibility": "clear"
+    },
+    {
+      "confidence": 0.85,
+      "evidence": [
+        {"bbox": [0.448, 0.341, 0.022, 0.026], "description": "A thin bent leg projects below the thorax alongside the abdomen base.", "image_id": "image_5a029c221ac04294", "instance_id": "leg_1"}
+      ],
+      "feature_id": "legs.present",
+      "note": "At least one jointed leg is distinguishable.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": 0.8,
+      "evidence": [
+        {"bbox": [0.448, 0.341, 0.022, 0.026], "description": "One individually distinguishable bent leg; its attachment is partly obscured.", "image_id": "image_5a029c221ac04294", "instance_id": "leg_1"}
+      ],
+      "feature_id": "legs.visible_count",
+      "note": "One leg can be individually supported. Other small projections cannot be reliably separated.",
+      "status": "observed",
+      "value": 1,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {"bbox": [0.442, 0.308, 0.082, 0.059], "description": "Wing bases and the dark thorax conceal leg attachments.", "image_id": "image_5a029c221ac04294", "instance_id": null}
+      ],
+      "feature_id": "legs.total_count",
+      "note": "Relevant anatomy is not fully visible; total leg count cannot be established.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {"bbox": [0.57, 0.341, 0.031, 0.026], "description": "The head is visible, but individual eye boundaries are unresolved.", "image_id": "image_bf10818c347a4daa", "instance_id": null}
+      ],
+      "feature_id": "eyes.visible",
+      "note": "No eye can be confidently distinguished from surrounding head structures.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": 0.95,
+      "evidence": [
+        {"bbox": [0.228, 0.19, 0.569, 0.295], "description": "Cream-white and yellowish wings bear grey-brown markings; the central body is dark brown to black.", "image_id": "image_5a029c221ac04294", "instance_id": null}
+      ],
+      "feature_id": "body.colours",
+      "note": "Coarse appearance under the supplied lighting.",
+      "status": "observed",
+      "value": ["white", "yellow", "grey", "brown", "black"],
+      "visibility": "clear"
+    },
+    {
+      "confidence": 0.92,
+      "evidence": [
+        {"bbox": [0.502, 0.303, 0.295, 0.118], "description": "Irregular grey-brown mottling is concentrated near the pale wing tip and base.", "image_id": "image_5a029c221ac04294", "instance_id": null}
+      ],
+      "feature_id": "body.pattern",
+      "note": "Visible wings show mottled darker markings.",
+      "status": "observed",
+      "value": "mottled",
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {"bbox": [0.443, 0.293, 0.078, 0.054], "description": "The thoracic surface appears textured, but individual hairs are not reliably resolved.", "image_id": "image_5a029c221ac04294", "instance_id": null}
+      ],
+      "feature_id": "body.hairs_visible",
+      "note": "Texture and blur are insufficient evidence for individual hairs or setae.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {"bbox": [0.443, 0.229, 0.173, 0.139], "description": "Antennae are visible, but smaller appendages overlap and are partly concealed.", "image_id": "image_5a029c221ac04294", "instance_id": null}
+      ],
+      "feature_id": "condition.appendage_damage",
+      "note": "No definite break is resolved; incomplete appendage visibility prevents ruling out damage.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {"bbox": [0.189, 0.347, 0.623, 0.353], "description": "Wing outlines are largely visible, with overlapping bases and some indistinct edges.", "image_id": "image_8457d88f741546d0", "instance_id": null}
+      ],
+      "feature_id": "condition.wing_damage",
+      "note": "No definite tear or break is established; overlap and limited edge detail prevent a confident negative finding.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": 0.99,
+      "evidence": [
+        {"bbox": [0.466, 0.252, 0.038, 0.078], "description": "Thick dark pin with a rounded head projects from the thorax.", "image_id": "image_5a029c221ac04294", "instance_id": "specimen_pin"}
+      ],
+      "feature_id": "mount.pin_visible",
+      "note": "A mounting pin is distinguishable from specimen anatomy.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": 0.99,
+      "evidence": [
+        {"bbox": [0.228, 0.19, 0.569, 0.295], "description": "The specimen, including spread wings and antenna tips, lies within the frame.", "image_id": "image_5a029c221ac04294", "instance_id": null}
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "The specimen is visible in all five images.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": 0.94,
+      "evidence": [
+        {"bbox": [0.44, 0.292, 0.088, 0.077], "description": "Small structures around the head, thorax and leg attachments remain indistinct or overlapping.", "image_id": "image_5a029c221ac04294", "instance_id": null}
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "The views support wings and antennae, but do not resolve fine overlapping appendages adequately.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "Four wings, two club-tipped antennae and one distinguishable leg are visible. Wings are pale with darker mottling. Total legs, eyes, hairs and damage remain unresolved."
+}

@@ -1,0 +1,717 @@
+{
+  "created": "2026-09-11T14:26:52.304663+00:00",
+  "engine": "codex-cli",
+  "errors": [],
+  "finished": "2026-09-11T14:28:28.124344+00:00",
+  "id": "run_d3f0e5ed9e1a4b71",
+  "image_ids": [
+    "image_220b1852312a4d56",
+    "image_86bce84d2bda47f3",
+    "image_dbf8f20b8d754998",
+    "image_b6892b357ed1472a",
+    "image_706563c083df4cff"
+  ],
+  "images": [
+    {
+      "created": "2026-09-11T14:25:59.537800+00:00",
+      "crop_box": [
+        1008,
+        584,
+        1200,
+        1448
+      ],
+      "height": 1448,
+      "id": "image_220b1852312a4d56",
+      "parent_id": "image_9c3ecf6754dd4069",
+      "path": "assets/4e3ff131db8ac7245fb9f53fdefa5befd29cec7c756da879b36de067e8d7f5d9.png",
+      "pose": {
+        "Y_phase_degrees": 0.0,
+        "action_id": "action_62b006e51ce14e45",
+        "axis": "Z",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "firmware_position": {
+          "Y": 2.2875,
+          "Z": -9.5625
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.2875,
+          "Z": -9.5625
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": 10,
+        "route_photo": 1,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_commanded_steps": {
+          "Y": 0,
+          "Z": 10
+        },
+        "session_id": "demo-0b80935c2fd2445b",
+        "tilt_band": 1,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "4e3ff131db8ac7245fb9f53fdefa5befd29cec7c756da879b36de067e8d7f5d9",
+      "specimen_id": "pilot:001",
+      "width": 1200
+    },
+    {
+      "created": "2026-09-11T14:25:59.823094+00:00",
+      "crop_box": [
+        964,
+        488,
+        1200,
+        1528
+      ],
+      "height": 1528,
+      "id": "image_86bce84d2bda47f3",
+      "parent_id": "image_de79c55b36c44232",
+      "path": "assets/ed0da696ecf8a63b457c62918ab9512c4bc5aa31d3e13a2d1a07d48e65201408.png",
+      "pose": {
+        "Y_phase_degrees": 45.0,
+        "action_id": "action_0b07882df022470a",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "firmware_position": {
+          "Y": 2.6,
+          "Z": -9.5625
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.6,
+          "Z": -9.5625
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": 25,
+        "route_photo": 2,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_commanded_steps": {
+          "Y": 25,
+          "Z": 10
+        },
+        "session_id": "demo-0b80935c2fd2445b",
+        "tilt_band": 1,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "ed0da696ecf8a63b457c62918ab9512c4bc5aa31d3e13a2d1a07d48e65201408",
+      "specimen_id": "pilot:001",
+      "width": 1200
+    },
+    {
+      "created": "2026-09-11T14:26:00.089322+00:00",
+      "crop_box": [
+        920,
+        488,
+        1216,
+        1528
+      ],
+      "height": 1528,
+      "id": "image_dbf8f20b8d754998",
+      "parent_id": "image_c9deb8750c844d76",
+      "path": "assets/0e5b0f4400ce670370aa59d18d92856962171feeface618e341bafa598fa418d.png",
+      "pose": {
+        "Y_phase_degrees": 90.0,
+        "action_id": "action_d8ddaea84b354ae1",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "firmware_position": {
+          "Y": 2.9125,
+          "Z": -9.5625
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 2.9125,
+          "Z": -9.5625
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": 25,
+        "route_photo": 3,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_commanded_steps": {
+          "Y": 50,
+          "Z": 10
+        },
+        "session_id": "demo-0b80935c2fd2445b",
+        "tilt_band": 1,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "0e5b0f4400ce670370aa59d18d92856962171feeface618e341bafa598fa418d",
+      "specimen_id": "pilot:001",
+      "width": 1216
+    },
+    {
+      "created": "2026-09-11T14:26:00.322233+00:00",
+      "crop_box": [
+        888,
+        744,
+        1248,
+        1272
+      ],
+      "height": 1272,
+      "id": "image_b6892b357ed1472a",
+      "parent_id": "image_9fb46621dc1b4935",
+      "path": "assets/9a3745247287d56acef8515db7c59cd188bac84e4a035e06767b74bb677d023e.png",
+      "pose": {
+        "Y_phase_degrees": 135.0,
+        "action_id": "action_d11005428d784002",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "firmware_position": {
+          "Y": 3.225,
+          "Z": -9.5625
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 3.225,
+          "Z": -9.5625
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": 25,
+        "route_photo": 4,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_commanded_steps": {
+          "Y": 75,
+          "Z": 10
+        },
+        "session_id": "demo-0b80935c2fd2445b",
+        "tilt_band": 1,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "9a3745247287d56acef8515db7c59cd188bac84e4a035e06767b74bb677d023e",
+      "specimen_id": "pilot:001",
+      "width": 1248
+    },
+    {
+      "created": "2026-09-11T14:26:00.584979+00:00",
+      "crop_box": [
+        952,
+        480,
+        1200,
+        1536
+      ],
+      "height": 1536,
+      "id": "image_706563c083df4cff",
+      "parent_id": "image_6827a6037f3d42bf",
+      "path": "assets/f01d1cbf3e249e01ff019e7f01da6a1121ba00e5bb62e3dd18cc35174453040a.png",
+      "pose": {
+        "Y_phase_degrees": 180.0,
+        "action_id": "action_82a6dd4ac07540b0",
+        "axis": "Y",
+        "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+        "firmware_position": {
+          "Y": 3.5375,
+          "Z": -9.5625
+        },
+        "kind": "commanded_relative_steps_uncalibrated",
+        "photo_target": {
+          "Y": 3.5375,
+          "Z": -9.5625
+        },
+        "physical_angle_verified": false,
+        "relative_steps_this_action": 25,
+        "route_photo": 5,
+        "saved_limits": {
+          "Y": [
+            2.2875,
+            4.475
+          ],
+          "Z": [
+            -9.6875,
+            2.4375
+          ]
+        },
+        "session_commanded_steps": {
+          "Y": 100,
+          "Z": 10
+        },
+        "session_id": "demo-0b80935c2fd2445b",
+        "tilt_band": 1,
+        "transit_action_ids": []
+      },
+      "role": "crop",
+      "sha256": "f01d1cbf3e249e01ff019e7f01da6a1121ba00e5bb62e3dd18cc35174453040a",
+      "specimen_id": "pilot:001",
+      "width": 1200
+    }
+  ],
+  "model": "gpt-6-astra",
+  "next_views": [],
+  "prompt_sha256": "65970eff9552f773d5241ebb16ebaace379298a4bd88b178888dd8cf0b9c51ed",
+  "qualification": "engineering_pilot_not_blinded_benchmark",
+  "raw_sha256": "c1ce3bff1d4c356ac2a11827fc719c3014fad529171706e71f8fd8f7d90f7b8b",
+  "result": {
+    "next_view_id": null,
+    "next_view_reason": "No additional views are available.",
+    "observations": [
+      {
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "bbox": [
+              0.322,
+              0.213,
+              0.212,
+              0.258
+            ],
+            "description": "Two patterned hardened wing covers meet along a central seam.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "wings.present",
+        "note": "Visible wings are hardened covers; underlying wings are concealed.",
+        "status": "observed",
+        "value": true,
+        "visibility": "partial"
+      },
+      {
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "bbox": [
+              0.322,
+              0.214,
+              0.121,
+              0.253
+            ],
+            "description": "Wing cover on the image-left side of the seam.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "wing_1"
+          },
+          {
+            "bbox": [
+              0.442,
+              0.213,
+              0.092,
+              0.258
+            ],
+            "description": "Wing cover on the image-right side of the seam.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "wing_2"
+          }
+        ],
+        "feature_id": "wings.visible_count",
+        "note": "Two distinct wing covers are supported across the views.",
+        "status": "observed",
+        "value": 2,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "bbox": [
+              0.458,
+              0.232,
+              0.185,
+              0.376
+            ],
+            "description": "Long segmented appendage extends from the head and curves beside the body.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "antenna_1"
+          }
+        ],
+        "feature_id": "antennae.present",
+        "note": "One antenna is clearly distinguishable.",
+        "status": "observed",
+        "value": true,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.97,
+        "evidence": [
+          {
+            "bbox": [
+              0.458,
+              0.232,
+              0.185,
+              0.376
+            ],
+            "description": "The same long antenna is visible in all five views.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "antenna_1"
+          }
+        ],
+        "feature_id": "antennae.visible_count",
+        "note": "Only one antenna can be individually supported; the opposite side is unresolved.",
+        "status": "observed",
+        "value": 1,
+        "visibility": "partial"
+      },
+      {
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "bbox": [
+              0.276,
+              0.231,
+              0.102,
+              0.144
+            ],
+            "description": "Bent jointed leg with a visible distal foot beside the wing cover.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "leg_1"
+          }
+        ],
+        "feature_id": "legs.present",
+        "note": "Multiple jointed legs are distinguishable.",
+        "status": "observed",
+        "value": true,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "bbox": [
+              0.276,
+              0.231,
+              0.102,
+              0.144
+            ],
+            "description": "Image-left leg nearest the wing tips, including its bent segments and distal foot.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "leg_1"
+          },
+          {
+            "bbox": [
+              0.278,
+              0.357,
+              0.083,
+              0.125
+            ],
+            "description": "Separate image-left middle leg forms a lower angular bend beside the wing cover.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "leg_2"
+          },
+          {
+            "bbox": [
+              0.301,
+              0.516,
+              0.074,
+              0.099
+            ],
+            "description": "Image-left leg beside the head bends outward and then downward.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "leg_3"
+          },
+          {
+            "bbox": [
+              0.502,
+              0.231,
+              0.088,
+              0.151
+            ],
+            "description": "Image-right leg nearest the wing tips has a broad angular bend and distal foot.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "leg_4"
+          },
+          {
+            "bbox": [
+              0.493,
+              0.372,
+              0.079,
+              0.123
+            ],
+            "description": "Separate image-right middle leg follows the wing margin to a lower bend.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "leg_5"
+          },
+          {
+            "bbox": [
+              0.469,
+              0.506,
+              0.076,
+              0.091
+            ],
+            "description": "Image-right leg beside the head forms a short outward loop, partly overlapped by the antenna.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": "leg_6"
+          }
+        ],
+        "feature_id": "legs.visible_count",
+        "note": "Six separate leg structures are visible; their attachments and some distal details are obscured.",
+        "status": "observed",
+        "value": 6,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.275,
+              0.229,
+              0.316,
+              0.387
+            ],
+            "description": "Legs project around the body, but their basal attachments remain hidden underneath it.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "legs.total_count",
+        "note": "Relevant anatomy is not fully exposed, so a total cannot be established.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "occluded"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.307,
+              0.311,
+              0.166,
+              0.083
+            ],
+            "description": "Dark head contours are visible, but eye boundaries are not reliably resolved.",
+            "image_id": "image_706563c083df4cff",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "eyes.visible",
+        "note": "Cannot confidently distinguish an eye from the surrounding dark head surface.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "insufficient_detail"
+      },
+      {
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "bbox": [
+              0.322,
+              0.214,
+              0.212,
+              0.395
+            ],
+            "description": "Dark black and grey surfaces carry ochre yellow to orange markings.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "body.colours",
+        "note": "Coarse appearance under the supplied lighting.",
+        "status": "observed",
+        "value": [
+          "black",
+          "grey",
+          "yellow",
+          "orange"
+        ],
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "bbox": [
+              0.322,
+              0.214,
+              0.212,
+              0.395
+            ],
+            "description": "Transverse bands on the front body and wing bases combine with irregular spots farther along the wing covers.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "body.pattern",
+        "note": "Visible pattern combines stripes and spots.",
+        "status": "observed",
+        "value": "mixed",
+        "visibility": "clear"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.323,
+              0.449,
+              0.173,
+              0.16
+            ],
+            "description": "Surface texture is visible, but individual hairlike structures are not resolved.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "body.hairs_visible",
+        "note": "Texture and soft edges do not establish hairs or their absence.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "insufficient_detail"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.251,
+              0.409,
+              0.13,
+              0.192
+            ],
+            "description": "Short appendage ends near the head are visible, but fracture surfaces are unresolved.",
+            "image_id": "image_dbf8f20b8d754998",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "condition.appendage_damage",
+        "note": "No definite break or detachment can be established; the unseen second antenna is not evidence of damage.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "insufficient_detail"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.283,
+              0.431,
+              0.209,
+              0.272
+            ],
+            "description": "Wing-cover outlines are visible, with small pale surface marks whose nature is unclear.",
+            "image_id": "image_706563c083df4cff",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "condition.wing_damage",
+        "note": "No supported tear or break; obscured surfaces and unresolved marks prevent confirming absence of damage.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "partial"
+      },
+      {
+        "confidence": null,
+        "evidence": [
+          {
+            "bbox": [
+              0.402,
+              0.367,
+              0.042,
+              0.034
+            ],
+            "description": "A pale circular spot lies on a wing cover, but no pin shaft is clearly resolved.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "mount.pin_visible",
+        "note": "The circular feature cannot be confidently identified as a mounting pin.",
+        "status": "unknown",
+        "value": null,
+        "visibility": "insufficient_detail"
+      },
+      {
+        "confidence": 1,
+        "evidence": [
+          {
+            "bbox": [
+              0.275,
+              0.212,
+              0.368,
+              0.404
+            ],
+            "description": "The specimen and its projecting visible appendages lie within the image.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "image.specimen_in_frame",
+        "note": "A specimen is visible in all five images.",
+        "status": "observed",
+        "value": true,
+        "visibility": "clear"
+      },
+      {
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "bbox": [
+              0.3,
+              0.505,
+              0.244,
+              0.111
+            ],
+            "description": "Overlapping appendages around the head have soft, dark boundaries and unresolved small terminal structures.",
+            "image_id": "image_220b1852312a4d56",
+            "instance_id": null
+          }
+        ],
+        "feature_id": "image.fine_detail_sufficient",
+        "note": "Major structures are distinguishable, but fine overlapping appendages are not reliably resolved.",
+        "status": "observed",
+        "value": false,
+        "visibility": "insufficient_detail"
+      }
+    ],
+    "summary": "Two patterned wing covers, one long antenna and six distinct leg structures are visible. Hidden attachments prevent a total leg count. Eyes, hairs, mounting pin and damage remain unresolved."
+  },
+  "review_status": "unreviewed",
+  "schema_sha256": "6539129f10eb1f08ba9e9ed4886adb2893f07415f2ac5ec7512ff3039a551324",
+  "schema_version": "specimen-features-v1",
+  "semantic_accuracy": "unverified",
+  "specimen_id": "pilot:001",
+  "state": "usable",
+  "telemetry": {
+    "cli_version": "codex-cli 0.154.0",
+    "exit_code": 0,
+    "model_note": "CLI request recorded; backend checkpoint not independently reported",
+    "model_requested": "gpt-6-astra",
+    "model_resolved": null,
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 22363,
+      "output_tokens": 2985,
+      "reasoning_output_tokens": 160
+    },
+    "wall_seconds": 95.805
+  },
+  "vocabulary_sha256": "8953e838e9abbb2b2e76155a4c69e0c8a745ca783ee255b37898de1a7d41f7f4"
+}

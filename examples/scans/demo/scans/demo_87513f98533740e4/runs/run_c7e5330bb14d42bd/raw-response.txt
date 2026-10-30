@@ -1,0 +1,251 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "The side surfaces do not reveal sufficiently distinct wing boundaries to establish a wing instance.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "Individual wings cannot be distinguished reliably.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.285, 0.369, 0.451, 0.12],
+          "description": "Long segmented antenna arches from the head above the body.",
+          "image_id": "image_9bd9b75388e74f44",
+          "instance_id": "antenna_1"
+        }
+      ],
+      "feature_id": "antennae.present",
+      "note": "One antenna is clearly distinguishable.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.285, 0.369, 0.451, 0.12],
+          "description": "Single individually traceable segmented antenna.",
+          "image_id": "image_9bd9b75388e74f44",
+          "instance_id": "antenna_1"
+        }
+      ],
+      "feature_id": "antennae.visible_count",
+      "note": "Only one antenna is individually supported across these views.",
+      "status": "observed",
+      "value": 1,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.332, 0.339, 0.342, 0.379],
+          "description": "Several jointed legs lie folded beside and across the underside.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "legs.present",
+      "note": "Jointed legs are visible.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.344, 0.335, 0.075, 0.126],
+          "description": "Upper left folded leg segment beside the head.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": "leg_1"
+        },
+        {
+          "bbox": [0.533, 0.355, 0.072, 0.079],
+          "description": "Upper right leg projects diagonally beside the head.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": "leg_2"
+        },
+        {
+          "bbox": [0.332, 0.425, 0.114, 0.228],
+          "description": "Middle left leg bends outward and extends downward.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": "leg_3"
+        },
+        {
+          "bbox": [0.491, 0.414, 0.15, 0.242],
+          "description": "Middle right leg has an outward bend and long descending segment.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": "leg_4"
+        },
+        {
+          "bbox": [0.343, 0.564, 0.101, 0.14],
+          "description": "Lower left leg runs outward from the abdomen and folds downward.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": "leg_5"
+        },
+        {
+          "bbox": [0.53, 0.562, 0.144, 0.155],
+          "description": "Lower right leg projects laterally and folds back toward the lower body.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": "leg_6"
+        }
+      ],
+      "feature_id": "legs.visible_count",
+      "note": "Six distinct leg structures are supported; some distal portions overlap or are obscured.",
+      "status": "observed",
+      "value": 6,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "Overlapping limbs and obscured attachment regions prevent a fully verified anatomical total.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.33, 0.328, 0.069, 0.064],
+          "description": "Dark rounded eye surface with a small highlight beneath the antenna base.",
+          "image_id": "image_78bfad8fe5bf4d12",
+          "instance_id": "eye_1"
+        }
+      ],
+      "feature_id": "eyes.visible",
+      "note": "At least one eye is visually distinguishable.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.261, 0.448, 0.497, 0.224],
+          "description": "Body shows orange and yellow areas among dark grey, black and brown surfaces.",
+          "image_id": "image_9bd9b75388e74f44",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Coarse colours under the supplied lighting.",
+      "status": "observed",
+      "value": ["black", "brown", "grey", "yellow", "orange"],
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.401, 0.27, 0.191, 0.437],
+          "description": "Head has longitudinal contrasting marks; underside has irregular patches and transverse markings.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Visible pattern combines stripes and irregular patches.",
+      "status": "observed",
+      "value": "mixed",
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "Soft surface texture does not resolve individual hairs or setae.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "No break is established; hidden appendages and unclear ends prevent assessing intactness.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "Wing surfaces and margins are not sufficiently distinguished for damage assessment.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.474, 0.304, 0.051, 0.696],
+          "description": "Straight mounting pin with a gold-coloured head extends above and below the specimen.",
+          "image_id": "image_92f8f957f7524209",
+          "instance_id": "pin_1"
+        }
+      ],
+      "feature_id": "mount.pin_visible",
+      "note": "Mounting pin is distinct from the curved antenna.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.257, 0.444, 0.566, 0.259],
+          "description": "Pinned specimen and its projecting antenna are visible within the frame.",
+          "image_id": "image_92f8f957f7524209",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "The specimen is visible in all five images.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.332, 0.338, 0.343, 0.38],
+          "description": "Broad leg segments are discernible, but overlapping ends and small structures remain soft.",
+          "image_id": "image_642f8118383e486b",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "Fine overlapping appendage detail is not sufficiently resolved.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "Visible features include one antenna, six partially visible legs, an eye, mixed orange-yellow and dark markings, and a mounting pin. Wings, damage, hairs and total leg count remain unresolved."
+}

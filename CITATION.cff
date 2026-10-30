@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+type: software
+version: 0.1.0
+license: MIT
+title: "Local AI for specimen features"
+message: "If you use this software or its saved examples, please cite this repository."
+abstract: >-
+  Code and saved evidence for Agentic AI Systems for Specimen Interaction and
+  Camera-Based Observation. Includes local vision-model analysis, image-linked
+  feature graphs, the OpenScan-based scanner workflow and five original scans.
+  Software is MIT licensed. Jack Dan Hollister's photographs are CC BY 4.0;
+  third-party photographs retain their individual credits and licences.
+authors:
+  - family-names: Hollister
+    given-names: Jack D.
+    affiliation: "Natural History Museum, London, United Kingdom"
+  - family-names: Dupont
+    given-names: Steen
+    affiliation: "Natural History Museum, London, United Kingdom"
+repository-code: "https://github.com/JackDanHollister/local-vlm-morphology"
+keywords:
+  - morphology
+  - local vision-language models
+  - specimen images
+  - graph networks

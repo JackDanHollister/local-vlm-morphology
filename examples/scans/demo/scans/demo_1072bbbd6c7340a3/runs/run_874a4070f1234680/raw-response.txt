@@ -1,0 +1,185 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "The visible object is a rigid, coiled shell; insect wing anatomy is not applicable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "No applicable wing anatomy is shown.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.present",
+      "note": "Shell projections do not provide evidence of antennae; no soft anatomy is exposed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.visible_count",
+      "note": "Antennae cannot be assessed from the exposed shell.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.present",
+      "note": "Only shell surfaces and projections are shown; no leg anatomy can be assessed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.visible_count",
+      "note": "Shell spines cannot be counted as legs; a zero count is not supported by exposed anatomy.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "Relevant anatomy is not exposed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "eyes.visible",
+      "note": "No head or eye-bearing soft anatomy is exposed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.32, 0.36, 0.37, 0.31],
+          "description": "Exposed shell surface is creamy white to pale yellow with brown bands.",
+          "image_id": "image_b821b74b098045b8",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Colours describe the visible shell, under the supplied lighting.",
+      "status": "observed",
+      "value": ["white", "yellow", "brown"],
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.3, 0.38, 0.28, 0.25],
+          "description": "Repeated pale and brownish bands follow the shell's curved surface ridges.",
+          "image_id": "image_9ec271d8a93c45a7",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Visible shell surfaces are predominantly banded.",
+      "status": "observed",
+      "value": "striped",
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "No hairs are resolved; image detail and unexposed surfaces prevent a confident absence assessment.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "No assessable anatomical appendages are exposed. Irregular shell projections alone do not establish appendage damage.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "Wing anatomy is not applicable to the visible shell.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "mount.pin_visible",
+      "note": "Foam and platform hardware are visible, but the contact beneath the shell is hidden; no mounting pin can be confirmed.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.19, 0.28, 0.61, 0.51],
+          "description": "The framed object is a coiled, ridged shell with rigid spines.",
+          "image_id": "image_a370b35376af4e88",
+          "instance_id": null
+        },
+        {
+          "bbox": [0.21, 0.25, 0.58, 0.55],
+          "description": "Another view shows the same shell on foam, without a visible insect.",
+          "image_id": "image_9ec271d8a93c45a7",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "A shell is visible in all five images, but no insect specimen is visible as required by this feature's definition.",
+      "status": "observed",
+      "value": false,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.32, 0.24, 0.46, 0.2],
+          "description": "Shell ridges and large projections are distinguishable, but fine insect appendage anatomy is unavailable.",
+          "image_id": "image_27182d03f41d476d",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "These views do not support distinguishing fine overlapping insect appendages.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "The five images show a pale, brown-banded, spiny shell on foam, with no visible insect. Insect appendage counts and condition cannot be established."
+}

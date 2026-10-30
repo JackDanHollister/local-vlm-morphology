@@ -1,0 +1,185 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "The images show a shell-like object; insect wing anatomy is not applicable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "No applicable wing structures are identifiable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.present",
+      "note": "The visible projections are continuous with the shell surface; antenna anatomy is not applicable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "antennae.visible_count",
+      "note": "No applicable antenna structures are identifiable.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.present",
+      "note": "The images show shell projections, without applicable leg anatomy.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.visible_count",
+      "note": "Leg counting is not applicable to the visible shell-like object.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "No applicable leg anatomy is shown.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "eyes.visible",
+      "note": "Only a shell-like exterior is shown; eye-bearing anatomy is unavailable.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.22, 0.42, 0.42, 0.49],
+          "description": "Cream-white and pale yellow shell surface with brown bands and grooves.",
+          "image_id": "image_28343779d2674189",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Colours describe the visible shell-like object under the supplied lighting.",
+      "status": "observed",
+      "value": ["white", "yellow", "brown"],
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.39, 0.46, 0.35, 0.35],
+          "description": "Repeated pale and brownish bands follow the ridged surface.",
+          "image_id": "image_8f479c939d0148ae",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.pattern",
+      "note": "Visible banding is interspersed with strong surface ridges.",
+      "status": "observed",
+      "value": "striped",
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "Fine hairlike structures cannot be reliably assessed from the softened surface detail.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "Insect appendage damage is not applicable to the shell-like object.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "Wing damage is not applicable to the shell-like object.",
+      "status": "not_applicable",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "mount.pin_visible",
+      "note": "The object rests on white support material; the contact area is partly concealed, so a mounting pin cannot be ruled out.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.125, 0.33, 0.694, 0.624],
+          "description": "A ridged, spiny shell-like object is shown rather than a visible insect specimen.",
+          "image_id": "image_e7351e3ea5474650",
+          "instance_id": null
+        },
+        {
+          "bbox": [0.128, 0.319, 0.704, 0.628],
+          "description": "The opposite view likewise shows a shell-like exterior.",
+          "image_id": "image_8f479c939d0148ae",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "Under the supplied definition requiring an insect specimen, this is false.",
+      "status": "observed",
+      "value": false,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.35, 0.68, 0.21, 0.24],
+          "description": "Small projections and recessed edges are soft; fine overlapping appendage detail is not resolved.",
+          "image_id": "image_bdacae60caa14fbb",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "The images support gross shell shape and banding, but not fine insect appendage assessment.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "All five views show a cream-yellow, brown-banded, spiny shell-like object on white support material. No insect specimen is visible; insect appendage features are not applicable."
+}

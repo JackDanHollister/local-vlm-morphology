@@ -1,0 +1,52 @@
+{
+  "created": "2026-09-11T14:26:00.089322+00:00",
+  "crop_box": [
+    920,
+    488,
+    1216,
+    1528
+  ],
+  "height": 1528,
+  "id": "image_dbf8f20b8d754998",
+  "parent_id": "image_c9deb8750c844d76",
+  "path": "assets/0e5b0f4400ce670370aa59d18d92856962171feeface618e341bafa598fa418d.png",
+  "pose": {
+    "Y_phase_degrees": 90.0,
+    "action_id": "action_d8ddaea84b354ae1",
+    "axis": "Y",
+    "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+    "firmware_position": {
+      "Y": 2.9125,
+      "Z": -9.5625
+    },
+    "kind": "commanded_relative_steps_uncalibrated",
+    "photo_target": {
+      "Y": 2.9125,
+      "Z": -9.5625
+    },
+    "physical_angle_verified": false,
+    "relative_steps_this_action": 25,
+    "route_photo": 3,
+    "saved_limits": {
+      "Y": [
+        2.2875,
+        4.475
+      ],
+      "Z": [
+        -9.6875,
+        2.4375
+      ]
+    },
+    "session_commanded_steps": {
+      "Y": 50,
+      "Z": 10
+    },
+    "session_id": "demo-0b80935c2fd2445b",
+    "tilt_band": 1,
+    "transit_action_ids": []
+  },
+  "role": "crop",
+  "sha256": "0e5b0f4400ce670370aa59d18d92856962171feeface618e341bafa598fa418d",
+  "specimen_id": "pilot:001",
+  "width": 1216
+}

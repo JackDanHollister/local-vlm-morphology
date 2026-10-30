@@ -1,0 +1,24 @@
+{
+  "axes": {
+    "Y": {
+      "max_stop": null,
+      "min_stop": null,
+      "position": 2.287
+    },
+    "Z": {
+      "max_stop": null,
+      "min_stop": null,
+      "position": -9.687
+    }
+  },
+  "scan": {
+    "axis": "Y",
+    "bands": 10,
+    "frames": 30,
+    "rotor_axis": "Z",
+    "settle": 0.8,
+    "step": -7,
+    "turntable_axis": "Y"
+  },
+  "updated_at": "2026-09-11T15:03:57+0100"
+}

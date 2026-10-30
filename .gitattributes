@@ -1,0 +1,8 @@
+# Preserve retained source records byte for byte across checkouts.
+examples/qwen/sources/** -text
+examples/other-models/sources/** -text
+examples/scans/demo/** -text
+archive/*.zip binary
+
+# The original CSV export uses CRLF line endings.
+examples/qwen/sources/beetle/predicted-labels.csv whitespace=cr-at-eol

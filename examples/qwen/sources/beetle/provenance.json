@@ -1,0 +1,67 @@
+{
+  "example": "01-wide-view",
+  "image": "image.jpg",
+  "image_sha256": "6019faed95e229dd4be4e0d6235e526a8a78c51c033b4452932e42073185b623",
+  "image_dimensions": [
+    3280,
+    2464
+  ],
+  "image_bytes_unchanged": true,
+  "source_scan": "demo_6eb6e616b68e45c4",
+  "source_image_record": {
+    "created": "2026-09-11T16:07:03.116704+00:00",
+    "crop_box": null,
+    "height": 2464,
+    "id": "image_127f501143104d29",
+    "parent_id": null,
+    "path": "assets/6019faed95e229dd4be4e0d6235e526a8a78c51c033b4452932e42073185b623.jpg",
+    "pose": {
+      "Y_phase_degrees": 0.0,
+      "action_id": "action_40f8027d41d84c1f",
+      "axis": null,
+      "calibration_sha256": "6ac039b46f93a057a0069aac22d38bfabbbbeab33ab230d0cd52f586bffdffe9",
+      "capture_backend": "persistent-picamera2-v1",
+      "firmware_position": {
+        "Y": 2.2875,
+        "Z": -9.5625
+      },
+      "kind": "commanded_relative_steps_uncalibrated",
+      "photo_target": {
+        "Y": 2.2875,
+        "Z": -9.5625
+      },
+      "physical_angle_verified": false,
+      "relative_steps_this_action": 0,
+      "route_photo": 1,
+      "saved_limits": {
+        "Y": [
+          2.2875,
+          4.475
+        ],
+        "Z": [
+          -9.6875,
+          2.4375
+        ]
+      },
+      "session_id": "demo-6eb6e616b68e45c4",
+      "tilt_band": 1,
+      "transit_action_ids": []
+    },
+    "role": "original",
+    "sha256": "6019faed95e229dd4be4e0d6235e526a8a78c51c033b4452932e42073185b623",
+    "specimen_id": "pilot:001",
+    "width": 3280
+  },
+  "qwen_run_id": "run_517a20489a604ff5",
+  "qwen_request_id": "fb521dc34ce54a8fbb23958ff43f34a5",
+  "analysed_on": "2026-10-14T10:35:14.104419+00:00",
+  "model": "qwen3.8:27b-mtp-q8_0",
+  "result_source": "traittrail-capture/mas/runs/gb10-live-response-corrected.json",
+  "results_sha256": "382b422318d22b234d6d664b70c536fd796574fad4fae97f68c40aa41e7e8853",
+  "feature_observations": 16,
+  "current_contract_errors": [],
+  "human_verified": null,
+  "review_notes": [
+    "Anatomical claims, counts, damage assessments and any taxonomic guess require expert review. Confidence is model self-report."
+  ]
+}

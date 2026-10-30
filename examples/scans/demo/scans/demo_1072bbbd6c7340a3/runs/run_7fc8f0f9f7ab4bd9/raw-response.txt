@@ -1,0 +1,23 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {"confidence": null, "evidence": [], "feature_id": "wings.present", "note": "The images show a rigid, coiled, spiny shell; insect wing anatomy is not applicable.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "wings.visible_count", "note": "No applicable wing anatomy is shown.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "antennae.present", "note": "Shell projections do not provide evidence of antennae.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "antennae.visible_count", "note": "No applicable antenna anatomy is shown.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "legs.present", "note": "Shell projections do not provide evidence of legs.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "legs.visible_count", "note": "No applicable leg anatomy is shown.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "legs.total_count", "note": "A total leg count is not applicable to the visible shell.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "eyes.visible", "note": "No soft body or relevant eye-bearing anatomy is exposed.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [{"bbox": [0.29, 0.41, 0.26, 0.45], "description": "Shell surface is cream-white and pale yellow with brown areas.", "image_id": "image_b60e4a23f7bc40ee", "instance_id": null}], "feature_id": "body.colours", "note": "Colours describe the visible shell surface.", "status": "observed", "value": ["white", "yellow", "brown"], "visibility": "clear"},
+    {"confidence": null, "evidence": [{"bbox": [0.4, 0.44, 0.27, 0.34], "description": "Repeated curved pale and brownish bands follow raised shell ridges.", "image_id": "image_b53616106cdf43a3", "instance_id": null}], "feature_id": "body.pattern", "note": "Visible shell banding follows surface relief.", "status": "observed", "value": "striped", "visibility": "clear"},
+    {"confidence": null, "evidence": [], "feature_id": "body.hairs_visible", "note": "Fine hairs cannot be reliably assessed from the shell views.", "status": "unknown", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "condition.appendage_damage", "note": "Shell spines are not evidence of insect appendages; appendage damage assessment is not applicable.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "condition.wing_damage", "note": "No applicable wing anatomy is shown.", "status": "not_applicable", "value": null, "visibility": "insufficient_detail"},
+    {"confidence": null, "evidence": [], "feature_id": "mount.pin_visible", "note": "Foam and a cylindrical support are visible, but the contact beneath the shell is concealed; a mounting pin cannot be assessed.", "status": "unknown", "value": null, "visibility": "occluded"},
+    {"confidence": null, "evidence": [{"bbox": [0.21, 0.28, 0.57, 0.6], "description": "The mounted object is a coiled shell with ridges and spines; no insect specimen is visible.", "image_id": "image_c798b0317f114dbf", "instance_id": null}], "feature_id": "image.specimen_in_frame", "note": "Under the supplied definition requiring an insect specimen, this is false.", "status": "observed", "value": false, "visibility": "clear"},
+    {"confidence": null, "evidence": [{"bbox": [0.21, 0.33, 0.58, 0.65], "description": "Shell relief is visible, but fine overlapping insect appendages are not available to distinguish.", "image_id": "image_29e6a0bcf96442d4", "instance_id": null}], "feature_id": "image.fine_detail_sufficient", "note": "The supplied images do not support the requested fine insect appendage assessment.", "status": "observed", "value": false, "visibility": "insufficient_detail"}
+  ],
+  "summary": "All five views show a cream-yellow, brown-banded spiny shell on foam. No insect specimen is visible; insect appendage measurements are not applicable."
+}

@@ -1,0 +1,43 @@
+name: Check experiment
+on: [push, pull_request]
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install '.[dev]'
+      - run: python -m pytest -q
+      - run: traittrail-experiment check
+      - run: python scripts/check_capture.py
+      - run: python scripts/check_release.py
+  scanner:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scanner
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q tests
+  saved-scans:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: examples/scans
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q tests/test_specimen_*.py
+      - run: |
+          for scan in 1 2 3 4 5; do
+            python run_demo.py --scan "$scan" --check
+          done

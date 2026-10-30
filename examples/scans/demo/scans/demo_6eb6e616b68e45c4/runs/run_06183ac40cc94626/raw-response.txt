@@ -1,0 +1,225 @@
+{
+  "next_view_id": null,
+  "next_view_reason": "No additional views are available.",
+  "observations": [
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.present",
+      "note": "No wing can be reliably distinguished from the partly concealed body.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "wings.visible_count",
+      "note": "Occlusion and blur prevent identification of individual wings.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.267, 0.486, 0.564, 0.195],
+          "description": "Two long, slender antennae extend from the head region across and beyond the pin.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "antennae.present",
+      "note": "Long antennae are distinguishable from the shorter folded legs.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.268, 0.485, 0.522, 0.197],
+          "description": "Upper arcing antenna with a downward-curving tip.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": "antenna_1"
+        },
+        {
+          "bbox": [0.272, 0.51, 0.555, 0.138],
+          "description": "Second antenna follows a lower course and ends farther to the right.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": "antenna_2"
+        }
+      ],
+      "feature_id": "antennae.visible_count",
+      "note": "Two distinct antenna shafts and tips are supported; their bases are partly obscured.",
+      "status": "observed",
+      "value": 2,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.28, 0.451, 0.278, 0.127],
+          "description": "Several angular, jointed legs project above the exposed body.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "legs.present",
+      "note": "Folded legs are visibly distinguishable.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.281, 0.452, 0.077, 0.107],
+          "description": "Leftmost tall folded leg.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": "leg_1"
+        },
+        {
+          "bbox": [0.381, 0.488, 0.085, 0.08],
+          "description": "Middle folded leg with an elevated joint and descending segment.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": "leg_2"
+        },
+        {
+          "bbox": [0.462, 0.53, 0.087, 0.047],
+          "description": "Rightmost low angular leg above the card edge.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": "leg_3"
+        }
+      ],
+      "feature_id": "legs.visible_count",
+      "note": "Three folded legs can be distinguished; overlapping or concealed structures are not counted.",
+      "status": "observed",
+      "value": 3,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "legs.total_count",
+      "note": "The card and body conceal the remaining attachment regions.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "eyes.visible",
+      "note": "Dark areas near the head are too blurred to identify confidently as eyes.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.254, 0.488, 0.294, 0.089],
+          "description": "Exposed body appears predominantly brown with yellowish patches.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "body.colours",
+      "note": "Coarse colours of the exposed surface under the supplied lighting.",
+      "status": "observed",
+      "value": ["brown", "yellow"],
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.pattern",
+      "note": "Blur, shadows and overlapping legs prevent a reliable surface-pattern assessment.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "body.hairs_visible",
+      "note": "Individual hairs or setae are not resolved.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "insufficient_detail"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.appendage_damage",
+      "note": "No definite break is resolved, but hidden portions prevent an intactness assessment.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [],
+      "feature_id": "condition.wing_damage",
+      "note": "Wings are not sufficiently identifiable to assess damage.",
+      "status": "unknown",
+      "value": null,
+      "visibility": "occluded"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.602, 0.367, 0.037, 0.479],
+          "description": "Black mounting pin with a gold-coloured head passes through the cards into the foam.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": "pin_1"
+        }
+      ],
+      "feature_id": "mount.pin_visible",
+      "note": "The mounting pin is distinct from the specimen.",
+      "status": "observed",
+      "value": true,
+      "visibility": "clear"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.253, 0.45, 0.576, 0.232],
+          "description": "Body, folded legs and long antennae are visible above the mounting card.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": "specimen_1"
+        }
+      ],
+      "feature_id": "image.specimen_in_frame",
+      "note": "The specimen is in frame but partly concealed by cards.",
+      "status": "observed",
+      "value": true,
+      "visibility": "partial"
+    },
+    {
+      "confidence": null,
+      "evidence": [
+        {
+          "bbox": [0.254, 0.451, 0.297, 0.129],
+          "description": "Body and folded appendages have soft boundaries and unresolved overlaps.",
+          "image_id": "image_f409ee7b7c354e0e",
+          "instance_id": null
+        }
+      ],
+      "feature_id": "image.fine_detail_sufficient",
+      "note": "The views support coarse appendage recognition but not fine overlapping anatomy.",
+      "status": "observed",
+      "value": false,
+      "visibility": "insufficient_detail"
+    }
+  ],
+  "summary": "Partly occluded brown and yellowish specimen with two distinguishable antennae and three visible folded legs. Mounting pin is visible. Total leg count, wings, eyes, hairs, pattern and damage remain unresolved."
+}

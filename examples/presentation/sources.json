@@ -1,0 +1,145 @@
+{
+  "images": [
+    {
+      "file": "image13.png",
+      "sha256": "dbcce006378867add04f3602c9f07803f43ab64ac90720a8b6946dd02ba14679",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        13
+      ],
+      "description": "Pale butterfly · Qwen wing labels",
+      "model_label": "Qwen · version not specified in image",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image14.png",
+      "sha256": "2d3557727cd5d0b81d97ec0eb91a72eee52576561e336df3bc06d348beb4abcb",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        13
+      ],
+      "description": "Pale butterfly · Qwen antenna labels",
+      "model_label": "Qwen · version not specified in image",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image15.png",
+      "sha256": "617da133fad23976704f0bacf1fc9d0f721885233b170e476e1e02eef440811e",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        14
+      ],
+      "description": "Striped beetle · leg labels",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image16.png",
+      "sha256": "776d495844865ad6210a4db0887e87f563ffea1cc76e954a71932375bd5298b8",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        14
+      ],
+      "description": "Long-antenna insect · mounting-pin label",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image17.png",
+      "sha256": "6fe900948b32c664bf4c1af69044beaa4192cc814aed20a5d2dd38425313c76c",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        15
+      ],
+      "description": "Long-antenna insect · feature labels",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image18.png",
+      "sha256": "9459db8711215bb04cf2c0e2c52c9970443676b76262838f6d2435d04bfd8e66",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        15
+      ],
+      "description": "Striped beetle · side-view feature labels",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image19.png",
+      "sha256": "30d87433b738848a6b7ac8ea84aa543b2f3d55b473506e98c5ce7caa1984b9a9",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        15
+      ],
+      "description": "Spiny shell · feature labels",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image20.png",
+      "sha256": "a7275ff827b7512f2c75af0cd2e55b0cea43185036c8278f2f1cef2127b154dc",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        15
+      ],
+      "description": "Striped beetle · dorsal feature labels",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image21.png",
+      "sha256": "fe0ae2d84464874aae707d08dacaeaa471d1714b1d494f6ee4c02f1a16284e9b",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        15
+      ],
+      "description": "Pale butterfly · Codex feature labels",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    },
+    {
+      "file": "image22.png",
+      "sha256": "3d779df68bee11237ceb409d8ebc4923e9a908645b1a4eb5fba49487b86c8450",
+      "source_deck": "LT17_01_Hollister.pptx",
+      "slides": [
+        16
+      ],
+      "description": "Striped beetle · appendage-damage label",
+      "model_label": "Codex / GPT-6 Astra",
+      "credit": "Jack Dan Hollister",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "transformations": []
+    }
+  ],
+  "note": "Original embedded annotations are retained. Qwen slide images are not relabelled as the later 27B runs."
+}

@@ -1,0 +1,144 @@
+[
+  {
+    "specimen": "butterfly",
+    "model": "openai/gpt-6-astra",
+    "result": "butterfly/astra.json",
+    "request_id": "048bdbd1c508410e9516ac46eb1d50ba",
+    "seconds": 50.499,
+    "cost_usd": 0.1686425,
+    "settings": {
+      "bbox_adapter": null,
+      "image_count": 1,
+      "max_tokens": 12000,
+      "mode": "openrouter",
+      "model": "openai/gpt-6-astra",
+      "reasoning": {
+        "effort": "low"
+      },
+      "timeout_seconds": 600
+    },
+    "review_status": "unreviewed"
+  },
+  {
+    "specimen": "butterfly",
+    "model": "anthropic/claude-opus-5.5",
+    "result": "butterfly/claude.json",
+    "request_id": "aa9afb87add344cabce5f009cacd89ce",
+    "seconds": 33.931,
+    "cost_usd": 0.075084,
+    "settings": {
+      "bbox_adapter": null,
+      "image_count": 1,
+      "max_tokens": 12000,
+      "mode": "openrouter",
+      "model": "anthropic/claude-opus-5.5",
+      "reasoning": {
+        "effort": "low"
+      },
+      "timeout_seconds": 600
+    },
+    "review_status": "unreviewed"
+  },
+  {
+    "specimen": "butterfly",
+    "model": "google/gemini-3.1-pro-preview",
+    "result": "butterfly/gemini.json",
+    "request_id": "5aa0bc3ee0364ad8a1f8fc031d5a2435",
+    "seconds": 58.188,
+    "cost_usd": 0.0759,
+    "settings": {
+      "bbox_adapter": null,
+      "image_count": 1,
+      "max_tokens": 12000,
+      "mode": "openrouter",
+      "model": "google/gemini-3.1-pro-preview",
+      "reasoning": {
+        "effort": "high"
+      },
+      "response_format": "json_object",
+      "timeout_seconds": 600
+    },
+    "review_status": "unreviewed"
+  },
+  {
+    "specimen": "beetle",
+    "model": "openai/gpt-6-astra",
+    "result": "beetle/astra.json",
+    "request_id": "7f61fa9777e84a078cec31ec671b2374",
+    "seconds": 57.794,
+    "cost_usd": 0.186655,
+    "settings": {
+      "bbox_adapter": null,
+      "image_count": 1,
+      "max_tokens": 12000,
+      "mode": "openrouter",
+      "model": "openai/gpt-6-astra",
+      "reasoning": {
+        "effort": "low"
+      },
+      "timeout_seconds": 600
+    },
+    "review_status": "unreviewed"
+  },
+  {
+    "specimen": "beetle",
+    "model": "anthropic/claude-opus-5.5",
+    "result": "beetle/claude.json",
+    "request_id": "2b29f20e6476443187d41e9e0b28aa01",
+    "seconds": 52.911,
+    "cost_usd": 0.10382,
+    "settings": {
+      "bbox_adapter": null,
+      "image_count": 1,
+      "max_tokens": 12000,
+      "mode": "openrouter",
+      "model": "anthropic/claude-opus-5.5",
+      "reasoning": {
+        "effort": "medium"
+      },
+      "timeout_seconds": 600
+    },
+    "review_status": "unreviewed"
+  },
+  {
+    "specimen": "beetle",
+    "model": "google/gemini-3.1-pro-preview",
+    "result": "beetle/gemini.json",
+    "request_id": "5060efb555bc495b970403a48d5387c8",
+    "seconds": 33.581,
+    "cost_usd": 0.04565,
+    "settings": {
+      "bbox_adapter": null,
+      "image_count": 1,
+      "max_tokens": 24576,
+      "mode": "openrouter",
+      "model": "google/gemini-3.1-pro-preview",
+      "reasoning": {
+        "effort": "high"
+      },
+      "response_format": "json_object",
+      "timeout_seconds": 600
+    },
+    "review_status": "unreviewed"
+  },
+  {
+    "specimen": "beetle",
+    "model": "moonshotai/kimi-k3",
+    "result": "beetle/kimi.json",
+    "request_id": "38347a0204a24d38a9f04b6c6435d4b2",
+    "seconds": 63.4,
+    "cost_usd": 0.05109,
+    "settings": {
+      "bbox_adapter": null,
+      "image_count": 1,
+      "max_tokens": 12000,
+      "mode": "openrouter",
+      "model": "moonshotai/kimi-k3",
+      "reasoning": {
+        "effort": "low"
+      },
+      "timeout_seconds": 600
+    },
+    "review_status": "unreviewed"
+  }
+]
