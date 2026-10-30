@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT
 SOURCES = ROOT / 'examples/qwen/sources'
 SINGLES = ROOT / 'examples/qwen/figures'
-PAPER = ROOT / 'paper/figures'
+COMBINED = ROOT / 'examples/qwen/figures'
 MODEL = 'qwen3.8:27b-mtp-q8_0'
 WIDTH = 4252
 MARGIN = 62
@@ -85,7 +85,7 @@ SPECS = [
 
 
 def fonts() -> tuple[ImageFont.FreeTypeFont, ImageFont.FreeTypeFont, ImageFont.FreeTypeFont]:
-    global OUTPUT, SINGLES, PAPER
+    global OUTPUT, SINGLES, COMBINED
     parser = argparse.ArgumentParser()
     parser.add_argument('--font')
     parser.add_argument('--bold-font')
@@ -93,7 +93,7 @@ def fonts() -> tuple[ImageFont.FreeTypeFont, ImageFont.FreeTypeFont, ImageFont.F
     args = parser.parse_args()
     OUTPUT = args.output.resolve()
     SINGLES = OUTPUT / 'examples/qwen/figures'
-    PAPER = OUTPUT / 'paper/figures'
+    COMBINED = OUTPUT / 'examples/qwen/figures'
     regular, bold = font_path(args.font), font_path(args.bold_font, bold=True)
     return (ImageFont.truetype(regular, 57), ImageFont.truetype(bold, 62),
             ImageFont.truetype(regular, 46))
@@ -113,7 +113,7 @@ def transform_box(box: list, size: tuple, crop: tuple, rotation: int) -> tuple:
 def main() -> None:
     regular, bold, small = fonts()
     SINGLES.mkdir(parents=True, exist_ok=True)
-    PAPER.mkdir(parents=True, exist_ok=True)
+    COMBINED.mkdir(parents=True, exist_ok=True)
     row_h = ROW_TITLE_H + CELL_H
     height = 2 * MARGIN + 3 * row_h + 2 * ROW_GAP + 102
     combined = Image.new('RGB', (WIDTH, height), 'white')
@@ -217,16 +217,16 @@ def main() -> None:
     assert letter == 12
     draw.text((MARGIN, height - 77), 'Saved Qwen predictions · boxes uncorrected · photographs shown at different magnifications',
               font=small, fill='#4C5D56')
-    main_png = PAPER / 'qwen-three-specimens-4x3.png'
-    main_tiff = PAPER / 'qwen-three-specimens-4x3.tif'
+    main_png = COMBINED / 'qwen-three-specimens-4x3.png'
+    main_tiff = COMBINED / 'qwen-three-specimens-4x3.tif'
     combined.save(main_png, dpi=(600, 600), optimize=True)
     combined.save(main_tiff, dpi=(600, 600), compression='tiff_lzw')
     preview = combined.copy()
     preview.thumbnail((1800, 1800), Image.Resampling.LANCZOS)
-    preview.save(PAPER / 'qwen-three-specimens-preview.jpg', quality=95, subsampling=0)
-    manifest['paper_files'] = [dict(path=str(p.relative_to(OUTPUT)), sha256=sha(p)) for p in [main_png, main_tiff]]
+    preview.save(COMBINED / 'qwen-three-specimens-preview.jpg', quality=95, subsampling=0)
+    manifest['combined_files'] = [dict(path=str(p.relative_to(OUTPUT)), sha256=sha(p)) for p in [main_png, main_tiff]]
     (SINGLES / 'figure-provenance.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding="utf-8", newline="")
-    print(json.dumps({'panels': letter, 'specimens': len(SPECS), 'paper_pixels': [WIDTH, height],
+    print(json.dumps({'panels': letter, 'specimens': len(SPECS), 'combined_pixels': [WIDTH, height],
                       'dpi': 600, 'unchanged_sources': 9, 'new_inference': 0}, indent=2))
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-30 — Simpler repository layout
+
+- Removed the manuscript folder and the separate operating-scanner directory from the current repository. The combined Qwen figure and caption now sit with the other Qwen examples.
+- Updated the front page, setup notes, citation summary and figure tools for the new layout. Retained the current image-analysis workflow, all saved scans and the historical research archive.
+- Removed the operating-scanner test job and updated the preservation manifest to distinguish retained data from the omitted scanner source files.
+- All 119 remaining tests and the offline demo passed. Checked all 22 local links, the retained-data manifest and 18 rebuilt Qwen images; the moved figures retain their original pixels.
+
 ## 2026-10-30 — Publication privacy check
 
 - Removed identifying computer paths, private-network addresses, scanner device identifiers and personal SSH defaults from shared records, source code and the history ZIP. Connection examples now require configuration for the user's own scanner.

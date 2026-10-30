@@ -1,4 +1,4 @@
-"""Check the preserved Capture snapshot without its original repository."""
+"""Check retained Capture material without its original repository."""
 from __future__ import annotations
 
 import hashlib
@@ -19,7 +19,7 @@ def local_path(relative: str) -> Path:
 
 def main() -> None:
     manifest = json.loads((ROOT / 'archive/capture-manifest.json').read_text())
-    if manifest.get('schema') not in {'capture-migration-v1', 'capture-migration-v2'}:
+    if manifest.get('schema') not in {'capture-migration-v1', 'capture-migration-v2', 'capture-migration-v3'}:
         raise ValueError('Unknown Capture manifest format')
     archive = local_path(manifest['archive']['path'])
     if hashlib.sha256(archive.read_bytes()).hexdigest() != manifest['archive']['sha256']:
@@ -36,9 +36,17 @@ def main() -> None:
             if len(raw) != entry['bytes'] or hashlib.sha256(raw).hexdigest() != entry['sha256']:
                 raise ValueError('Preserved file mismatch: ' + entry['source_path'])
             total += len(raw)
-    if total != manifest['source_bytes'] or len(manifest['files']) != manifest['source_file_count']:
+    partial = manifest['schema'] == 'capture-migration-v3'
+    expected_bytes = manifest['retained_bytes'] if partial else manifest['source_bytes']
+    expected_count = manifest['retained_file_count'] if partial else manifest['source_file_count']
+    if total != expected_bytes or len(manifest['files']) != expected_count:
         raise ValueError('Capture manifest totals disagree')
-    print(f"{manifest['source_file_count']} distributed Capture files verified; {total} bytes checked.")
+    if partial:
+        omitted = manifest['omitted_source_files']
+        source_paths = [e['source_path'] for e in manifest['files']] + [e['source_path'] for e in omitted]
+        if len(source_paths) != manifest['source_file_count'] or len(set(source_paths)) != len(source_paths):
+            raise ValueError('Retained and omitted source records disagree')
+    print(f"{expected_count} retained Capture files verified; {total} bytes checked.")
     if manifest.get('privacy_redaction'):
         print('Workstation and device metadata redactions are recorded in the manifest.')
 

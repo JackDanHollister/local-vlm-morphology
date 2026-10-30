@@ -581,13 +581,13 @@
       "four_panel_strip": "examples/qwen/figures/folded-butterfly-four-panels.png"
     }
   ],
-  "paper_files": [
+  "combined_files": [
     {
-      "path": "paper/figures/qwen-three-specimens-4x3.png",
+      "path": "examples/qwen/figures/qwen-three-specimens-4x3.png",
       "sha256": "80918602be02d117310185e13447a4633fb4500e773ff1a1a8ee0cb03a4f6e06"
     },
     {
-      "path": "paper/figures/qwen-three-specimens-4x3.tif",
+      "path": "examples/qwen/figures/qwen-three-specimens-4x3.tif",
       "sha256": "cda413a38263dfba423bf5a8821342a344d57976a268defd4aa533d7bc8fb146"
     }
   ]

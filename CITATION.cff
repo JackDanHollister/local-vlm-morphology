@@ -7,7 +7,7 @@ message: "If you use this software or its saved examples, please cite this repos
 abstract: >-
   Code and saved evidence for Agentic AI Systems for Specimen Interaction and
   Camera-Based Observation. Includes local vision-model analysis, image-linked
-  feature graphs, the OpenScan-based scanner workflow and five original scans.
+  feature graphs and five original OpenScan-based scans with a saved-results viewer.
   Software is MIT licensed. Jack Dan Hollister's photographs are CC BY 4.0;
   third-party photographs retain their individual credits and licences.
 authors:

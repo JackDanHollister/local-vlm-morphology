@@ -1,5 +1,5 @@
 {
-  "schema": "capture-migration-v2",
+  "schema": "capture-migration-v3",
   "source_repository": "https://github.com/JackDanHollister/traittrail-capture",
   "source_commit": "4bd63c7003c547aba9bee743529b8e6b76d55c44",
   "imported": "2026-10-30",
@@ -89328,15 +89328,6 @@
       "member": "analysis/summarise_saved_scans.py"
     },
     {
-      "source_path": "capture/FIRMWARE_PROTOCOL.md",
-      "sha256": "04f7acb6dde3e87567637681b2098e4277361302cff78692dd6a9fead2631db8",
-      "git_blob_sha1": "905e2dea17c3e6fd66fde0d4ac5f22ca31f19566",
-      "git_mode": "100755",
-      "bytes": 2623,
-      "storage": "file",
-      "path": "scanner/FIRMWARE_PROTOCOL.md"
-    },
-    {
       "source_path": "capture/HARDWARE_NOTES.md",
       "sha256": "74c29941d1565c5deb6f1939f750b6a4e0f475e2c98febba5337ae141102bf27",
       "git_blob_sha1": "fba6ee30bebc270760780aa63e68949b3e8e3269",
@@ -89345,62 +89336,6 @@
       "storage": "zip",
       "path": "archive/capture-history.zip",
       "member": "capture/HARDWARE_NOTES.md"
-    },
-    {
-      "source_path": "capture/assets/openscan-mini-icon.png",
-      "sha256": "65536d2d0c48b664bac8beb588d9409630a20d75c896157498e1a11283af19f8",
-      "git_blob_sha1": "619a567b923a804955407da9e474f009061fd9c1",
-      "git_mode": "100755",
-      "bytes": 37542,
-      "storage": "file",
-      "path": "scanner/assets/openscan-mini-icon.png"
-    },
-    {
-      "source_path": "capture/config/machine_state.json",
-      "sha256": "7effdddfdcee053dd0b529c5c9e1c3d55fe8657614feda36737a8da117ac313a",
-      "git_blob_sha1": "ac8969f971d4c44e210538d8ecf55536c455ddea",
-      "git_mode": "100644",
-      "bytes": 397,
-      "storage": "file",
-      "path": "scanner/config/machine_state.json"
-    },
-    {
-      "source_path": "capture/config/scanner_calibration.json",
-      "sha256": "8696a1aadefd32a52883a8d1d7fa22aeb6c1a7b893dee352a7997cdbaef0a977",
-      "git_blob_sha1": "d08e031af49671a8eb1fa171fe7f29275390ba45",
-      "git_mode": "100644",
-      "bytes": 2210,
-      "storage": "file",
-      "path": "scanner/config/scanner_calibration.json",
-      "original_sha256": "d3db1eab8280a33280cdc652be4c2d7d6d225151528eb4bd4f415441c05ac30a",
-      "original_bytes": 2213
-    },
-    {
-      "source_path": "capture/config/specimen_40_photo_plan.json",
-      "sha256": "b7ea2390180889fb651aba48b2a9560eb8658b53db61d582666ee2905867ed85",
-      "git_blob_sha1": "164ca16c7fc9847c3aa51d5c0ca5001c7a32d66a",
-      "git_mode": "100644",
-      "bytes": 12750,
-      "storage": "file",
-      "path": "scanner/config/specimen_40_photo_plan.json"
-    },
-    {
-      "source_path": "capture/config/specimen_roi.json",
-      "sha256": "17e2861c643bd1c2082d8a44f2b61de1391457a2e31edcff12836e1496bbff7e",
-      "git_blob_sha1": "26766b638fea059d2fa7793908dfc7464a8324dd",
-      "git_mode": "100644",
-      "bytes": 395,
-      "storage": "file",
-      "path": "scanner/config/specimen_roi.json"
-    },
-    {
-      "source_path": "capture/control.py",
-      "sha256": "ba92a398d5d80a972d870143dbaad3632bcd7784f00a816b08f548e176a38184",
-      "git_blob_sha1": "259e88b26a4847f5dc0d2016bbf4686cea966b82",
-      "git_mode": "100755",
-      "bytes": 5530,
-      "storage": "file",
-      "path": "scanner/control.py"
     },
     {
       "source_path": "capture/docs/hardware.md",
@@ -89412,313 +89347,6 @@
       "path": "archive/capture-history.zip",
       "member": "capture/docs/hardware.md",
       "working_copy": "scanner/docs/hardware.md"
-    },
-    {
-      "source_path": "capture/n3d_scanner.ino",
-      "sha256": "6ddca42dea31025031277a467bcdb170090d20ec2e6be57f70b2eaa59e22a2a8",
-      "git_blob_sha1": "6914d18786b8b349578b22accc219c491b418b63",
-      "git_mode": "100755",
-      "bytes": 9381,
-      "storage": "file",
-      "path": "scanner/n3d_scanner.ino"
-    },
-    {
-      "source_path": "capture/openscan_gui.py",
-      "sha256": "c0c89f71a73acd5466dcde6ae56e88eeb302bb1dd4e247a45993d135eef65d20",
-      "git_blob_sha1": "68d3bafa37810053d952c610f35960ffe81ee056",
-      "git_mode": "100755",
-      "bytes": 39298,
-      "storage": "file",
-      "path": "scanner/openscan_gui.py",
-      "original_sha256": "965ba6b9d0b595b078b81fc63e9b249e9246cf7e59868a45b77ac17fd4b8c7c6",
-      "original_bytes": 39308
-    },
-    {
-      "source_path": "capture/requirements-dev.txt",
-      "sha256": "c42c2e22023f8aaa0ad5e8b410b63b9aa1e44908f297d6fcebd5c2878c8a04dd",
-      "git_blob_sha1": "2f89e76db80a8a4270b42509e54c4e3549d9ea89",
-      "git_mode": "100644",
-      "bytes": 34,
-      "storage": "file",
-      "path": "scanner/requirements-dev.txt"
-    },
-    {
-      "source_path": "capture/requirements.txt",
-      "sha256": "f4f15cbb589ae772190c5ef5fca9b34e54b446a2a4f3e163604715745e68d8f5",
-      "git_blob_sha1": "9d67fcd47148e362ca63c845175ee56499e49554",
-      "git_mode": "100644",
-      "bytes": 35,
-      "storage": "file",
-      "path": "scanner/requirements.txt"
-    },
-    {
-      "source_path": "capture/scripts/openscan_mjpeg_stream.py",
-      "sha256": "ff2144115cce292353e8fd7f897e1cbf82a8dde41a5b14afe888ddd12902faa5",
-      "git_blob_sha1": "333de5eb6254187f8f766a1ec70c45d561579000",
-      "git_mode": "100755",
-      "bytes": 6660,
-      "storage": "file",
-      "path": "scanner/scripts/openscan_mjpeg_stream.py"
-    },
-    {
-      "source_path": "capture/scripts/openscan_motor_server.py",
-      "sha256": "6819b7dff142c8bf3f6d21187c6c9f02f925d9e0481e5196a97e2e7a6cd5b0b5",
-      "git_blob_sha1": "aa611f1acaf95c63ce5d635f1432ce2b497322db",
-      "git_mode": "100755",
-      "bytes": 8681,
-      "storage": "file",
-      "path": "scanner/scripts/openscan_motor_server.py",
-      "original_sha256": "b7de1363b32f1b8391f59a3cbf8612ae45a94d9057423cc33ef4fb67875cfea8",
-      "original_bytes": 8716
-    },
-    {
-      "source_path": "capture/scripts/rebase_scanner_calibration.py",
-      "sha256": "1d6b9d3760e5386daf861e23556508434f8c43bda0320a05eb1027a973e74e97",
-      "git_blob_sha1": "5cfaf8443dd223ae2483ea3b6c1236b8126a734f",
-      "git_mode": "100644",
-      "bytes": 7102,
-      "storage": "file",
-      "path": "scanner/scripts/rebase_scanner_calibration.py"
-    },
-    {
-      "source_path": "capture/scripts/uno_serial_cmd.py",
-      "sha256": "dbb2ebcfea41a3a4e8630548b8b864de442a1bd0781b107dacfbd37550458292",
-      "git_blob_sha1": "2ad5cb4bb0cd19e08e6c047d39bfb3cb58e40ad9",
-      "git_mode": "100755",
-      "bytes": 3765,
-      "storage": "file",
-      "path": "scanner/scripts/uno_serial_cmd.py",
-      "original_sha256": "dd18c08bd1b75a2f6b750809bb39d27d79703ba79f70c4be6ca420928a16cae2",
-      "original_bytes": 3804
-    },
-    {
-      "source_path": "capture/specimen_lab/__init__.py",
-      "sha256": "e6ddc4a87934466bab26199e04e47f98691162ab0639e6d9ffd80e335a3f39cf",
-      "git_blob_sha1": "1e684595d206312c5c7a39866bd22f692990e0c6",
-      "git_mode": "100644",
-      "bytes": 110,
-      "storage": "file",
-      "path": "scanner/specimen_lab/__init__.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/__main__.py",
-      "sha256": "10b930fe22af2819e4b63bd47ac00c662eceacf20becec74f35dd33e68f0d9a6",
-      "git_blob_sha1": "f8078f789b504fb40a32097b0066ef3ab06bf5c4",
-      "git_mode": "100644",
-      "bytes": 4073,
-      "storage": "file",
-      "path": "scanner/specimen_lab/__main__.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/active.py",
-      "sha256": "78801629c82d4c3d098452f644dfaaeb32c91263adf217e609414ea2af49a74e",
-      "git_blob_sha1": "629891ccdd736ad4961ef30e14d516a8399442cd",
-      "git_mode": "100644",
-      "bytes": 2472,
-      "storage": "file",
-      "path": "scanner/specimen_lab/active.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/contract.py",
-      "sha256": "c7592c506cb36172f5cfff6ce5421a69cabb147926d9bbd5ea29f8f2b7950949",
-      "git_blob_sha1": "a63c53751dffddd73208c663fe15921f4cfbe694",
-      "git_mode": "100644",
-      "bytes": 11094,
-      "storage": "file",
-      "path": "scanner/specimen_lab/contract.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/demo.py",
-      "sha256": "93ea12374b679734d543d109e0bee43bccd44be0e14f13c55aed101a3e45b5dd",
-      "git_blob_sha1": "06833ce5272ca29f831befc7b55168c0072adf99",
-      "git_mode": "100644",
-      "bytes": 17056,
-      "storage": "file",
-      "path": "scanner/specimen_lab/demo.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/hardware.py",
-      "sha256": "c9d04656d352444a6e7cf0a96292ec4860440e79d0441fe96c7696c0abdb0e32",
-      "git_blob_sha1": "c377117a3399329a29f29ae5acf971cc9a4b63a7",
-      "git_mode": "100644",
-      "bytes": 14270,
-      "storage": "file",
-      "path": "scanner/specimen_lab/hardware.py",
-      "original_sha256": "3204f7cfe93ed1f8171d99a0715a7559ffb751a8fcdd57ab5708d613a7064723",
-      "original_bytes": 14314
-    },
-    {
-      "source_path": "capture/specimen_lab/motion.py",
-      "sha256": "beecaab2f23c7399489923c6172fe117333f42a135f59c0684bce84aa8ce68be",
-      "git_blob_sha1": "d1491670e183f0ee54850f5f8e9f253e036c2915",
-      "git_mode": "100644",
-      "bytes": 3276,
-      "storage": "file",
-      "path": "scanner/specimen_lab/motion.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/observer.py",
-      "sha256": "1d3a3f1941372385e249754575e7ed85b641f02134f2d3635bf86331e45f443b",
-      "git_blob_sha1": "732ea7570353bd1847985281c39d0bc480310184",
-      "git_mode": "100644",
-      "bytes": 4635,
-      "storage": "file",
-      "path": "scanner/specimen_lab/observer.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/pi_worker.py",
-      "sha256": "01762d76d4053df69d9de759d0cdf46458b578ace5181e2fa9b25f79d0b0b428",
-      "git_blob_sha1": "4050d7a23a9851ce0bef741a574daf9f2c92d242",
-      "git_mode": "100644",
-      "bytes": 9986,
-      "storage": "file",
-      "path": "scanner/specimen_lab/pi_worker.py",
-      "original_sha256": "23daf3611940b7bd20965fb199a22a6801b2414ccb7c601b88857a0f9deadb0a",
-      "original_bytes": 10025
-    },
-    {
-      "source_path": "capture/specimen_lab/pipeline.py",
-      "sha256": "a3cc9374d8efb5bdf8fc8d2b8c5be5290578c79182e2958cf8b377149360594e",
-      "git_blob_sha1": "0f986985a799cb2c4d52cd92b1724117797d916c",
-      "git_mode": "100644",
-      "bytes": 5900,
-      "storage": "file",
-      "path": "scanner/specimen_lab/pipeline.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/process.py",
-      "sha256": "a4045ef36f859e8ec534f1db94f46104036344fb72c49c425f968a980edd9eac",
-      "git_blob_sha1": "b62e66d1b59d7f10bf984f2a55e5430c04b17b67",
-      "git_mode": "100644",
-      "bytes": 941,
-      "storage": "file",
-      "path": "scanner/specimen_lab/process.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/providers.py",
-      "sha256": "d9ef6c5dd54e686152e6772a53f4c9c926b8defa25c5d4985517722917c9f095",
-      "git_blob_sha1": "9052cac2e9862872ed3588cfc19b3f04bdb8c8ed",
-      "git_mode": "100644",
-      "bytes": 15912,
-      "storage": "file",
-      "path": "scanner/specimen_lab/providers.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/roi.py",
-      "sha256": "b26b6cd7f77b2db789ef82ed9e1cf1258123e137379aba8c3501756e06406784",
-      "git_blob_sha1": "99ee69458b87923328263484db8b4ac09741ae82",
-      "git_mode": "100644",
-      "bytes": 3103,
-      "storage": "file",
-      "path": "scanner/specimen_lab/roi.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/route.py",
-      "sha256": "e0c4c79d716608008eba837e0b93af256d055d853181d4424c06adbb616412e4",
-      "git_blob_sha1": "700acc1267f553f551878a104a48e0f7d8b90b2d",
-      "git_mode": "100644",
-      "bytes": 7326,
-      "storage": "file",
-      "path": "scanner/specimen_lab/route.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/server.py",
-      "sha256": "173c20e9e79d55420ee6c0ed09049b4b674defaec3182dab0b3f586ac1f9701c",
-      "git_blob_sha1": "6cfce68c8a7ebfcc0b22ca415425230beddd0b29",
-      "git_mode": "100644",
-      "bytes": 4936,
-      "storage": "file",
-      "path": "scanner/specimen_lab/server.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/session.py",
-      "sha256": "946d24ee6a12f8e2c197745dd7a8d96abec9258f93958961aa6788b7595a798d",
-      "git_blob_sha1": "a5bb3611687eb000669ae42b6411bc2c306238b8",
-      "git_mode": "100644",
-      "bytes": 10499,
-      "storage": "file",
-      "path": "scanner/specimen_lab/session.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/store.py",
-      "sha256": "5646623d090ad2492bd95daa7c2575ab97ef0923368f54b21a6b4bb95913d251",
-      "git_blob_sha1": "5dfeb93682b4f096ea24a6fe5f9d959da4ab024a",
-      "git_mode": "100644",
-      "bytes": 17142,
-      "storage": "file",
-      "path": "scanner/specimen_lab/store.py"
-    },
-    {
-      "source_path": "capture/specimen_lab/web/app.js",
-      "sha256": "ef793f88510fd2fea7157db340245b478aca4084801ed05a1ab1307a4e9702ab",
-      "git_blob_sha1": "c4b819c617f2b62e1b4351a90461fa3dfa0defc3",
-      "git_mode": "100644",
-      "bytes": 16053,
-      "storage": "file",
-      "path": "scanner/specimen_lab/web/app.js"
-    },
-    {
-      "source_path": "capture/specimen_lab/web/index.html",
-      "sha256": "b48d721236913ba9eac8116052a361ab2f487bad9410dc2531181a351ed4ca9a",
-      "git_blob_sha1": "2e4080ed4bf02fe678ac10014ec54ba2b55edaf8",
-      "git_mode": "100644",
-      "bytes": 4084,
-      "storage": "file",
-      "path": "scanner/specimen_lab/web/index.html"
-    },
-    {
-      "source_path": "capture/specimen_lab/web/style.css",
-      "sha256": "a6c9f0c178e9439e34924524408e676ea8f2bdbdf03a1f16b502481483766f1c",
-      "git_blob_sha1": "dc297f9e809deb341d1ced4fb117ee0d68c777a2",
-      "git_mode": "100644",
-      "bytes": 4098,
-      "storage": "file",
-      "path": "scanner/specimen_lab/web/style.css"
-    },
-    {
-      "source_path": "capture/tests/test_specimen_demo.py",
-      "sha256": "e815fd62adc4330e631dcad9e9fab34c25009cc9f2a038a751a953c0481fc569",
-      "git_blob_sha1": "c0358d0e0dea68ad94b8b3399eed7fab786ad7fc",
-      "git_mode": "100644",
-      "bytes": 18441,
-      "storage": "file",
-      "path": "scanner/tests/test_specimen_demo.py"
-    },
-    {
-      "source_path": "capture/tests/test_specimen_lab.py",
-      "sha256": "a9eee4575d1d04b58719bbe8db4ac38dfb2c4b68c7f54379010756c27fb07a3b",
-      "git_blob_sha1": "fbb70e5f85e7b91c8d73173bf22930d6ac0fd31d",
-      "git_mode": "100644",
-      "bytes": 12971,
-      "storage": "file",
-      "path": "scanner/tests/test_specimen_lab.py"
-    },
-    {
-      "source_path": "capture/tests/test_specimen_roi.py",
-      "sha256": "e790f7892d80acb0b18ea7225f8a95a1833701944ee8884649331046b94fb939",
-      "git_blob_sha1": "4e1489cdd4de660462ae2177982c962d2e22df52",
-      "git_mode": "100644",
-      "bytes": 1895,
-      "storage": "file",
-      "path": "scanner/tests/test_specimen_roi.py"
-    },
-    {
-      "source_path": "capture/tests/test_specimen_route.py",
-      "sha256": "882ed1cccf36e499edb7a9e163c349eadcab7cdd86061131617c0c1fe6597c7f",
-      "git_blob_sha1": "119bd129397caca01e683171acfad73693de65a8",
-      "git_mode": "100644",
-      "bytes": 14317,
-      "storage": "file",
-      "path": "scanner/tests/test_specimen_route.py"
-    },
-    {
-      "source_path": "capture/tests/test_specimen_session.py",
-      "sha256": "4f70850d62626725ee04e6ba1ffc31c2a698627d51db74ae6625c374eb21da9c",
-      "git_blob_sha1": "a0ea81b3e187691b0b0770c4717a11942d1097af",
-      "git_mode": "100644",
-      "bytes": 5468,
-      "storage": "file",
-      "path": "scanner/tests/test_specimen_session.py"
     },
     {
       "source_path": "data/README.md",
@@ -107261,5 +106889,250 @@
   "privacy_redaction": {
     "date": "2026-10-30",
     "scope": "Workstation paths and scanner network/device identifiers replaced with generic examples. Scan image bytes, predictions and bounding boxes are unchanged. Original private snapshot is retained separately."
-  }
+  },
+  "retained_file_count": 10412,
+  "retained_bytes": 864104969,
+  "omitted_source_files": [
+    {
+      "source_path": "capture/FIRMWARE_PROTOCOL.md",
+      "sha256": "04f7acb6dde3e87567637681b2098e4277361302cff78692dd6a9fead2631db8",
+      "bytes": 2623,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/assets/openscan-mini-icon.png",
+      "sha256": "65536d2d0c48b664bac8beb588d9409630a20d75c896157498e1a11283af19f8",
+      "bytes": 37542,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/config/machine_state.json",
+      "sha256": "7effdddfdcee053dd0b529c5c9e1c3d55fe8657614feda36737a8da117ac313a",
+      "bytes": 397,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/config/scanner_calibration.json",
+      "sha256": "8696a1aadefd32a52883a8d1d7fa22aeb6c1a7b893dee352a7997cdbaef0a977",
+      "bytes": 2210,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/config/specimen_40_photo_plan.json",
+      "sha256": "b7ea2390180889fb651aba48b2a9560eb8658b53db61d582666ee2905867ed85",
+      "bytes": 12750,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/config/specimen_roi.json",
+      "sha256": "17e2861c643bd1c2082d8a44f2b61de1391457a2e31edcff12836e1496bbff7e",
+      "bytes": 395,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/control.py",
+      "sha256": "ba92a398d5d80a972d870143dbaad3632bcd7784f00a816b08f548e176a38184",
+      "bytes": 5530,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/n3d_scanner.ino",
+      "sha256": "6ddca42dea31025031277a467bcdb170090d20ec2e6be57f70b2eaa59e22a2a8",
+      "bytes": 9381,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/openscan_gui.py",
+      "sha256": "c0c89f71a73acd5466dcde6ae56e88eeb302bb1dd4e247a45993d135eef65d20",
+      "bytes": 39298,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/requirements-dev.txt",
+      "sha256": "c42c2e22023f8aaa0ad5e8b410b63b9aa1e44908f297d6fcebd5c2878c8a04dd",
+      "bytes": 34,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/requirements.txt",
+      "sha256": "f4f15cbb589ae772190c5ef5fca9b34e54b446a2a4f3e163604715745e68d8f5",
+      "bytes": 35,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/scripts/openscan_mjpeg_stream.py",
+      "sha256": "ff2144115cce292353e8fd7f897e1cbf82a8dde41a5b14afe888ddd12902faa5",
+      "bytes": 6660,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/scripts/openscan_motor_server.py",
+      "sha256": "6819b7dff142c8bf3f6d21187c6c9f02f925d9e0481e5196a97e2e7a6cd5b0b5",
+      "bytes": 8681,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/scripts/rebase_scanner_calibration.py",
+      "sha256": "1d6b9d3760e5386daf861e23556508434f8c43bda0320a05eb1027a973e74e97",
+      "bytes": 7102,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/scripts/uno_serial_cmd.py",
+      "sha256": "dbb2ebcfea41a3a4e8630548b8b864de442a1bd0781b107dacfbd37550458292",
+      "bytes": 3765,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/__init__.py",
+      "sha256": "e6ddc4a87934466bab26199e04e47f98691162ab0639e6d9ffd80e335a3f39cf",
+      "bytes": 110,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/__main__.py",
+      "sha256": "10b930fe22af2819e4b63bd47ac00c662eceacf20becec74f35dd33e68f0d9a6",
+      "bytes": 4073,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/active.py",
+      "sha256": "78801629c82d4c3d098452f644dfaaeb32c91263adf217e609414ea2af49a74e",
+      "bytes": 2472,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/contract.py",
+      "sha256": "c7592c506cb36172f5cfff6ce5421a69cabb147926d9bbd5ea29f8f2b7950949",
+      "bytes": 11094,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/demo.py",
+      "sha256": "93ea12374b679734d543d109e0bee43bccd44be0e14f13c55aed101a3e45b5dd",
+      "bytes": 17056,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/hardware.py",
+      "sha256": "c9d04656d352444a6e7cf0a96292ec4860440e79d0441fe96c7696c0abdb0e32",
+      "bytes": 14270,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/motion.py",
+      "sha256": "beecaab2f23c7399489923c6172fe117333f42a135f59c0684bce84aa8ce68be",
+      "bytes": 3276,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/observer.py",
+      "sha256": "1d3a3f1941372385e249754575e7ed85b641f02134f2d3635bf86331e45f443b",
+      "bytes": 4635,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/pi_worker.py",
+      "sha256": "01762d76d4053df69d9de759d0cdf46458b578ace5181e2fa9b25f79d0b0b428",
+      "bytes": 9986,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/pipeline.py",
+      "sha256": "a3cc9374d8efb5bdf8fc8d2b8c5be5290578c79182e2958cf8b377149360594e",
+      "bytes": 5900,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/process.py",
+      "sha256": "a4045ef36f859e8ec534f1db94f46104036344fb72c49c425f968a980edd9eac",
+      "bytes": 941,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/providers.py",
+      "sha256": "d9ef6c5dd54e686152e6772a53f4c9c926b8defa25c5d4985517722917c9f095",
+      "bytes": 15912,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/roi.py",
+      "sha256": "b26b6cd7f77b2db789ef82ed9e1cf1258123e137379aba8c3501756e06406784",
+      "bytes": 3103,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/route.py",
+      "sha256": "e0c4c79d716608008eba837e0b93af256d055d853181d4424c06adbb616412e4",
+      "bytes": 7326,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/server.py",
+      "sha256": "173c20e9e79d55420ee6c0ed09049b4b674defaec3182dab0b3f586ac1f9701c",
+      "bytes": 4936,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/session.py",
+      "sha256": "946d24ee6a12f8e2c197745dd7a8d96abec9258f93958961aa6788b7595a798d",
+      "bytes": 10499,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/store.py",
+      "sha256": "5646623d090ad2492bd95daa7c2575ab97ef0923368f54b21a6b4bb95913d251",
+      "bytes": 17142,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/web/app.js",
+      "sha256": "ef793f88510fd2fea7157db340245b478aca4084801ed05a1ab1307a4e9702ab",
+      "bytes": 16053,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/web/index.html",
+      "sha256": "b48d721236913ba9eac8116052a361ab2f487bad9410dc2531181a351ed4ca9a",
+      "bytes": 4084,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/specimen_lab/web/style.css",
+      "sha256": "a6c9f0c178e9439e34924524408e676ea8f2bdbdf03a1f16b502481483766f1c",
+      "bytes": 4098,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/tests/test_specimen_demo.py",
+      "sha256": "e815fd62adc4330e631dcad9e9fab34c25009cc9f2a038a751a953c0481fc569",
+      "bytes": 18441,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/tests/test_specimen_lab.py",
+      "sha256": "a9eee4575d1d04b58719bbe8db4ac38dfb2c4b68c7f54379010756c27fb07a3b",
+      "bytes": 12971,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/tests/test_specimen_roi.py",
+      "sha256": "e790f7892d80acb0b18ea7225f8a95a1833701944ee8884649331046b94fb939",
+      "bytes": 1895,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/tests/test_specimen_route.py",
+      "sha256": "882ed1cccf36e499edb7a9e163c349eadcab7cdd86061131617c0c1fe6597c7f",
+      "bytes": 14317,
+      "reason": "Operating scanner code removed from the current repository."
+    },
+    {
+      "source_path": "capture/tests/test_specimen_session.py",
+      "sha256": "4f70850d62626725ee04e6ba1ffc31c2a698627d51db74ae6625c374eb21da9c",
+      "bytes": 5468,
+      "reason": "Operating scanner code removed from the current repository."
+    }
+  ],
+  "publication_scope": "Image analysis, specimen examples, saved scans and earlier research records. The operating scanner directory is omitted."
 }

@@ -16,9 +16,9 @@ Photographs: Jack Dan Hollister, [CC BY 4.0](https://creativecommons.org/license
 
 ## What it picked out
 
-![Three specimens, each with an unlabelled photograph and three Qwen feature views](paper/figures/qwen-three-specimens-preview.jpg)
+![Three specimens, each with an unlabelled photograph and three Qwen feature views](examples/qwen/figures/qwen-three-specimens-preview.jpg)
 
-A beetle, a spread-wing butterfly and a yellow butterfly with its wings closed. These labels came from `qwen3.8:27b-mtp-q8_0`. They are model predictions and need human checking. [Full-resolution figure](paper/figures/qwen-three-specimens-4x3.png).
+A beetle, a spread-wing butterfly and a yellow butterfly with its wings closed. These labels came from `qwen3.8:27b-mtp-q8_0`. They are model predictions and need human checking. [Full-resolution figure](examples/qwen/figures/qwen-three-specimens-4x3.png).
 
 ## Try it
 
@@ -35,13 +35,13 @@ Open `runs/demo/index.html`. Choose a specimen and feature to see the labels, or
 
 To analyse your own photographs, see the [setup and notes](docs/notes.md#analyse-your-own-photographs). You will need a running vision model.
 
-## The original scanner work
+## The original scans
 
-The scanner code, firmware and all five saved scans are included here: **200 original photographs, 196 crops and 40 model responses**, including the failed attempts. These early scanner runs used Codex / GPT-6 Astra; the Qwen examples above are separate runs.
+The five saved scans contain **200 original photographs, 196 crops and 40 model responses**, including the failed attempts. These early scanner runs used Codex / GPT-6 Astra; the Qwen examples above are separate runs.
 
 Computer paths and device identifiers have been removed from the shared records. The specimen photographs and model predictions are unchanged.
 
-You can [open the original scans](docs/notes.md#open-the-original-scans) without a scanner or model. The [scanner instructions](scanner/docs/hardware.md) cover the physical setup. Older graph experiments and development records are kept in `archive/`.
+You can [open the original scans](docs/notes.md#open-the-original-scans) without a scanner or model. Older graph experiments and development records are kept in `archive/`.
 
 ## Other models
 
@@ -58,7 +58,7 @@ These examples used different photographs and settings; they are demonstrations,
 
 ## About the paper
 
-For *Agentic AI Systems for Specimen Interaction and Camera-Based Observation*, by Jack D. Hollister and Steen Dupont, Natural History Museum, London. The abstract and print figure are in `paper/`.
+For *Agentic AI Systems for Specimen Interaction and Camera-Based Observation*, by Jack D. Hollister and Steen Dupont, Natural History Museum, London. The figures and saved results are in `examples/`.
 
 Presented at TDWG 2026 in Oslo, Norway.
 

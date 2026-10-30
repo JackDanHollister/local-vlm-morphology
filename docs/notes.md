@@ -39,9 +39,7 @@ The report includes an image viewer, a feature graph, `observations.csv`, `recor
 |---|---|
 | `src/` | The runnable experiment |
 | `examples/` | Photographs, saved predictions and display panels |
-| `paper/` | Extended-abstract draft, print figure and caption |
-| `scripts/` | Figure tools |
-| `scanner/` | Original scanner controls, firmware and calibration records |
+| `scripts/` | Figure tools and data checks |
 | `examples/scans/` | Five complete scans and their saved-results viewer |
 | `archive/` | Earlier research material and a file-by-file preservation manifest |
 | `tests/` | Workflow checks |
@@ -53,7 +51,7 @@ Generated runs are written to `runs/`, which Git ignores. Rebuild the figures in
 traittrail-experiment figures --output runs/figures
 ```
 
-Arial reproduces the approved typography; other systems can use an available font or supply `--font` and `--bold-font` paths. The print figure is available as PNG and TIFF in `paper/figures/`; individual panels are in `examples/qwen/figures/` and `examples/other-models/figures/`.
+Arial reproduces the approved typography; other systems can use an available font or supply `--font` and `--bold-font` paths. The combined Qwen figure, caption and individual panels are in `examples/qwen/figures/`, including the 600 dpi PNG and TIFF. Other-model figures are in `examples/other-models/figures/`.
 
 Run `traittrail-experiment check` to check saved input hashes and response structure. For development, install `python -m pip install -e '.[dev]'` and run `python -m pytest -q`.
 
@@ -76,16 +74,9 @@ On Windows, install `examples/scans/requirements.txt` and run `python examples/s
 
 The original files are checked and copied into a separate `examples/scans/runs/SCAN_ID/` working folder before opening. Reviews do not overwrite the retained source data. The old acquisition system reused `pilot:001` for different physical specimens, so each saved scan opens separately.
 
-`python scripts/summarise_scans.py` writes a count/timing summary to `runs/scan-summary.csv`. `python scripts/check_capture.py` checks every file imported from the frozen Capture snapshot. The source files occupy about 770 MB, mostly photographs and historical material.
+`python scripts/summarise_scans.py` writes a count/timing summary to `runs/scan-summary.csv`. `python scripts/check_capture.py` checks the retained files imported from the frozen Capture snapshot. The source files occupy about 770 MB, mostly photographs and historical material.
 
 `python scripts/check_release.py` checks the shared files and ZIP contents for common credentials, personal computer paths, private-network identifiers and photograph GPS coordinates.
-
-## Use the scanner
-
-`scanner/` contains the operating code and firmware from the original rig. The [hardware instructions](../scanner/docs/hardware.md) and [firmware protocol](../scanner/FIRMWARE_PROTOCOL.md) describe it. This is an installation-specific Linux workflow: a different scanner needs its own Pi access and physical calibration. Model analysis and the saved-results viewers can be used without that hardware.
-
-The saved-scan viewer in `examples/scans/` retains the portable version of the original viewer. It is kept separately from the operating scanner code because the two versions have different camera-access and replay behaviour.
-
 
 ## Experiment and current workflow
 
@@ -95,7 +86,7 @@ The workflow asks about 16 features: visible wings, antennae, legs, eyes, colour
 
 `src/traittrail_experiment/prompt.txt` is the current prompt for new runs. The final prompt includes the image catalogue, vocabulary and response schema. Every new run keeps its exact prompt, input bytes/checksums, request, response and validation result. Coordinate conversion is explicit: normalised `x,y,width,height` or Qwen's integer `x1,y1,x2,y2` on a 0–1000 scale. Boxes are not silently repaired.
 
-The `traittrail-experiment` command uses a vision endpoint's chat-completions API and starts with saved photographs. The separate code in `scanner/` handles acquisition. A model server must already be running for new inference. Offline viewers and tests need no model; endpoint tests use a synthetic local HTTP service and do not establish live model accuracy or performance.
+The `traittrail-experiment` command uses a vision endpoint's chat-completions API and starts with saved photographs. A model server must already be running for new inference. Offline viewers and tests need no model; endpoint tests use a synthetic local HTTP service and do not establish live model accuracy or performance.
 
 ## Retained evidence
 
@@ -139,7 +130,7 @@ The original rig was a modified [OpenScan Mini](https://openscan.eu/pages/opensc
 
 Photographs: Jack Dan Hollister, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), from `LT17_01_Hollister.pptx`: the rig appears on slides 8–9, and the controller, camera and Dell systems on slide 10. GPS and device metadata have been removed; visible pixels and orientation are unchanged. File checksums and source image names are recorded in [images/sources.json](images/sources.json).
 
-Scanner controls and the original scan records are included in this repository; the current image-analysis command and the saved-results viewer work without connecting the rig.
+The original scan records are included in this repository; the current image-analysis command and the saved-results viewer work without connecting the rig.
 
 Dell made GB10 systems available for the local work. GB10 uses NVIDIA's Grace Blackwell platform; the cited Dell specification has 128 GB of shared memory. These references describe hardware and model families, rather than measured throughput or accuracy in this study:
 
@@ -151,14 +142,14 @@ Dell made GB10 systems available for the local work. GB10 uses NVIDIA's Grace Bl
 
 ## Original sources
 
-The files from Capture commit `4bd63c7003c547aba9bee743529b8e6b76d55c44` are collected here. Workstation paths and scanner network/device identifiers are redacted in the publication copy. The original repository is not needed to run or inspect this project.
+The saved scans and earlier research records from Capture commit `4bd63c7003c547aba9bee743529b8e6b76d55c44` are collected here. Workstation paths and scanner network/device identifiers are redacted in the publication copy. The original repository is not needed to run or inspect this project.
 
 <details>
 <summary>Earlier code and research records</summary>
 
-- The operating code is in `scanner/`; the five scan bundles and portable viewer are in `examples/scans/`.
+- The five scan bundles and portable viewer are in `examples/scans/`.
 - [capture-history.zip](../archive/capture-history.zip) contains the older graph experiment, hackathon material, development notes and original copies of relocated documentation. The graph's map localities are simulated examples, not specimen collection locations. This is historical material rather than a second installation step.
-- [capture-manifest.json](../archive/capture-manifest.json) maps all 10,452 source files to their distributed location and checksums. It records original hashes where identifying metadata was changed. The scan photographs, feature predictions and region coordinates are unchanged. `python scripts/check_capture.py` verifies the distributed copies without contacting another repository.
+- [capture-manifest.json](../archive/capture-manifest.json) maps the 10,412 retained source files to their locations and checksums. It also lists the 40 operating-scanner source files omitted from this repository and records original hashes where identifying metadata was changed. The scan photographs, feature predictions and region coordinates are unchanged. `python scripts/check_capture.py` verifies the retained copies without contacting another repository.
 - The vocabulary and validator are adapted from TraitTrail Studio at commit `2fbfdbaf8aacc726f0f90da45e0f106371ccf28a`. Its original MIT notice is retained in [licenses/traittrail-studio-MIT.txt](licenses/traittrail-studio-MIT.txt).
 - [OpenScan Mini](https://openscan.eu/pages/openscan-mini) supplied the rig's starting design.
 
@@ -176,6 +167,6 @@ The files from Capture commit `4bd63c7003c547aba9bee743529b8e6b76d55c44` are col
 
 The [media records](licenses/media.json) describe the current photograph licences. `examples/other-models/sources/original-image-notices.txt` is the unchanged historical notice from Studio; the current CC BY 4.0 grant for Jack Dan Hollister's photographs is recorded separately so the original source notice stays intact. A model name identifies a prediction's source, rather than the photographer or a human author.
 
-The software uses the [MIT licence](../LICENSE), including the scanner code and adapted Studio vocabulary/validator. Photographs, archived research records and paper material retain their individual credits and permissions; MIT does not assign an image/data licence. GBIF responses in the historical graph archive retain their recorded dataset licences and source information. Model weights and API credentials are not distributed. [CITATION.cff](../CITATION.cff) contains the software citation metadata for GitHub and Zenodo.
+The software uses the [MIT licence](../LICENSE), including the saved-scan viewer and adapted Studio vocabulary/validator. Photographs, figures and archived research records retain their individual credits and permissions; MIT does not assign an image/data licence. GBIF responses in the historical graph archive retain their recorded dataset licences and source information. Model weights and API credentials are not distributed. [CITATION.cff](../CITATION.cff) contains the software citation metadata for GitHub and Zenodo.
 
 The historical graph's country outlines are from [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), which makes its map data available in the public domain.

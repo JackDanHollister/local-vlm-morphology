@@ -12,10 +12,6 @@ tmp/
 build/
 dist/
 *.egg-info/
-scanner/logs/
-scanner/experiments/
-scanner/captures/
-scanner/scans/
 examples/scans/runs/
 examples/scans/experiments/
 *.pem

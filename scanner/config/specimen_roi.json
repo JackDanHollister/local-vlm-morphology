@@ -1,8 +1,0 @@
-{
-  "specimen_id": "pilot:001",
-  "policy": "pilot-amber-body-context-v1",
-  "search_region_normalized": [0.28, 0.29, 0.72, 0.92],
-  "padding_px_at_3280_width": 320,
-  "minimum_size": [1200, 1100],
-  "note": "Pilot specimen on the current mount only. Generous body-centred framing includes context for legs and antennae. Preserve originals; use full frame if the body-colour seed is missing."
-}
